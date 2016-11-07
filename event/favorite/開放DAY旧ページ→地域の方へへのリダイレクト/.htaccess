@@ -1,4 +1,0 @@
-RewriteEngine on
-
-RewriteBase /favorite/
-RewriteRule .* /user/for_master.html [R=301,L]

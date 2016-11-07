@@ -1,3 +1,0 @@
-RewriteEngine on
-RewriteCond %{THE_REQUEST} ^.*/index.html
-RewriteRule ^(.*)talk.html$ http://www.osaka-eco.ac.jp/blogs/index.html$1 [R=301,L]

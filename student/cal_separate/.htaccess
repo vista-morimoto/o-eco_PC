@@ -1,5 +1,0 @@
-AuthUserFile /home/homepage/www.oca.ac.jp/eco/student/cal_separate/.htpasswd
-AuthGroupFile /dev/null
-AuthName "ID PASS"
-AuthType Basic
-require valid-user

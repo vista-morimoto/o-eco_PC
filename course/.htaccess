@@ -1,8 +1,0 @@
-RewriteEngine on
-RewriteRule ^(.*)animaltherapy.html$ http://www.osaka-eco.ac.jp/course/animalwelfare.html$1 [R=301,L]
-RewriteRule ^(.*)petesthe.html$ http://www.osaka-eco.ac.jp/course/pettrimmer.html$1 [R=301,L]
-RewriteRule ^(.*)bridalflower.html$ http://www.osaka-eco.ac.jp/course/flowershop.html$1 [R=301,L]
-RewriteRule ^(.*)organicfood.html$ http://www.osaka-eco.ac.jp/course/$1 [R=301,L]
-RewriteRule ^(.*)farmcafe.html$ http://www.osaka-eco.ac.jp/course/$1 [R=301,L]
-RewriteRule ^(.*)gardeningcultivation.html$ http://www.osaka-eco.ac.jp/course/$1 [R=301,L]
-RewriteRule ^(.*)agripark.html$ http://www.osaka-eco.ac.jp/course/$1 [R=301,L]

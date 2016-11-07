@@ -1,8 +1,0 @@
-AuthUserFile /var/www/html/oca-eco2013/student/cal_separate/.htpasswd
-AuthGroupFile /dev/null
-AuthName "test pass."
-AuthType Basic
-require valid-user
-<Files ~ "^.(htpasswd|htaccess)$">
-    deny from all
-</Files>
