@@ -24,6 +24,7 @@ common/img02/*
 
 # img フォルダをまるごと無視したい
 # だけど .png だけは無視したくない
+img/anime/*
 img/*.*
 images/*.*
 images/*/*
