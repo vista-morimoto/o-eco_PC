@@ -1,0 +1,418 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ベース　（サイト全体の設定）
+-----------------------------------------*/
+html {
+	background:url(../img02/bg.gif) repeat-x top;
+}
+
+
+/*header
+----------------------------------------------------*/
+header{
+	width:1020px;
+	margin:0 auto 20px;
+	padding-top:12px;
+	position:relative;
+	clear:both;
+/*IE用*/
+min-height: 1px;
+_height: 1px;
+}
+header:after {
+content: ".";  /* 新しい要素を作る */
+display: block;  /* ブロックレベル要素に */
+clear: both;
+height: 0;
+visibility: hidden;
+}
+header h1{
+	background:url(../img02/logo.gif) no-repeat left top;
+	width:325px;
+	height:49px;
+	position:absolute;
+	overflow:hidden;
+	float:left;
+	left:0;
+	top:50px;
+	}
+	
+header h1 a{
+	width:325px;
+	height:49px;
+	display:block;
+	text-indent:-9999px;
+}
+
+header p.lead{
+	color:#666;
+	font-size:12px;
+	overflow:hidden;
+	float:left;
+}
+
+header a#home02 {
+	position:absolute;
+	display:block;
+	top:58px;
+	left:340px;
+}	
+	header a#head_tw {
+		position:absolute;
+		display:block;
+		top:30px;
+		left:285px;
+	}
+	header a#head_fa {
+		position:absolute;
+		display:block;
+		top:30px;
+		left:315px;
+	}
+	header a#head_li {
+		position:absolute;
+		display:block;
+		top:30px;
+		left:345px;
+	}
+	header a#head_yt {
+		position:absolute;
+		display:block;
+		top:30px;
+		left:375px;
+	}
+		header a#head_in {
+		position:absolute;
+		display:block;
+		top:30px;
+		left:405px;
+	}
+
+header div#headerRight{
+	float:right;
+	width:505px;
+}
+
+/*header div#headerRight ul#for
+----------------------------------------------------*/
+header div#headerRight ul#for{
+	margin:2px 0 0 83px;
+}
+header div#headerRight ul#for li{
+	float:left;
+	margin:0 0 0 8px;
+	height:13px;
+}
+header div#headerRight ul#for li a{
+	display:block;
+	text-indent:-9999px;
+	height:13px;
+}
+
+/*header div#headerRight ul#gnav 
+----------------------------------------------------*/
+header div#headerRight ul#hNav01{
+	margin-top:10px;
+}
+header div#headerRight ul#hNav01 li{
+	float:left;
+}
+header div#headerRight ul#hNav01 li.event{
+	margin-left:8px;
+}
+header div#headerRight ul#hNav01 li.shiryo{
+	margin-left:8px;
+}
+
+header div#headerRight ul#hNav02{
+	margin-top:9px;
+}
+header div#headerRight ul#hNav02 a{
+	color:#000;
+	text-decoration:none;
+}
+header div#headerRight ul#hNav02 a:visited{
+	color:#000;
+}
+header div#headerRight ul#hNav02 a:hover {
+	color:#F60;
+}
+header div#headerRight ul#hNav02 li{
+	float:left;
+	margin-right:9px;
+}
+header div#headerRight ul#hNav02 li.access{
+	background:url(../img02/ico_access.gif) no-repeat left top;
+	padding-left: 15px;
+}
+header div#headerRight ul#hNav02 li.email{
+	background:url(../img02/ico_email.gif) no-repeat left 3px;
+	padding-left: 20px;
+}
+header div#headerRight ul#hNav02 li.form{
+	margin-right:1px;
+}
+header div#headerRight ul#hNav02 li #searchform02{
+	display:block;
+	width: 199px;
+	height: 18px;
+	background: url(../img02/search_bg.gif) no-repeat left top;
+	margin: 0;
+}
+header div#headerRight ul#hNav02 li #searchform02 .isearch{
+	display:inline;
+	border: 0px;
+	margin: 2px 0 0 25px;
+	padding:0;
+	float:left;
+	width:120px;
+	font-size:11px;
+	line-height:1.2;
+	background:#DFF1C9;
+}
+header div#headerRight ul#hNav02 li #searchform02 .isearch:focus {
+	background:#FFAC00;
+	}
+header div#headerRight ul#hNav02 li #searchform02 .ibutton {
+	background:url(../img02/btn_search.gif) no-repeat left; 
+	border:none; 
+	width:37px; 
+	height:18px; 
+	cursor:pointer;
+	float:right;
+}
+header div#headerRight ul#hNav02 li #searchform02 .ibutton_on {
+	background:url(../img02/btn_search_on.gif) no-repeat right;
+	border:none;
+	width:37px; 
+	height:18px; 
+	cursor:pointer;
+	float:right;
+}
+/*header
+--------------------------------------------------END--*/
+
+/*nav #gNavArea
+----------------------------------------------------*/
+div#gNavArea {
+	width:100%;
+	margin:0 auto;
+}
+div#gNavArea.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	margin-top: 0 !important;
+	z-index: 9999;
+}
+/*nav #targetNav
+----------------------------------------------------*/
+nav#targetNav {
+	margin:0 auto;
+	border-top: 1px solid #F5E4C9;
+	background:url(../img02/targetnav_bg.png) repeat-x left top #FBF0D3;
+}
+nav#targetNav ul {
+	width:1020px;
+	margin:0 auto;
+	position: relative;
+}
+nav#targetNav ul li {
+	float:left;
+	display:block;
+	margin-right: 30px;
+	padding: 8px 0 9px;
+}
+nav#targetNav ul li:last-child {
+	margin-right: 0;
+}
+
+/*div #gNav
+----------------------------------------------------*/
+nav#gNav {
+	margin:0 auto;
+	background:url(../img02/nav_bg.png) repeat-x left top #82C929;
+}
+nav#gNav ul {
+	/*width:1020px;*/
+	width:1021px;/*macクローム対応*/
+	margin:0 auto;
+	position: relative;
+}
+nav#gNav ul li {
+	display:block;
+	float:left;
+}
+nav#gNav .dropdown {
+	float:left;
+    position:absolute;
+	display:none;
+	z-index:10;
+}
+nav#gNav .dropdownBox {
+    background:#FFFFFF;
+	border:1px solid rgba(255,255,255,0.6);
+	background: #E7F5D3;
+	text-align:left;
+    padding:10px 10px;
+	
+	/* Rounded Corners */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+ 
+    /* Shadow */
+    -webkit-box-shadow: 1px 1px 0 rgba(0,0,0,0.6);
+    -moz-box-shadow: 1px 1px 0 rgba(0,0,0,0.6);
+    box-shadow: 1px 1px 0 rgba(0,0,0,0.6);
+
+	overflow: hidden;
+	zoom: 1;
+	z-index: 9999;
+}
+nav#gNav .dropdownBox:after {
+	content: "";
+	position: absolute;
+	top: -8px;
+	/*left: 50%;*/
+	margin-left: -10px;
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 10px 10px 10px;
+	border-color: transparent transparent #E7F5D3 transparent;
+	z-index: 9999;
+}
+nav#gNav li:hover .dropdown {
+	display:block;
+}
+nav#gNav.fixed li:hover .dropdown {
+	display:block;
+}
+nav#gNav li .dropdown ul {
+float:left;
+width: 200px;
+}
+nav#gNav li .dropdown li {
+	float:none;
+	border-bottom:#FFF dotted 1px;
+	padding:0 10px 5px;
+	margin:5px;
+	font-size:12px;
+	padding: 5px;
+}
+nav#gNav li .dropdown li a {
+	height:auto;
+	color: #000;
+	text-decoration: none;
+}
+nav#gNav li .dropdown li a:hover {
+	color:#F60;
+	text-decoration:underline;
+}
+nav#gNav li .dropdown .naviTit {
+	float:left;
+	background:#FFF;
+	padding:10px;
+	margin:0 10px 0 0;
+	font-size:16px;
+	font-weight:bold;
+}
+nav#gNav li .dropdown .naviTit img {
+	padding:5px 0 0 0;
+}
+nav#gNav li .dropdown .naviTit a {
+	color:#093;
+	height:auto;
+	text-decoration: none;
+}
+nav#gNav li .dropdown .naviTit a:hover {
+	color:#F60;
+	text-decoration:underline;
+}
+/* ナビごとの指定 */
+nav#gNav .wSchool .dropdownBox:after {
+	left: 11%;
+}
+nav#gNav .wCourse .dropdownBox:after {
+	left: 11%;
+}
+nav#gNav .wInstructor .dropdownBox:after {
+	left: 17%;
+}
+nav#gNav .wCareer .dropdownBox:after {
+	left: 17%;
+}
+nav#gNav li:hover .dropdown.wCampus {
+	right:10px;
+}
+nav#gNav .wCampus .dropdownBox:after {
+	left: 52%;
+}
+nav#gNav li:hover .dropdown.wInvitation {
+	right:10px;
+}
+nav#gNav .wInvitation .dropdownBox:after {
+	left: 86%;
+}
+.wSchool,
+.wCourse {
+	width:650px;
+}
+.wInstructor,
+.wCareer,
+.wCampus,
+.wInvitation {
+	width:430px;
+}
+
+/*div #nav03
+----------------------------------------------------*/
+div#nav03 {
+	width:100%;
+	background:url(../img02/bg_secondNav.png) left top repeat-x;
+}
+div#nav03 ul {
+	width:1020px;
+	margin:0 auto;
+}
+div#nav03 li {
+	float:left;
+	padding-top:7px;
+	padding-bottom:5px;
+}
+/*div#content02
+--------------------------------------------------*/
+div#content02 {
+	clear:both;
+	width:1020px;
+	margin:0 auto;
+/*IE用*/
+min-height: 1px;
+_height: 1px;
+}
+div#content02:after {
+content: ".";  /* 新しい要素を作る */
+display: block;  /* ブロックレベル要素に */
+clear: both;
+height: 0;
+visibility: hidden;
+}
+
+/*div#content02
+--------------------------------------------------*/
+.InPageLink li {
+	display:inline-block;
+	background:#F90;
+	border-radius: 4px;
+	text-align: center;
+	border:1px solid #31D91F;
+	}
+	.InPageLink li a {
+		display:block;
+		padding: 10px;
+		background:#E7F5D3;
+		}

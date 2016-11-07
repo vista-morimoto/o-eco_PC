@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+#container,.wrapper {
+	width : 755px;
+	margin:0 auto;
+}
+
+/*#main{
+	width: 680px;
+	float: right;
+	padding: 0 20px;
+}*/
+	
+
+/****************************************
+
+          2. Slider
+
+*****************************************/
+.bx-wrapper{
+	width: 100% !important;
+	overflow: hidden;
+	position: relative !important;
+	height:320px;
+}
+.bx-window{
+	width: 755px !important;
+	margin: 0 auto !important;
+	overflow: visible !important;
+	height: 330px;
+	background: url(img/window-bg.png) no-repeat center 0;
+}
+
+#slider div{
+	width: 755px;
+}
+	#slider h3{
+		font-family: 'Josefin Sans', sans-serif;
+		line-height: 1.2;
+		font-size: 36px;
+	}
+
+/* slide1 */
+/*#slide1{
+	height: 280px;
+	background: #fff url(img/top_wfes.png) no-repeat 0 0;
+	color: #fff;
+}*/
+/* slide2 */
+/*#slide2{
+	height: 280px;
+	background: #fff url(img/top_xmas.png) no-repeat 0 0;
+	color: #fff;
+}*/
+
+
+/* slide3 */
+/*#slide3{
+	height: 280px;
+	background: #fff url(img/top_yagi.png) no-repeat 0 0;
+	color: #fff;
+}
+*/
+/* slide4 */
+/*#slide4{
+	height: 280px;
+	background: #fff url(http://webdesignrecipes.com/wp-content/uploads/2012/05/04_mini.jpg) no-repeat 0 0;
+	color: #fff;
+}*/
+
+/* slide5 */
+/*#slide5{
+	height: 280px;
+	background: #fff url(http://webdesignrecipes.com/wp-content/uploads/2012/05/05_mini.jpg) no-repeat 0 0;
+	color: #fff;
+}*/
+
+.right,
+.left{
+	width:380px !important;
+	float: right;
+	padding: 70px 50px;
+}
+.left{
+	float: left;
+	padding-left: 130px;
+}
+
+
+/* Navi */
+.bx-pager{
+	width: 755px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	top:-40px;
+
+}
+
+.bx-pager a{
+		display: block;
+		width: 24px;
+		height: 25px;
+		float: left;
+		background: url(img/navi-bg1.png) no-repeat 0 0;
+		color: #fff !important;
+		text-align: center;
+		line-height: 24px;
+		text-decoration: none;
+		text-shadow: 0 -1px 0 rgba(0, 0, 0, .8);
+		font-family: 'Josefin Sans', sans-serif;
+		margin: 0 5px;
+	}
+	
+	.bx-pager a:hover,
+	.bx-pager a.pager-active{
+		background-position: 0 100%;
+	}
+/* prev next */
+.prev-next{
+	width: 770px;
+	margin: 0 auto;
+	position: relative;
+	z-index:1000;
+}
+/*IE7*/	
+*:first-child+html .prev-next { width: 755px; }
+	
+	.bx-prev,
+	.bx-next{
+		font-family: 'Josefin Sans', sans-serif;
+		/*font-size: 50px;
+		line-height: 70px;
+		text-align: center;*/
+		vertical-align: baseline;
+		padding-bottom: 0px;
+		display: block;
+		width: 40px;
+		height: 40px;
+		position: absolute;
+		top:-230px;
+		text-decoration: none;
+	}
+		.bx-prev {left: 0px;}
+		.bx-next { right: 0px;}
+			.bx-prev:hover,
+			.bx-next:hover{
+				text-decoration: none;
+			}
+		*:first-child+html .bx-prev,
+		*:first-child+html .bx-next{
+			top:-260px;
+		}
+
+/* frame */
+body,
+#container,
+.wrapper{
+	position: relative;
+}
+/*html,
+body{
+	overflow-x: hidden;
+}*/
+
+#slider-frame-left{
+	height: 280px;
+	position: absolute;
+	width: 1000px;
+	/*top:-355px;*/
+	top:-320px;
+	right:755px;
+	background: url(img/frame-bg.png) repeat-x 100% 0;
+}
+#slider-frame-right{
+	height: 280px;
+	position: absolute;
+	width: 1000px;
+	top:-320px;
+	left:755px;
+	background: url(img/frame-bg.png) repeat-x 0 0;
+}
+#frame-top,
+#frame-bottom{
+	position: absolute;	
+	width: 755px;
+	height: 25px;
+	left:0;
+	
+}
+	#frame-top{
+		top:-320px;
+		background: url(img/frame-top.png) repeat-x 0 0;
+	}
+	#frame-bottom{
+		top:-65px;
+		background: url(img/frame-bottom.png) repeat-x 0 0;
+	}
+
+#frame-left,
+#frame-right{
+	width: 25px;
+	height: 230px;
+	position: absolute;
+	top:-295px;
+
+}
+	#frame-left{
+		left:0;
+		background: url(img/frame-left.png) repeat-x 0 0;
+	}
+	#frame-right{
+		right: 0;
+		background: url(img/frame-right.png) repeat-x 0 0;
+	}
+
+
+

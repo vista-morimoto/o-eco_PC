@@ -1,0 +1,331 @@
+@charset "utf-8";
+
+#title{
+	width:800px;
+	margin:10px auto 0;
+	}
+
+#special #container table,
+#special #container th,
+#special #container td{
+margin:0;
+padding:0;
+border-collapse:separate;
+border:none;
+border-spacing:0;
+font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+#special #container table{
+width:800px;
+border:1px solid #EEEEEE;
+background:#FFFFCC;
+margin:auto;
+}
+#special #container th{
+padding:0.5em 0.3em;
+border-color:#CCCCCC;
+border-style:solid;
+border-width:1px;
+color:#FFFFFF;
+font-weight:bold;
+text-align:center;
+font-size:14px;
+}
+#special #container #tab1 th,
+#special #container #tab2 th,
+#special #container #tab3 th,
+#special #container #tab4 th,
+#special #container #tab5 th,
+#special #container #tab6 th{
+background-color:#F90;
+}
+#special #container #tab7 th{
+background-color:#F03;
+}
+#special #container #tab8 th,
+#special #container #tab9 th{
+background-color:#06C;
+}
+#special #container #tab10 th{
+background-color:#090;
+}
+#special #container #tab11 th{
+background-color:#F60;
+}
+#special #container #tab12 th{
+background-color:#0C0;
+}
+
+
+#special #container td{
+padding:0.5em 0.5em;
+border-color:#CCCCCC;
+border-style:solid;
+border-width:1px;
+font-size:14px;
+text-align:center;
+}
+#special #container #tab1 td.fontColor,
+#special #container #tab2 td.fontColor,
+#special #container #tab3 td.fontColor,
+#special #container #tab4 td.fontColor,
+#special #container #tab5 td.fontColor,
+#special #container #tab6 td.fontColor{
+color:#F90;
+font-weight:bold;
+}
+#special #container #tab7 td.fontColor{
+color:#F03;
+font-weight:bold;
+}
+#special #container #tab8 td.fontColor,
+#special #container #tab9 td.fontColor{
+color:#06C;
+font-weight:bold;
+}
+#special #container #tab10 td.fontColor{
+color:#090;
+font-weight:bold;
+}
+#special #container #tab11 td.fontColor{
+color:#F60;
+font-weight:bold;
+}
+#special #container #tab12 td.fontColor{
+color:#0C0;
+font-weight:bold;
+}
+#special #container caption{
+padding:5px;
+color:#FFF;
+font-weight:bold;
+background-color:#FFC;
+border:1px solid #CCC;
+}
+#special #container #tab1 caption,
+#special #container #tab2 caption,
+#special #container #tab3 caption,
+#special #container #tab4 caption,
+#special #container #tab5 caption,
+#special #container #tab6 caption{
+color:#F90;
+}
+#special #container #tab7 caption{
+color:#F03;
+font-weight:bold;
+}
+#special #container #tab8 caption,
+#special #container #tab9 caption{
+color:#06C;
+font-weight:bold;
+}
+#special #container #tab10 caption{
+color:#090;
+font-weight:bold;
+}
+#special #container #tab11 caption{
+color:#F60;
+font-weight:bold;
+}
+#special #container #tab12 caption{
+color:#0C0;
+font-weight:bold;
+}
+#special #container td.image{
+	padding:0;
+}
+#special #container td a{
+display:block;
+padding:0.5em 0;
+background:#A93C1B;
+color:#FFFFFF;
+text-decoration:none;
+font-size:12px;
+text-align:center;
+border:1px solid #A93C1B;
+}
+#special #container td a:hover{
+	background-color:#B56A6A;
+}
+
+#special #container table #date{
+width:120px;
+background-color:#FFFFFF;
+}
+#special #container table #photo{
+width:90px;
+background-color:#FFFFFF;
+}
+#special #container table #class{
+background-color:#FFFFCC;
+width:180px;
+}
+#special #container table #content{
+width:410px;
+background-color:#FFFFFF;
+}
+
+/* tabindex */
+
+#container .tabNav {
+margin:5px auto;
+width:800px;
+z-index:10;
+font-size:12px;
+font-weight:bold;
+}
+#container .tabNav li {
+float:left;
+width:155px;
+margin:2px;
+list-style:none;
+text-decoration:none;
+text-align:center;
+}
+#container .tabNav li a {
+border:1px solid #CCCCCC;
+display:block;
+padding:3px 5px;
+text-decoration:none;
+}
+
+/* ドッグ */
+#container .tabNavi li.dog{
+	color:#F90;
+}
+#container .tabNav li.dog a {
+background-color:#EEEEEE;
+color:#F90;
+}
+#container .tabNav li.dog a:hover {
+background-color:#F8F8F8;
+color:#F90;
+}
+#container .tabNav li.dog a.active {
+background-color:#F90;
+color:#FFFFFF;
+}
+
+/* 動物 */
+#container .tabNavi li.animal{
+	color:#F03;
+}
+#container .tabNav li.animal a {
+background-color:#EEEEEE;
+color:#F03;
+}
+#container .tabNav li.animal a:hover {
+background-color:#F8F8F8;
+color:#F03;
+}
+#container .tabNav li.animal a.active {
+background-color:#F03;
+color:#FFFFFF;
+}
+
+/* 海洋 */
+#container .tabNavi li.marine{
+	color:#06C;
+}
+#container .tabNav li.marine a {
+background-color:#EEEEEE;
+color:#06C;
+}
+#container .tabNav li.marine a:hover {
+background-color:#F8F8F8;
+color:#06C;
+}
+#container .tabNav li.marine a.active {
+background-color:#06C;
+color:#FFFFFF;
+}
+
+/* 自然環境 */
+#container .tabNavi li.nature{
+color:#090;
+}
+#container .tabNav li.nature a {
+background-color:#EEEEEE;
+color:#090;
+}
+#container .tabNav li.nature a:hover {
+background-color:#F8F8F8;
+color:#090;
+}
+#container .tabNav li.nature a.active {
+background-color:#090;
+color:#FFFFFF;
+}
+
+/* フラワー */
+#container .tabNavi li.flower{
+	color:#F60;
+}
+#container .tabNav li.flower a {
+background-color:#EEEEEE;
+color:#F60;
+}
+#container .tabNav li.flower a:hover {
+background-color:#F8F8F8;
+color:#F60;
+}
+#container .tabNav li.flower a.active {
+background-color:#F60;
+color:#FFFFFF;
+}
+
+/* 農業 */
+#container .tabNavi li.agri{
+	color:#0C0;
+}
+#container .tabNav li.agri a {
+	background-color:#EEEEEE;
+	color:#0C0;
+}
+#container .tabNav li.agri a:hover {
+background-color:#F8F8F8;
+color:#0C0;
+}
+#container .tabNav li.agri a.active {
+background-color:#0C0;
+color:#FFFFFF;
+}
+
+/*.tabContent {
+-moz-border-radius-bottomleft:3px;
+-moz-border-radius-bottomright:3px;
+-moz-border-radius-topright:3px;
+border:1px solid #CCCCCC;
+clear:left;
+padding:1em;
+position:relative;
+top:-1px;
+z-index:1;
+}*/
+
+/* 申込フォーム */
+#container div.entry a{
+display:block;
+padding:0px;
+width:156px;
+height:36px;
+}
+#container div.entry{
+overflow:hidden;
+text-indent:-9999px;
+display:block;
+margin:20px auto;
+padding:0px;
+width:156px;
+height:36px;
+}
+#container div.entry{
+background:url(../img_entryform/entry_normal_on.gif) no-repeat;
+}
+#container div.entry a{
+background:url(../img_entryform/entry_normal.gif) no-repeat;
+}
+#container div.entry a:hover{
+background:none;
+}

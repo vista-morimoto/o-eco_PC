@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ベース　（サイト全体の設定）
+-----------------------------------------*/
+html {
+}
+
+a {
+	color:#FF6600;
+}
+
+a:visited {
+	color:#FF6600;
+}
+
+a:hover {
+	color:#FFCC33;
+}
+
+body {
+	background:url(../img/bg.gif) repeat-y top;
+	color:#333;
+	font-size:12px;
+	
+	font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",;
+	line-height:1.5;
+}
+
+div#wrapper {
+	width:860px;
+	margin:0 auto;
+}
+
+div#header {
+	width:860px;
+	height:110px;
+	margin-bottom:10px;
+	background-image:url(../img/header.jpg);
+	position:relative;
+}
+
+div#header h1 a {
+	position:absolute;
+	left:21px;
+	top:32px;
+	display:block;
+	width:259px;
+	height:41px;
+	text-indent:-9999px;
+	overflow:hidden;
+	background-image:url(../img/h1.jpg);
+}
+
+div#gNav{
+	}
+div#gNav ul{
+	width:238px;
+	margin-left:auto;
+	}
+div#gNav ul li{
+	float:left;
+	padding:0 5px 10px 0;
+/*	/padding:0 5px 0 0;*/
+	}
+
+div#main {
+	clear:both;
+}
+
+div#footer {
+	width:860px;
+	height:82px;
+	margin:0 auto;
+}
+div#footer #pagetop {
+	width:840px;
+	padding:0 20px 10px 0;
+	text-align:right;
+}
+div#footer address {
+	text-align:center;
+	padding:10px 0 10px 0;
+	margin-bottom:10px;
+	border-top:1px solid #70C00E;
+	border-bottom:1px solid #70C00E;
+}
+
+div#footers aside {
+	display:table!important;
+	margin:0 auto;
+	text-align:center;
+	border-top:1px solid #666;
+}
+div#footer aside h6,
+div#footer aside p {
+	display:inline;
+	margin:0 auto;
+	padding-top:10px;
+	color:#666;
+}
+	div#footer aside div {
+		display:table;
+		margin:0 auto;
+	}
+
+/*　全体的なレイアウト設定（トップページ以外）
+-----------------------------------------------*/
+h2 {
+/*	width:832px;*/
+	margin:0 auto 21px;
+}
+
+/*h2 img {
+	vertical-align:bottom;
+}
+*/
+div#navi {
+	width:222px;
+	float:left;
+}
+
+div#navi ul {
+	width:222px;
+	margin:0 auto;
+}
+
+div#navi ul li {
+	display:block;
+	float:left;
+	margin-bottom:3px;
+}
+div#navi ul li.spacing {
+	margin-bottom:1px;
+}
+
+div#content {
+	width:618px;
+	float:right;
+	padding-bottom:20px;
+}
+
+div#content div#lead img {
+	vertical-align:bottom;
+}
+
+h3 {
+	width:602px;
+	background:url(../img/h3_bg.jpg) repeat-x top;
+	padding:8px;
+	font-size:16px;
+	font-weight:bold;
+	color:#339933;
+	margin-top:30px;
+}
+
+h3.new {
+	color:#FF0000;
+}
+
+h3.topic {
+	color:#003399;
+}
+
+div#content p {
+	padding:8px;
+}
+
+
+table.outlinebox {
+	width:100%;
+	margin:5px auto;
+}
+
+table.outlinebox th {
+	width:20%;
+	background-color:#F0F0F0;
+	border:1px solid #CCC;
+	padding:4px 6px;
+	font-weight:normal;
+}
+
+table.outlinebox td {
+	border:1px solid #CCC;
+	padding:4px 6px;
+}
+
+div.btnCenter {
+	text-align:center;
+}
+
+
+/*　トップページの設定
+-----------------------------------------------*/
+body#index div#content {
+	width:852px;
+	margin:0 auto;
+	float:none;
+}
+
+
+
+/*　スマートフォンの設定
+-----------------------------------------------*/
+#ForSP {
+	background:#FFF;
+	margin:0 auto;
+	padding:10px;
+	width:970px;
+	
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	
+	display:none;
+	
+	}
+
+#ForSP .btns {
+	background: -moz-linear-gradient(top,#BFD9E5, #3D95B7 50%,#0080B3 50%,#0099CC);
+	background: -webkit-gradient(linear, left top, left bottom, from(#BFD9E5), color-stop(0.5,#3D95B7), color-stop(0.5,#0080B3), to(#0099CC));
+	color: #FFF;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #0099CC;
+	-moz-box-shadow: 1px 1px 1px rgba(000,000,000,0.3),inset 0px 0px 3px rgba(255,255,255,0.5);
+	-webkit-box-shadow: 1px 1px 1px rgba(000,000,000,0.3),inset 0px 0px 3px rgba(255,255,255,0.5);
+	text-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+	padding: 30px 0;
+	margin:0 auto;
+	
+	font-size:30px;
+	font-weight:bold;
+	
+	display:block;
+	text-align:center;
+	
+	width:900px;
+	text-decoration:none;
+	}
+
+/*　no-naviレイアウトの場合のhomeに戻るリンク
+-----------------------------------------------*/
+div#path {
+	margin: 0 0 10px 10px;
+}
+
+/* sns buttons
+--------------------------------------------------*/
+#snsBtn {
+  width: 845px;
+  margin: 0 auto;
+  padding: 0 5px 15px 0;
+}
+#snsBtn ul {
+  margin-left: -5px;
+  text-align: right;
+}
+#snsBtn li {
+  display: inline-block;
+  line-height: 0;
+  margin-left: 5px;
+  vertical-align: bottom;
+}

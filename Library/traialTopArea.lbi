@@ -1,0 +1,21 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!--<div class="CalenderBox">
+    <dl>
+      <dt><img src="../event/img_common/titEventCalender.png" width="270" height="34" alt="イベントカレンダー" /></dt>
+      <dd>
+        <ul>
+          <li>※体験入学の全てのメニューは無料でご参加いただけます。</li>
+          <li>※体験入学へは私服でご参加いただけます。</li>
+          <li>※保護者の方やお友達とも一緒にご参加いただけます。</li>
+        </ul>
+      </dd>
+    </dl>
+    <p><img src="../event/trial/img/calender.gif" alt="イベントカレンダー" /></p>
+  </div>-->
+  <div >
+    <dl class="goSelect">
+      <dt><img src="../event/img_common/txt_fukidashi.png" width="291" height="111" alt="体験入学を行きたい日と好きな分野から探せるもにょ。" /></dt>
+      <dd id="jyokenBtn"><a href="../event/trial/conditional/" title="体験メニューをあなたの条件で探してみよう！"><img src="../event/img_common/btn_jyoken.png" width="274" height="40" alt="あなたの条件で探す" /></a></dd>
+      <dd id="kaede"><img src="../event/img_common/kaede.png" width="76" height="80" alt="アルパカかえで" /></dd>
+    </dl>
+  </div>

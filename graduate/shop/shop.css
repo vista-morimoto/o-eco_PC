@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* shop.html
+-----------------------------------------*/
+div#topLink{
+	margin:-10px 10px;
+	text-align:right;
+	}
+div#shopNav{
+	padding-top:10px;
+	}
+div#shopNav ul{
+	width:616px;
+	margin:0 0 0 -11px;
+	}
+div#shopNav ul li{
+	float:left;
+	padding:0 0 6px 11px;
+	}
+
+div.notice{
+	width:582px;
+	border:double #70C00E;
+	padding:8px;
+	overflow:hidden;
+	margin-top:20px;
+	background:#FFFFE1;
+	}
+div.notice strong{
+	background:#FFF;
+	font-size:18px;
+	text-decoration:underline;
+	color:#C00;
+	}
+div.notice p.contact{
+	font-size:14px;
+	background:#FEE4CF;
+	text-align:center;
+	}
+
+div.shopbox {
+	width:586px;
+	border:1px solid #CCC;
+	border-top:3px solid #70C00E;
+	position:relative;
+	padding:8px;
+	overflow:hidden;
+	margin-top:20px;
+}
+div.shopbox .sample{
+	position:absolute;
+	top:220px;
+	left:90px;
+	z-index:100;
+}
+
+a.shoplink {
+	position:absolute;
+/*	width:139px;
+	height:27px;*/
+	top:214px;
+	left:8px;
+	z-index:100;
+}
+div.shopbox h3 {
+	background:none;
+	font-size:16px;
+	font-weight:bold;
+	color:#339933;
+	margin:0 0 10px 0;
+}
+
+img.photo1 {
+	position:absolute;
+	width:202px;
+	height:202px;
+	top:8px;
+	left:8px;
+}
+p.photo1-name {
+	position:absolute;
+	width:202px;
+	height:202px;
+	top:8px;
+	left:8px;
+}
+img.new {
+	position:absolute;
+	top:-8px;
+	right:-8px;
+	z-index:100;
+}
+
+div.shopboxTop {
+	width:380px;
+/*	height:240px;*/
+	margin:0 0 0 210px;
+}
+
+div.shopboxTop strong {
+	font-size:14px;
+	font-weight:bold;
+}
+
+div.shopboxData {
+	margin:8px 0 0 0;
+	border:1px dashed #70C00E;
+	position:relative;
+	background-color:#FFFFCC;
+	overflow:hidden;
+	padding-bottom:10px;
+}
+div.shopboxData dl {
+	margin:10px;
+	width:340px;
+	overflow:hidden;
+	border-bottom:1px dashed #999;
+}
+
+div.shopboxData dl dt {
+	width:93px;
+	float:left;
+	border-top:1px dashed #999;
+	text-indent:8px;
+	padding-top:5px;
+	letter-spacing:0.1em;
+}
+div.shopboxData dl dt span {
+	color:#FF9966;
+}
+div.shopboxData dl dd {
+	width:247px;
+	float:left;
+	border-top:1px dashed #999;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+div.shopboxData dl .nobd {
+	border:none;
+}
+
+img.photo2 {
+	position:absolute;
+	width:201px;
+/*	height:180px;*/
+	top:15px;
+	right:15px;
+}
+
+p.photo2-name {
+	position:absolute;
+	width:190px;
+/*	height:180px;*/
+	top:270px;
+	right:15px;
+}
+
+p.photo2-name-kyoto {
+	position:absolute;
+	width:190px;
+/*	height:180px;*/
+	top:205px;
+	right:15px;
+}
+
+p.photo2-name-toba {
+	position:absolute;
+	width:190px;
+/*	height:180px;*/
+	top:260px;
+	right:15px;
+}
+
+.shoplink2 {
+	position:absolute;
+/*	width:139px;
+	height:27px;*/
+	top:170px;
+	left:8px;
+	z-index:100;
+}
+

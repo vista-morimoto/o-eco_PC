@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/fes.html
+RewriteRule ^(.*)fes.html$ http://www.osaka-eco.ac.jp/festival/index.html$1 [R=301,L]

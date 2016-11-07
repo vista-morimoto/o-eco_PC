@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+#carousel_border {
+	margin: 0 auto;
+	padding:10px 0;
+	border:1px solid #CCC;
+}
+
+#carousel {
+	margin: 0 auto;
+	width: 894px;
+	height: 77px;
+	text-align: left;
+	position: relative;
+}
+
+#carousel_prev,
+#carousel_next {
+	top: 0;
+	width: 15px;
+	height: 77px;
+	background: #000;
+	cursor: pointer;
+	position: absolute;
+}
+#carousel_prev {
+	left: -15px;
+	background:transparent url(../img/prev.png) no-repeat top left;
+}
+#carousel_next {
+	right: -15px;
+	background:transparent url(../img/next.png) no-repeat top left;
+}
+
+#carousel ul li {
+	width: 106px;
+	float: left;
+	display: inline;
+}
+#carousel ul li a img{
+	border:1px solid #EEE;
+}
+
+#carousel ul li a:hover img{
+	border:1px solid #F00;
+	opacity: 0.5; /* IE以外透過設定 */
+	filter: Alpha(opacity=50); /* IE用透過設定 */
+}
+
+/* =======================================
+	ClearFixElements
+======================================= */
+#carousel ul:after {
+	content: ".";
+	height: 0;
+	clear: both;
+	display: block;
+	visibility: hidden;
+}
+
+#carousel ul {
+	display: inline-block;
+	overflow: hidden;
+}

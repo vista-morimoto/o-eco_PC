@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^.*/talk.html
+RewriteRule ^(.*)talk.html$ http://www.osaka-eco.ac.jp/career/talk.html$1 [R=301,L]
+RewriteRule ^(.*)talk_2.html$ http://www.osaka-eco.ac.jp/career/talk_2.html$1 [R=301,L]
+RewriteRule ^(.*)talk_3.html$ http://www.osaka-eco.ac.jp/career/talk_3.html$1 [R=301,L]
+RewriteRule ^(.*)talk_4.html$ http://www.osaka-eco.ac.jp/career/talk_4.html$1 [R=301,L]
+RewriteRule ^(.*)talk_5.html$ http://www.osaka-eco.ac.jp/career/talk_5.html$1 [R=301,L]

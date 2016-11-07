@@ -1,0 +1,670 @@
+@charset "utf-8";
+/* CSS Document */	
+
+#main h2 {
+	font-family:UD Shin Go Regular JIS2004;
+	}
+#main h2 span {
+	display:inline-block;
+	background:url(../course/img/pat_hosoku.gif);
+	font-size:0.8em;
+	line-height:1.5em;
+	padding:0 8px;
+	margin-left:10px;
+
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	behavior: url(border-radius.htc);
+	color:#22171F;
+	
+	text-shadow: 1px 1px 0 #FFFFFF;
+	-moz-box-shadow:1px 1px 0 #FFFFFF;　/* Firefox用 */  
+    -webkit-box-shadow:1px 1px 0 #FFFFFF;　/* Safari,Google Chrome用 */
+}
+
+#main h3 {
+	font-family:UD Shin Go DemiBold JIS2004;
+	line-height:70px;
+	padding:0 0 0 40px;
+	margin:0 0 20px 0;
+	height:70px;
+	width:750px;/*790*/
+	color:#292929;
+	background:#FF0 url(img_jobday/ico_explore.png) 10px -5px no-repeat;
+	}
+	#main h3 strong {
+		font-size:2em;
+		}
+#main h4 {
+	display:inline-block!important;
+	background:#FFFF00;
+	color:#292929;
+	margin-top:30px;
+	width:11em;
+	}
+#jobdayNav li {
+	/*width:172px;*/
+	width:240px;
+	float:left;
+	margin-left:10px;
+	margin-bottom:20px;
+	}
+#jobdayNav li a {
+	display:block;
+}
+#jobdayNav li img {
+	float:left;
+}
+#jobdayNav dl {
+	width:160px;
+	float:right;
+	display:table;
+	padding-top:20px;
+}
+#jobdayNav dd {
+	font-size:0.8em;
+}
+#jobdayMain dl {
+	width:450px;
+	}
+#jobdayMain dt {
+	font-size:2em;
+	margin-bottom:26px;
+	font-family:UD Shin Go DemiBold JIS2004;
+	}
+#jobdayMain dd {
+	font-family:UD Shin Go Light;
+	line-height:1.8;
+	}
+#jobdayMain img {
+	float:right;
+	margin-left:20px;
+	}
+#theOneDay {
+		background:url(../course/img/bg_oudo.png);
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		padding:20px;
+		margin-top:30px;
+	}
+#theOneDay ul {
+	width:90px;
+	float:left;
+	}
+#theOneDay li {
+	margin-bottom:10px;
+}
+#theOneDay p {
+	font-family:TBUDGothic R;
+}
+.thaTime {
+	width:640px;
+	float:right;
+	}
+.PhotoTate img {
+	float:left;
+	margin-right:10px;
+	}
+	.PhotoTate p {
+		line-height:1.9;
+	}
+#People {
+	width:100%;
+	margin-top:30px;
+	table-layout:fixed;
+}
+#People td {
+	vertical-align:middle;
+}
+#People img {
+	float:left;
+	margin-right:5px;
+}
+#People dl {
+	height:100%;
+	float:right;
+	margin-right:10px;
+}
+#People dt {
+	font-size:0.8em;
+	color:#777;
+	border-bottom:1px dotted #EAB383;
+	padding-bottom:5px;
+	margin-bottom:5px;
+}
+#People dt strong {
+	color:#292929;
+	font-size:1.4em;
+	}
+#ContentLink {
+	display:table;
+	width:100%;
+	margin-top:20px;
+}
+#ContentLink li {
+	display:table-cell;
+	width:50%;
+	text-align:center;
+	}
+
+.tabNav a {
+	display:block;
+	width:90px;
+	height:60px;
+}
+	.tabNav a:hover img {
+		opacity: .75; /* Standard: FF gt 1.5, Opera, Safari */
+		filter: alpha(opacity=75); /* IE lt 8 */
+		-ms-filter: "alpha(opacity=75)"; /* IE 8 */
+		-khtml-opacity: .75; /* Safari 1.x */
+		-moz-opacity: .75; /* FF lt 1.5, Netscape */
+		}
+	.tabNav a.active img {
+		display:none;
+		}
+
+.tabNav a.active {
+	margin-left:-30px;
+}
+
+/*page01*/
+.tabNav#jobday01 #TimeIco01 a.active {
+	background-image:url(img_jobday/01/time01_a.png)
+	}
+.tabNav#jobday01 #TimeIco02 a.active {
+	background-image:url(img_jobday/01/time02_a.png)
+	}
+.tabNav#jobday01 #TimeIco03 a.active {
+	background-image:url(img_jobday/01/time03_a.png)
+	}
+.tabNav#jobday01 #TimeIco04 a.active {
+	background-image:url(img_jobday/01/time04_a.png)
+	}
+.tabNav#jobday01 #TimeIco05 a.active {
+	background-image:url(img_jobday/01/time05_a.png)
+	}
+.tabNav#jobday01 #TimeIco06 a.active {
+	background-image:url(img_jobday/01/time06_a.png)
+	}
+.tabNav#jobday01 #TimeIco07 a.active {
+	background-image:url(img_jobday/01/time07_a.png)
+	}
+/*page02*/
+.tabNav#jobday02 #TimeIco01 a.active {
+	background-image:url(img_jobday/02/time01_a.png)
+	}
+.tabNav#jobday02 #TimeIco02 a.active {
+	background-image:url(img_jobday/02/time02_a.png)
+	}
+.tabNav#jobday02 #TimeIco03 a.active {
+	background-image:url(img_jobday/02/time03_a.png)
+	}
+.tabNav#jobday02 #TimeIco04 a.active {
+	background-image:url(img_jobday/02/time04_a.png)
+	}
+.tabNav#jobday02 #TimeIco05 a.active {
+	background-image:url(img_jobday/02/time05_a.png)
+	}
+/*page03*/
+.tabNav#jobday03 #TimeIco01 a.active {
+	background-image:url(img_jobday/03/time01_a.png)
+	}
+.tabNav#jobday03 #TimeIco02 a.active {
+	background-image:url(img_jobday/03/time02_a.png)
+	}
+.tabNav#jobday03 #TimeIco03 a.active {
+	background-image:url(img_jobday/03/time03_a.png)
+	}
+.tabNav#jobday03 #TimeIco04 a.active {
+	background-image:url(img_jobday/03/time04_a.png)
+	}
+.tabNav#jobday03 #TimeIco05 a.active {
+	background-image:url(img_jobday/03/time05_a.png)
+	}
+.tabNav#jobday03 #TimeIco06 a.active {
+	background-image:url(img_jobday/03/time06_a.png)
+	}
+/*page04*/
+.tabNav#jobday04 #TimeIco01 a.active {
+	background-image:url(img_jobday/04/time01_a.png)
+	}
+.tabNav#jobday04 #TimeIco02 a.active {
+	background-image:url(img_jobday/04/time02_a.png)
+	}
+.tabNav#jobday04 #TimeIco03 a.active {
+	background-image:url(img_jobday/04/time03_a.png)
+	}
+.tabNav#jobday04 #TimeIco04 a.active {
+	background-image:url(img_jobday/04/time04_a.png)
+	}
+.tabNav#jobday04 #TimeIco05 a.active {
+	background-image:url(img_jobday/04/time05_a.png)
+	}
+.tabNav#jobday04 #TimeIco06 a.active {
+	background-image:url(img_jobday/04/time06_a.png)
+	}
+.tabNav#jobday04 #TimeIco07 a.active {
+	background-image:url(img_jobday/04/time07_a.png)
+	}
+/*page05*/
+.tabNav#jobday05 #TimeIco01 a.active {
+	background-image:url(img_jobday/05/time01_a.png)
+	}
+.tabNav#jobday05 #TimeIco02 a.active {
+	background-image:url(img_jobday/05/time02_a.png)
+	}
+.tabNav#jobday05 #TimeIco03 a.active {
+	background-image:url(img_jobday/05/time03_a.png)
+	}
+.tabNav#jobday05 #TimeIco04 a.active {
+	background-image:url(img_jobday/05/time04_a.png)
+	}
+.tabNav#jobday05 #TimeIco05 a.active {
+	background-image:url(img_jobday/05/time05_a.png)
+	}
+.tabNav#jobday05 #TimeIco06 a.active {
+	background-image:url(img_jobday/05/time06_a.png)
+	}
+/*page06*/
+.tabNav#jobday06 #TimeIco01 a.active {
+	background-image:url(img_jobday/06/time01_a.png)
+	}
+.tabNav#jobday06 #TimeIco02 a.active {
+	background-image:url(img_jobday/06/time02_a.png)
+	}
+.tabNav#jobday06 #TimeIco03 a.active {
+	background-image:url(img_jobday/06/time03_a.png)
+	}
+.tabNav#jobday06 #TimeIco04 a.active {
+	background-image:url(img_jobday/06/time04_a.png)
+	}
+.tabNav#jobday06 #TimeIco05 a.active {
+	background-image:url(img_jobday/06/time05_a.png)
+	}
+.tabNav#jobday06 #TimeIco06 a.active {
+	background-image:url(img_jobday/06/time06_a.png)
+	}
+/*page07*/
+.tabNav#jobday07 #TimeIco01 a.active {
+	background-image:url(img_jobday/07/time01_a.png)
+	}
+.tabNav#jobday07 #TimeIco02 a.active {
+	background-image:url(img_jobday/07/time02_a.png)
+	}
+.tabNav#jobday07 #TimeIco03 a.active {
+	background-image:url(img_jobday/07/time03_a.png)
+	}
+.tabNav#jobday07 #TimeIco04 a.active {
+	background-image:url(img_jobday/07/time04_a.png)
+	}
+.tabNav#jobday07 #TimeIco05 a.active {
+	background-image:url(img_jobday/07/time05_a.png)
+	}
+.tabNav#jobday07 #TimeIco06 a.active {
+	background-image:url(img_jobday/07/time06_a.png)
+	}
+.tabNav#jobday07 #TimeIco07 a.active {
+	background-image:url(img_jobday/07/time07_a.png)
+	}
+.tabNav#jobday07 #TimeIco08 a.active {
+	background-image:url(img_jobday/07/time08_a.png)
+	}
+
+/*page08*/
+.tabNav#jobday08 #TimeIco01 a.active {
+	background-image:url(img_jobday/08/time01_a.png)
+	}
+.tabNav#jobday08 #TimeIco02 a.active {
+	background-image:url(img_jobday/08/time02_a.png)
+	}
+.tabNav#jobday08 #TimeIco03 a.active {
+	background-image:url(img_jobday/08/time03_a.png)
+	}
+.tabNav#jobday08 #TimeIco04 a.active {
+	background-image:url(img_jobday/08/time04_a.png)
+	}
+.tabNav#jobday08 #TimeIco05 a.active {
+	background-image:url(img_jobday/08/time05_a.png)
+	}
+
+/*page09*/
+.tabNav#jobday09 #TimeIco01 a.active {
+	background-image:url(img_jobday/09/time01_a.png)
+	}
+.tabNav#jobday09 #TimeIco02 a.active {
+	background-image:url(img_jobday/09/time02_a.png)
+	}
+.tabNav#jobday09 #TimeIco03 a.active {
+	background-image:url(img_jobday/09/time03_a.png)
+	}
+.tabNav#jobday09 #TimeIco04 a.active {
+	background-image:url(img_jobday/09/time04_a.png)
+	}
+.tabNav#jobday09 #TimeIco05 a.active {
+	background-image:url(img_jobday/09/time05_a.png)
+	}
+.tabNav#jobday09 #TimeIco06 a.active {
+	background-image:url(img_jobday/09/time06_a.png)
+	}
+.tabNav#jobday09 #TimeIco07 a.active {
+	background-image:url(img_jobday/09/time07_a.png)
+	}
+.tabNav#jobday09 #TimeIco08 a.active {
+	background-image:url(img_jobday/09/time08_a.png)
+	}
+
+/*page10*/
+.tabNav#jobday10 #TimeIco01 a.active {
+	background-image:url(img_jobday/10/time01_a.png)
+	}
+.tabNav#jobday10 #TimeIco02 a.active {
+	background-image:url(img_jobday/10/time02_a.png)
+	}
+.tabNav#jobday10 #TimeIco03 a.active {
+	background-image:url(img_jobday/10/time03_a.png)
+	}
+.tabNav#jobday10 #TimeIco04 a.active {
+	background-image:url(img_jobday/10/time04_a.png)
+	}
+.tabNav#jobday10 #TimeIco05 a.active {
+	background-image:url(img_jobday/10/time05_a.png)
+	}
+/*page11*/
+.tabNav#jobday11 #TimeIco01 a.active {
+	background-image:url(img_jobday/11/time01_a.png)
+	}
+.tabNav#jobday11 #TimeIco02 a.active {
+	background-image:url(img_jobday/11/time02_a.png)
+	}
+.tabNav#jobday11 #TimeIco03 a.active {
+	background-image:url(img_jobday/11/time03_a.png)
+	}
+.tabNav#jobday11 #TimeIco04 a.active {
+	background-image:url(img_jobday/11/time04_a.png)
+	}
+.tabNav#jobday11 #TimeIco05 a.active {
+	background-image:url(img_jobday/11/time05_a.png)
+	}
+.tabNav#jobday11 #TimeIco06 a.active {
+	background-image:url(img_jobday/11/time06_a.png)
+	}
+.tabNav#jobday11 #TimeIco07 a.active {
+	background-image:url(img_jobday/11/time07_a.png)
+	}
+
+/*page12*/
+.tabNav#jobday12 #TimeIco01 a.active {
+	background-image:url(img_jobday/12/time01_a.png)
+	}
+.tabNav#jobday12 #TimeIco02 a.active {
+	background-image:url(img_jobday/12/time02_a.png)
+	}
+.tabNav#jobday12 #TimeIco03 a.active {
+	background-image:url(img_jobday/12/time03_a.png)
+	}
+.tabNav#jobday12 #TimeIco04 a.active {
+	background-image:url(img_jobday/12/time04_a.png)
+	}
+.tabNav#jobday12 #TimeIco05 a.active {
+	background-image:url(img_jobday/12/time05_a.png)
+	}
+.tabNav#jobday12 #TimeIco06 a.active {
+	background-image:url(img_jobday/12/time06_a.png)
+	}
+.tabNav#jobday12 #TimeIco07 a.active {
+	background-image:url(img_jobday/12/time07_a.png)
+	}
+.tabNav#jobday12 #TimeIco08 a.active {
+	background-image:url(img_jobday/12/time08_a.png)
+	}
+.tabNav#jobday12 #TimeIco09 a.active {
+	background-image:url(img_jobday/12/time09_a.png)
+	}
+.tabNav#jobday12 #TimeIco10 a.active {
+	background-image:url(img_jobday/12/time10_a.png)
+	}
+
+/*page13*/
+.tabNav#jobday13 #TimeIco01 a.active {
+	background-image:url(img_jobday/13/time01_a.png)
+	}
+.tabNav#jobday13 #TimeIco02 a.active {
+	background-image:url(img_jobday/13/time02_a.png)
+	}
+.tabNav#jobday13 #TimeIco03 a.active {
+	background-image:url(img_jobday/13/time03_a.png)
+	}
+.tabNav#jobday13 #TimeIco04 a.active {
+	background-image:url(img_jobday/13/time04_a.png)
+	}
+.tabNav#jobday13 #TimeIco05 a.active {
+	background-image:url(img_jobday/13/time05_a.png)
+	}
+.tabNav#jobday13 #TimeIco06 a.active {
+	background-image:url(img_jobday/13/time06_a.png)
+	}
+
+/*page14*/
+.tabNav#jobday14 #TimeIco01 a.active {
+	background-image:url(img_jobday/14/time01_a.png)
+	}
+.tabNav#jobday14 #TimeIco02 a.active {
+	background-image:url(img_jobday/14/time02_a.png)
+	}
+.tabNav#jobday14 #TimeIco03 a.active {
+	background-image:url(img_jobday/14/time03_a.png)
+	}
+.tabNav#jobday14 #TimeIco04 a.active {
+	background-image:url(img_jobday/14/time04_a.png)
+	}
+.tabNav#jobday14 #TimeIco05 a.active {
+	background-image:url(img_jobday/14/time05_a.png)
+	}
+.tabNav#jobday14 #TimeIco06 a.active {
+	background-image:url(img_jobday/14/time06_a.png)
+	}
+.tabNav#jobday14 #TimeIco07 a.active {
+	background-image:url(img_jobday/14/time07_a.png)
+	}
+
+/*page15*/
+.tabNav#jobday15 #TimeIco01 a.active {
+	background-image:url(img_jobday/15/time01_a.png)
+	}
+.tabNav#jobday15 #TimeIco02 a.active {
+	background-image:url(img_jobday/15/time02_a.png)
+	}
+.tabNav#jobday15 #TimeIco03 a.active {
+	background-image:url(img_jobday/15/time03_a.png)
+	}
+.tabNav#jobday15 #TimeIco04 a.active {
+	background-image:url(img_jobday/15/time04_a.png)
+	}
+.tabNav#jobday15 #TimeIco05 a.active {
+	background-image:url(img_jobday/15/time05_a.png)
+	}
+.tabNav#jobday15 #TimeIco06 a.active {
+	background-image:url(img_jobday/15/time06_a.png)
+	}
+.tabNav#jobday15 #TimeIco07 a.active {
+	background-image:url(img_jobday/15/time07_a.png)
+	}
+.tabNav#jobday15 #TimeIco08 a.active {
+	background-image:url(img_jobday/15/time08_a.png)
+	}
+
+
+/*page16*/
+.tabNav#jobday16 #TimeIco01 a.active {
+	background-image:url(img_jobday/16/time01_a.png)
+	}
+.tabNav#jobday16 #TimeIco02 a.active {
+	background-image:url(img_jobday/16/time02_a.png)
+	}
+.tabNav#jobday16 #TimeIco03 a.active {
+	background-image:url(img_jobday/16/time03_a.png)
+	}
+.tabNav#jobday16 #TimeIco04 a.active {
+	background-image:url(img_jobday/16/time04_a.png)
+	}
+.tabNav#jobday16 #TimeIco05 a.active {
+	background-image:url(img_jobday/16/time05_a.png)
+	}
+.tabNav#jobday16 #TimeIco06 a.active {
+	background-image:url(img_jobday/16/time06_a.png)
+	}
+
+/*page17*/
+.tabNav#jobday17 #TimeIco01 a.active {
+	background-image:url(img_jobday/17/time01_a.png)
+	}
+.tabNav#jobday17 #TimeIco02 a.active {
+	background-image:url(img_jobday/17/time02_a.png)
+	}
+.tabNav#jobday17 #TimeIco03 a.active {
+	background-image:url(img_jobday/17/time03_a.png)
+	}
+.tabNav#jobday17 #TimeIco04 a.active {
+	background-image:url(img_jobday/17/time04_a.png)
+	}
+.tabNav#jobday17 #TimeIco05 a.active {
+	background-image:url(img_jobday/17/time05_a.png)
+	}
+.tabNav#jobday17 #TimeIco06 a.active {
+	background-image:url(img_jobday/17/time06_a.png)
+	}
+
+/*page18*/
+.tabNav#jobday18 #TimeIco01 a.active {
+	background-image:url(img_jobday/18/time01_a.png)
+	}
+.tabNav#jobday18 #TimeIco02 a.active {
+	background-image:url(img_jobday/18/time02_a.png)
+	}
+.tabNav#jobday18 #TimeIco03 a.active {
+	background-image:url(img_jobday/18/time03_a.png)
+	}
+.tabNav#jobday18 #TimeIco04 a.active {
+	background-image:url(img_jobday/18/time04_a.png)
+	}
+.tabNav#jobday18 #TimeIco05 a.active {
+	background-image:url(img_jobday/18/time05_a.png)
+	}
+.tabNav#jobday18 #TimeIco06 a.active {
+	background-image:url(img_jobday/18/time06_a.png)
+	}
+.tabNav#jobday18 #TimeIco07 a.active {
+	background-image:url(img_jobday/18/time07_a.png)
+	}
+.tabNav#jobday18 #TimeIco08 a.active {
+	background-image:url(img_jobday/18/time08_a.png)
+	}
+.tabNav#jobday18 #TimeIco09 a.active {
+	background-image:url(img_jobday/18/time09_a.png)
+	}
+
+/*page19*/
+.tabNav#jobday19 #TimeIco01 a.active {
+	background-image:url(img_jobday/19/time01_a.png)
+	}
+.tabNav#jobday19 #TimeIco02 a.active {
+	background-image:url(img_jobday/19/time02_a.png)
+	}
+.tabNav#jobday19 #TimeIco03 a.active {
+	background-image:url(img_jobday/19/time03_a.png)
+	}
+.tabNav#jobday19 #TimeIco04 a.active {
+	background-image:url(img_jobday/19/time04_a.png)
+	}
+.tabNav#jobday19 #TimeIco05 a.active {
+	background-image:url(img_jobday/19/time05_a.png)
+	}
+.tabNav#jobday19 #TimeIco06 a.active {
+	background-image:url(img_jobday/19/time06_a.png)
+	}
+.tabNav#jobday19 #TimeIco07 a.active {
+	background-image:url(img_jobday/19/time07_a.png)
+	}
+.tabNav#jobday19 #TimeIco08 a.active {
+	background-image:url(img_jobday/19/time08_a.png)
+	}
+
+
+
+
+/*jobday 現在のインデックスを非表示*/
+#jobdayIndex01 li#nav_01,
+#jobdayIndex02 li#nav_02,
+#jobdayIndex03 li#nav_03,
+#jobdayIndex04 li#nav_04,
+#jobdayIndex05 li#nav_05,
+#jobdayIndex06 li#nav_06,
+#jobdayIndex07 li#nav_07,
+#jobdayIndex08 li#nav_08,
+#jobdayIndex09 li#nav_09,
+#jobdayIndex10 li#nav_10,
+#jobdayIndex11 li#nav_11,
+#jobdayIndex12 li#nav_12,
+#jobdayIndex13 li#nav_13,
+#jobdayIndex14 li#nav_14,
+#jobdayIndex15 li#nav_15,
+#jobdayIndex16 li#nav_16,
+#jobdayIndex17 li#nav_17,
+#jobdayIndex18 li#nav_18,
+#jobdayIndex19 li#nav_19 {
+
+		display:none;
+}
+
+#jobdayIndex01,
+#jobdayIndex02,
+#jobdayIndex03,
+#jobdayIndex04,
+#jobdayIndex05,
+#jobdayIndex06,
+#jobdayIndex07,
+#jobdayIndex08,
+#jobdayIndex09,
+#jobdayIndex10,
+#jobdayIndex11,
+#jobdayIndex12,
+#jobdayIndex13,
+#jobdayIndex14,
+#jobdayIndex15,
+#jobdayIndex16,
+#jobdayIndex17,
+#jobdayIndex18,
+#jobdayIndex19 {
+	margin-top:30px;
+}
+
+
+
+/* Box Height
+------------------------- */
+.PhotoTate:after,
+#theOneDay:after,
+#jobdayNav li a:after,
+#jobdayNav:after {
+	display: block;
+	visibility: hidden;
+	content: ".";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
+* html PhotoTate,
+* html #theOneDay,
+* html #jobdayNav li a,
+* html #jobdayNav {
+	zoom: 1;
+} /* IE6 */
+*:first-child+html PhotoTate,
+*:first-child+html #theOneDay,
+*:first-child+html #jobdayNav li a,
+*:first-child+html #jobdayNav {
+	zoom: 1;
+} /* IE7 */

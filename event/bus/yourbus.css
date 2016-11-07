@@ -1,0 +1,216 @@
+@charset "utf-8";
+
+/*トップページ専用*/
+
+/*------------------------------*/
+
+#yourbus #container table,
+#yourbus #container th,
+#yourbus #container td{
+margin:0;
+padding:0;
+border-collapse:separate;
+border:none;
+border-spacing:0;
+}
+
+#yourbus #container table{
+	margin-top:20px;
+width:930px;
+border:1px solid #EEEEEE;
+background:#E6EFF9;
+}
+#yourbus #container th{
+padding:0.8em 0.5em;
+border-color:#EEEEEE #8DB7E6 #EEEEEE #EEEEEE;
+border-style:solid;
+border-width:1px;
+color:#FFFFFF;
+background: #629CDD;
+font-weight:bold;
+text-align:center;
+font-size:14px;
+}
+#yourbus #container td{
+padding:0.8em 0.5em;
+border-color:#EEEEEE #8DB7E6 #8DB7E6 #EEEEEE;
+border-style:solid;
+border-width:1px;
+font-size:14px;
+text-align:center;
+}
+#yourbus #container td a{
+display:block;
+padding:0.5em 0;
+background:#FF9900;
+color:#FFFFFF;
+text-decoration:none;
+font-size:12px;
+text-align:center;
+border:1px solid #629CDD;
+}
+#yourbus #container td a:hover{
+background:#FFCC00;
+}
+
+#yourbus #container table #area{
+background-color:#FFFFCC;
+width:15%;
+}
+#yourbus #container table #departure{
+width:20%;
+}
+#yourbus #container table #arrival{
+width:35%;
+}
+#yourbus #container table #company{
+width:30%;
+}
+
+
+#yourbus #container table.attention caption{
+margin:0 auto;
+padding:20px 0 0 0;
+text-indent:20px;
+font-size:16px;
+font-weight:bold;
+color:#336600;
+text-align:left;
+}
+#yourbus #container table.attention{
+padding:0;
+border-collapse:separate;
+border:none;
+border-spacing:0;
+}
+#yourbus #container table.attention th,
+#yourbus #container table.attention td{
+margin:0;
+padding:0;
+border-collapse:separate;
+border:none;
+border-spacing:0;
+}
+
+#yourbus #container table.attention{
+width:860px;
+border:1px solid #ECFFF0;
+background:#ECFFF0;
+margin: 0 auto;
+}
+#yourbus #container table.attention th{
+width:20%;
+padding:0.8em 0.5em;
+border-color:#336600 #8DB7E6 #ECFFF0 #ECFFF0;
+border-style:solid;
+border-width:1px;
+color:#FFFFFF;
+background: #336600;
+font-weight:bold;
+text-align:center;
+font-size:12px;
+}
+#yourbus #container table.attention td{
+padding:0.8em;
+line-height:1.5em;
+border-color:#ECFFF0 #339900 #339900 #ECFFF0;
+border-style:solid;
+border-width:1px;
+font-size:12px;
+text-align:left;
+}
+#yourbus #container table.attention span{
+color:#FF0000;
+}
+#yourbus #container .busTitle{
+background:url(img/bus_title.gif) no-repeat;
+width:658px;
+height:78px;
+margin:10px auto 5px;
+text-indent:-9999px;
+}
+
+
+/* tabindex */
+
+#yourbus #container .tabNav {
+position:relative;
+z-index:10;
+}
+#yourbus #container .tabNav li {
+float:left;
+margin-right:0.25em;
+list-style:none;
+text-decoration:none;
+color:#629CDD;
+font-weight:bold;
+}
+#yourbus #container .tabNav li a {
+-moz-border-radius-topleft:3px;
+-moz-border-radius-topright:3px;
+background-color:#EEEEEE;
+border:1px solid #CCCCCC;
+display:block;
+padding:0.25em 0.5em;
+text-decoration:none;
+color:#629CDD;
+}
+#yourbus #container .tabNav li a:hover {
+background-color:#F8F8F8;
+color:#629CDD;
+}
+#yourbus #container .tabNav li a.active {
+background-color:#629CDD;
+border-bottom:1px solid #629CDD;
+color:#FFFFFF;
+}
+/* 申込フォーム */
+#container div.entry a{
+display:block;
+padding:0px;
+width:156px;
+height:36px;
+}
+#container div.entry{
+overflow:hidden;
+text-indent:-9999px;
+display:block;
+margin:20px auto;
+padding:0px;
+width:156px;
+height:36px;
+}
+#container div.entry{
+background:url(../img_entryform/entry_normal_on.gif) no-repeat;
+}
+#container div.entry a{
+background:url(../img_entryform/entry_normal.gif) no-repeat;
+}
+#container div.entry a:hover{
+background:none;
+}
+/* その他 */
+.downroad{
+	font-size:12px;
+	font-weight:bold;
+	padding-left:50px;
+	padding-top:10px;
+	float:left;
+	width:;
+	}
+.access{
+	font-size:12px;
+	font-weight:bold;
+	padding-left:20px;
+	padding-top:10px;
+	float:left;
+	width:;
+	}
+.freedial{
+	font-size:12px;
+	font-weight:bold;
+	padding-left:20px;
+	padding-top:10px;
+	float:left;
+	width:;
+	}

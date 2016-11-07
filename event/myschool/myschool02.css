@@ -1,0 +1,361 @@
+@charset "utf-8";
+
+/*------------------------------*/
+
+#myschoolContents{
+	position:relative;
+}
+
+
+#myschoolMain {
+	width:615px;
+	/*float:left;*/
+}
+
+#myschoolSub {
+	position:absolute;
+	top:0;
+	right:0;
+
+	width:278px;
+	}
+
+#myschoolSub h2 {
+	text-align:center;
+	padding-top:20px;
+	margin-bottom:20px;
+	}
+
+#myschoolSub li {
+	list-style:none;
+	border-bottom:1px dotted #d2d2d2;
+	}
+#myschoolSub li a {
+		display:block;
+		text-decoration:none;
+		background:url(img/ico_yaji.png) left center no-repeat;
+		padding:15px 10px 15px 25px;
+		word-break:break-all;
+		word-wrap: break-word;			
+		}
+#myschoolSub li a:hover {
+		background:#DFFEB1 url(img/ico_yaji.png) left center no-repeat;
+		}
+#myschoolSub li a p {
+		text-decoration:none;
+		}
+
+
+#myschool_year,
+#myschool_pg,
+#myschool_flow,
+#myschool_entry{
+	margin-top:20px;
+}
+
+/* tabindex */
+
+#container .tabNav {
+	position:relative;
+	z-index:10;
+}
+
+
+
+#container .tabNav li {
+	float:left;
+	margin-right:1px;
+	/*width:122px;*/
+	width:24.5%;
+	box-sizing:border-box;
+	list-style:none;
+	text-decoration:none;
+	color:#FFF;
+	font-weight:bold;
+	font-size:10px;
+	text-indent:2em;
+}
+#container .tabNav li span {
+	font-family: 'Acme',sans-serif,"メイリオ","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Georgia","Meiryo","ＭＳ Ｐゴシック";
+	font-size:13px;
+}
+
+
+
+/*#container .tabNav li {
+	float:left;
+	margin-right:1px;*/
+	/*width:122px;*/
+	/*width:24.5%;
+	box-sizing:border-box;
+	list-style:none;
+	text-decoration:none;
+	color:#FFF;
+	font-weight:bold;
+	font-size:10px;
+}
+#container .tabNav li span {
+	font-family: 'Acme',sans-serif,"メイリオ","ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","Georgia","Meiryo","ＭＳ Ｐゴシック";
+	font-size:14px;
+}*/
+
+
+#container .tabNav li a {
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+	display:block;
+	/*padding:5px;*/
+	/*height:45px;*/
+	padding:15px 0 0 5px;
+	height:30px;
+	text-decoration:none;
+	color:#FFF;
+	border:none;
+	background: url("img/icolistWhite.png") no-repeat 8px 16px;
+}
+
+#container .tabNav li.petTab a {
+	background-color:#E66373;
+	border-bottom:2px solid #E66373;
+}
+#container .tabNav li.petTab a:hover,
+#container .tabNav li.petTab a:hover.active {
+	color:#E66373;
+	background-color:#EFEFEF;
+	border-bottom:2px solid #E66373;
+}
+
+/*分野ナビ.tabNav a:hover 20150710追加 ここから*/
+#container .tabNav li a:hover {
+	background: url("img/icolistWhite_on.png") no-repeat 8px 16px;
+}
+/*分野ナビ.tabNav a:hover 20150710追加 ここまで*/
+
+
+#container .tabNav li.petTab a.active {
+	background-color:#E66373;
+	border-bottom:2px solid #D92239;
+}
+
+#container .tabNav li.animalTab a {
+	background-color:#F39802;
+	border-bottom:2px solid #F39802;
+}
+#container .tabNav li.animalTab a:hover,
+#container .tabNav li.animalTab a:hover.active {
+	color:#F39802;
+	background-color:#EFEFEF;
+	border-bottom:2px solid #F39802;
+}
+#container .tabNav li.animalTab a.active {
+	background-color:#F39802;
+	border-bottom:2px solid #BC7601;
+}
+
+#container .tabNav li.oceanTab a {
+	background-color:#0AA8E2;
+	border-bottom:2px solid #0AA8E2;
+}
+#container .tabNav li.oceanTab a:hover,
+#container .tabNav li.oceanTab a:hover.active {
+	color:#0AA8E2;
+	background-color:#EFEFEF;
+	border-bottom:2px solid #0AA8E2;
+}
+#container .tabNav li.oceanTab a.active {
+	background-color:#0AA8E2;
+	border-bottom:2px solid #0780AD;
+}
+
+#container .tabNav li.flowerTab a {
+	background-color:#8EC322;
+	border-bottom:2px solid #8EC322;
+}
+#container .tabNav li.flowerTab a:hover,
+#container .tabNav li.flowerTab a:hover.active {
+	color:#8EC322;
+	background-color:#EFEFEF;
+	border-bottom:2px solid #8EC322;
+}
+#container .tabNav li.flowerTab a.active {
+	background-color:#8EC322;
+	border-bottom:2px solid #618417;
+}
+
+#container .tabNav li.agriTab a {
+	background-color:#27AC39;
+	border-bottom:2px solid #27AC39;
+}
+#container .tabNav li.agriTab a:hover,
+#container .tabNav li.agriTab a:hover.active {
+	color:#27AC39;
+	background-color:#EFEFEF;
+	border-bottom:2px solid #27AC39;
+}
+#container .tabNav li.agriTab a.active {
+	background-color:#27AC39;
+	border-bottom:2px solid #1A6F24;
+}
+
+
+
+/*プログラム詳細*/
+#myschool_pg .petPg,
+#myschool_pg .animalPg,
+#myschool_pg .oceanPg,
+#myschool_pg .flowerPg,
+#myschool_pg .agriPg{
+	width:603px;
+	border:1px solid #CCC;
+	overflow:hidden;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:9px;
+}
+
+
+#myschool_pg p.pg_lead{
+	line-height:200%;
+}
+#myschool_pg p.pg_lead span{
+	 border-radius:3px;        /* CSS3草案 */  
+    -webkit-border-radius:3px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius:3px;   /* Firefox用 */
+	color:#FFF;
+	font-weight:bold;
+	font-size:14px;
+	padding:5px 10px;
+	display:inline-block;
+}
+
+#myschool_pg .petPg p.pg_lead span{
+	background-color:#E66373;
+}
+#myschool_pg .animalPg p.pg_lead span{
+	background-color:#F39802;
+}
+#myschool_pg .oceanPg p.pg_lead span{
+	background-color:#0AA8E2;
+}
+#myschool_pg .flowerPg p.pg_lead span{
+	background-color:#8EC322;
+}
+#myschool_pg .agriPg p.pg_lead span{
+	background-color:#27AC39;
+}
+
+#myschool_pg dl{
+	width:190px;
+	border:1px solid #CCC;
+	float:left;
+	margin-top:9px;
+	margin-right:9px;
+	padding-bottom:3px;
+}
+
+#myschool_pg dt{
+	width:172px;
+	margin-top:4px;
+	margin-left:4px;
+	padding:5px;
+	font-weight:bold;
+	color:#FFF;
+}
+
+#myschool_pg dd{
+	width:182px;
+	margin-top:4px;
+	margin-left:4px;
+	font-size:10px;
+}
+
+#myschool_pg dd.date{
+	font-weight:bold;
+	font-size:11px;
+}
+
+#myschool_pg .petPg dt{
+	background-color:#E66373;
+}
+#myschool_pg .animalPg dt{
+	background-color:#F39802;
+}
+#myschool_pg .oceanPg dt{
+	background-color:#0AA8E2;
+}
+#myschool_pg .flowerPg dt{
+	background-color:#8EC322;
+}
+#myschool_pg .agriPg dt{
+	background-color:#27AC39;
+}
+
+#myschool_pg .petPg dd.date{
+	color:#E66373;
+}
+#myschool_pg .animalPg dd.date{
+	color:#F39802;
+}
+#myschool_pg .oceanPg dd.date{
+	color:#0AA8E2;
+}
+#myschool_pg .flowerPg dd.date{
+	color:#8EC322;
+}
+#myschool_pg .agriPg dd.date{
+	color:#27AC39;
+}
+
+#myschool_pg .btn_entry{
+	margin-top:10px;
+	text-align:center;
+}
+	#myschool_pg dd.date span {
+		color: #F00;
+	}
+	#myschool_pg dd.date span.sat {
+		color: #0066FF;
+	}
+	#myschool_pg dd.date span.normal {
+		color: #333;
+	}
+	
+	
+#myschool_pg .tel_entry{
+	width:80%;
+	margin:20px auto;
+	padding:10px;
+	font-size:1.6em;
+	text-align:center;
+	background:#d6fda6;
+}
+	
+#myschool_pg .tel_entry p{
+	padding-top:5px;
+	line-height:1.4;
+}
+
+
+#myschoolMain p.bgtit span{
+	 border-radius:3px;        /* CSS3草案 */  
+    -webkit-border-radius:3px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius:3px;   /* Firefox用 */
+	color:#FFF;
+	font-weight:bold;
+	font-size:14px;
+	padding:5px 10px;
+	margin-right:10px;
+	display:inline-block;
+	background-color:#E66373;
+}
+
+
+/*myschool_entr*/
+#myschool_entry{
+	position:relative;
+}
+#myschool_entry .btn_entry{
+	position: absolute;
+	top: 204px;
+	left: 183px;
+}

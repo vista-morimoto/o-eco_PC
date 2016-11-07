@@ -1,0 +1,153 @@
+@charset "utf-8";
+#highway #container{
+	width:800px;
+	margin:auto;
+	position:relative;
+	padding-top:327px;
+	}
+#highway #container #header{
+	height:327px;
+	background:url(img/title.jpg) no-repeat;
+	width:1100px;
+	position:absolute;
+	top:0px;
+	left:-150px;
+	
+}
+#highway #container .entry{
+	display:block;
+	width:800px;
+	margin:auto;
+}
+#highway #container table,
+#highway #container th,
+#highway #container td{
+font-family:"ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace;
+margin:0;
+padding:0;
+border-collapse:collapse;
+border:none;
+border-spacing:0;
+}
+#highway #container table{
+width:800px;
+border:1px solid #EEEEEE;
+background-color:#FFFFFF;
+margin:auto;
+}
+#highway #container th{
+padding:0.6em 0.5em;
+background-color:#EDEDED;
+border:1px solid #CCCCCC;
+color:#333333;
+font-weight:normal;
+text-align:center;
+font-size:12px;
+}
+#highway #container td{
+padding:0.6em 0.5em;
+border:1px solid #CCCCCC;
+font-size:14px;
+text-align:center;
+}
+#highway #container td.area{
+color:#039;
+font-weight:bold;
+}
+#highway #container td.start{
+background:#FFC;
+text-align:left;
+/*font-weight:bold;*/
+font-size:14px;
+color:#333333;}
+#highway #container td.place{
+background:#FFC;
+text-align:left;
+/*font-weight:bold;*/
+font-size:12px;
+color:#333333;
+}
+#highway #container td.map{
+background:#FFF;
+}
+
+/*#highway #container td a{
+display:block;
+padding:0.5em 0;
+background:#FF9900;
+color:#FFFFFF;
+text-decoration:none;
+font-size:12px;
+text-align:center;
+border:1px solid #629CDD;
+}
+#highway #container td a:hover{
+background:#FFCC00;
+}*/
+#highway #container #footer{
+	width:798px;
+	color:#333;
+	font-size:10px;
+	margin:10px auto;
+	border:#262B87 1px solid;
+}
+#highway #container #footer p{
+/*	float:left;*/
+	text-align:center;
+/*	width:368px;*/
+	padding:10px 15px 0px;
+	color:#333;
+	font-size:10px;
+	margin:auto;
+	line-height:1.5;
+}
+#highway #container #footer p.copy{
+	color:#FFF;
+	background:#262B87;
+	clear:both;
+	float:none;
+	width:788px;
+	margin:10px auto 0;
+	padding:5px;
+	}
+
+.text{
+margin:10px 0 10px 0;
+font-size:80%;
+	}
+
+#conditions {
+	border:2px solid #FF2C01;
+	padding:10px;
+	background:#FFE4DF;
+	width:732px;/*752-20*/
+	margin:0 auto 10px auto;	
+	}
+#conditions dt,
+#conditions dd {
+	display:table-cell;
+	vertical-align:middle;
+}
+#conditions dt {
+	width:80px;
+	
+	}
+#conditions li {
+	font-size:0.75em;
+	margin-bottom:4px;
+}
+
+/* IE7 用中央ぞろえ */
+*:first-child+html #conditions dt,
+*:first-child+html #conditions dd {
+	display: inline;  
+    vertical-align: middle;  
+    zoom: 1;  
+} 
+*:first-child+html #conditions dd#dummy {
+		width: 0;
+		height: 100%;
+		vertical-align: middle;
+		display: inline-block;
+	}
+/* // IE7 用中央ぞろえ */

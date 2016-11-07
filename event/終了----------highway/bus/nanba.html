@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="Author.Corporate" content="大阪ECO動物海洋専門学校 旧校名・OCA-大阪コミュニケーションアート専門学校">
+<meta name="Publisher" content="大阪ECO動物海洋専門学校 旧校名・OCA-大阪コミュニケーションアート専門学校">
+<meta name="description" content="ドッグ、動物、海洋、環境、フラワーの総合学園。ペットトリマー、動物看護士、アニマルセラピー、ドッグカフェ、ペットファッション、動物園飼育、水族館スタッフ、ドルフィントレーナー、野生動物、海洋生物、ブライダルフラワー、フローリストなど様々な職業を目指す専門学校。">
+<meta name="keywords" content="動物専門学校,大阪専門学校,大阪動物専門学校,専門学校,学校,動物,動物看護,トリマー,ドッグトレーナー,家庭犬トレーナー,ドルフィントレーナー,水族館スタッフ,フラワー">
+<meta name="copyright" content="(C)OSAKA COMMUNICATION ARTS. ALL RIGHTS RESERVED">
+<title>無料高速バス | 動物専門学校　 大阪ECO動物海洋専門学校 旧校名・OCA-大阪コミュニケーションアート専門学校 大阪エコ</title>
+<link rel="stylesheet" href="../../css/reset.css" type="text/css">
+<link rel="stylesheet" href="map.css" type="text/css">
+<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAv5i8Cr9Obbwv3hezDUYsLRTbrwYG2rqMy2DU2TmRmWlnF43BUBSPYcGgSBYekOpPLFTyc_DxDF-8cg"
+type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function load() {
+  if (GBrowserIsCompatible()) {
+var map = new GMap2(document.getElementById("map"));
+map.addControl(new GLargeMapControl());
+map.setCenter(new GLatLng(34.675860056872865,135.49365479736328), 16);
+
+// ===== マーカーとフキダシ（変更不要） =====
+function createMarker(point,html) {
+var marker = new GMarker(point);
+GEvent.addListener(marker, "click", function() {
+marker.openInfoWindowHtml(html);
+});
+return marker;
+}
+// ===== ポイント設置設定、前が緯度（Lat）、後が経度（Lng） =====
+// ===== ポイント1 =====
+var point = new GLatLng(34.677358462145,135.49412626134); //★位置設定
+var marker = createMarker(point,'<div style="font-size:12px;line-height:1.2;padding:8px; background-color:#CCFFCC; border:solid 1px #336600;" >大阪コミュニケーションアート<br>エコ校舎<br>〒550-0013 大阪市西区新町1-32-1<\/div><img src="img/eco.jpg" style="margin-top:10px;">'); // ★
+map.addOverlay(marker);
+// ===== ポイント2 =====
+var point = new GLatLng(34.674981393430016,135.49151480197906); //★位置設定
+var marker = createMarker(point,'<div style="font-size:12px;line-height:1.2;padding:8px; background-color:#CCCCFF; border:solid 1px #6600CC;" >大阪コミュニケーションアート<br>クリエーティブ校舎<br>〒550-0014 大阪市西区北堀江2-9-14<\/div><img src="img/cre.jpg" style="margin-top:10px;">'); // ★
+map.addOverlay(marker);
+// ===== ポイント3 =====
+var point = new GLatLng(34.67548652665995,135.49661368131637); //★位置設定
+var marker = createMarker(point,'<div style="font-size:12px;line-height:1.2;padding:8px; background-color:#FFFFFF; border:solid 1px #000000;" >地下鉄四つ橋線<br>四ツ橋駅2番出口<\/div>'); // ★
+map.addOverlay(marker);
+	  
+/*var icon = new GIcon();
+icon.image = "img/bus.png";
+icon.iconSize = new GSize(33,52);
+icon.iconAnchor = new GPoint(17,52);*/
+/*var point1 = new GLatLng(34.677358462145,135.49412626134);
+var marker1 = new GMarker(point1);
+map.addOverlay(marker1);
+var point2 = new GLatLng(34.674981393430016,135.49151480197906);
+var marker2 = new GMarker(point2);
+map.addOverlay(marker2);
+var point3 = new GLatLng(34.67548652665995,135.49661368131637);
+var marker3 = new GMarker(point3);
+map.addOverlay(marker3);
+var offset = new GSize(0, 0);*/
+//map.openInfoWindowHtml(point,'高速バスのりば', offset);
+/*GEvent.addListener(marker1,"click",function(){
+map.openInfoWindowHtml(point1,'<div style="font-size:12px;line-height:1.2;padding:8px; background-color:#CCFFCC; border:solid 1px #336600;" >大阪コミュニケーションアート<br>エコ校舎<br>〒550-0013 大阪市西区新町1-32-1<\/div><img src="img/eco.jpg" style="margin-top:10px;">', offset)})
+GEvent.addListener(marker2,"click",function(){
+map.openInfoWindowHtml(point2,'<div style="font-size:12px;line-height:1.2;padding:8px; background-color:#CCCCFF; border:solid 1px #6600CC;" >大阪コミュニケーションアート<br>クリエーティブ校舎<br>〒550-0014 大阪市西区北堀江2-9-14<\/div><img src="img/cre.jpg" style="margin-top:10px;">', offset)})
+GEvent.addListener(marker3,"click",function(){
+map.openInfoWindowHtml(point3,'<div style="font-size:12px;line-height:1.2;padding:8px; background-color:#FFFFFF; border:solid 1px #000000;" >地下鉄四つ橋線<br>四ツ橋駅2番出口<\/div>', offset)})*/
+
+// ============Polyline 描画の設定、緯度（Lat）、経度（Lng）でいくつでも可能=========
+// ======線１エコ========
+var polyline = new GPolyline([new GLatLng(34.67548652665995,135.49661368131637),new GLatLng(34.6756012289729,135.49444645643234),new GLatLng(34.67600268581725,135.4944545030594),new GLatLng(34.676719568199104,135.4942426085472), new GLatLng(34.677358462145,135.49412626134)],"#00CC00", 5, 0.5); // 赤の線、太さ最大（10）、2割の透過
+map.addOverlay(polyline);
+// ======線２クリエ========
+var polyline = new GPolyline([new GLatLng(34.67548652665995,135.49661368131637),new GLatLng(34.67502771581957,135.49661368131637),new GLatLng(34.67529903215247,135.49149870872497), new GLatLng(34.674981393430016,135.49151480197906)],"#0000ff", 5, 0.5); // 青の線、太さ7、6割の透過
+map.addOverlay(polyline);
+// ============Polyline 以上==================
+
+}
+}
+//]]>
+</script>
+</head>
+<body onload="load()" onunload="GUnload()" id="osaka">
+<div id="text">
+<p class="title">到着地(なんば-OCAT)からECO校舎まで</p>
+<p>■なんば-OCAT到着後…<br>
+↓(徒歩5分)<br>
+■地下鉄四つ橋線なんば駅<br>
+↓(乗車1分)<br>
+■四ツ橋駅2番出口<br>
+↓<br>
+各校舎へは右のマップをご参照ください。<br>
+マーカーをクリックすると情報が表示されます。</p>
+</div>
+<div id="map" style="width: 400px; height: 400px"></div>
+
+</body>
+</html>

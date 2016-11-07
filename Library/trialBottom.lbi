@@ -1,0 +1,28 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div >
+  <dl class="goSelectFooter">
+    <dt><img src="../event/img_common/txt_fukidashiF.png" width="254" height="121" alt="体験入学を行きたい日と好きな分野から探せるもにょ。" /></dt>
+    <dd id="jyokenBtnFooter"><a href="../event/trial/conditional/" title="体験メニューをあなたの条件で探してみよう！"><img src="../event/img_common/btn_jyoken.png" width="274" height="40" alt="あなたの条件で探す" /></a></dd>
+    <dd id="kaedeFooter"><img src="../event/img_common/kaede.png" width="76" height="80" alt="アルパカかえで" /></dd>
+  </dl>
+</div>
+<!--<div id="trialMenuSmall">
+  <ul>
+    <li id="selectMenulist"><a href="select.html" class="current">ワンだふるフェスタメニュー</a></li>
+    <li id="dogMenulist"><a href="../event/trial/dog.html">ドッグメニュー</a></li>
+    <li id="animalMenulist"><a href="../event/trial/animal.html">動物メニュー</a></li>
+    <li id="marineMenulist"><a href="../event/trial/marine.html">海洋メニュー</a></li>
+    <li id="natureMenulist"><a href="../event/trial/animal.html">自然環境メニュー</a></li>
+    <li id="flowerMenulist"><a href="../event/trial/agriculture.html">フラワーメニュー</a></li>
+    <li id="agricultureMenulist"><a href="../event/trial/agriculture.html">農業メニュー</a></li>
+    <li id="openMenulist"><a href="opencampus.html" class="current">オープンキャンパス</a></li>
+  </ul>
+</div>-->
+<br>
+<div class="CenterMargin"><img src="../event/trial/img/time_schedule.gif" alt="1日のタイムスケジュール" class="mb20"></div>
+<dl class="taikenSupple">
+    <dt>持ち物・服装について</dt>
+    <dd>特に持ち物はありません。</dd>
+    <dd>私服で大丈夫です。</dd>
+    <dd>動物と触れ合う体験もありますので、動きやすい服装でお越しください。</dd>
+</dl>

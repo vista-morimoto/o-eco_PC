@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+h2 {
+	background:#88CD3E;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	behavior: url(../img02/border-radius.htc);
+	font-size:1.4em;
+	color:#FFF;
+	line-height:46px;
+	padding-left:15px;
+	margin-bottom:20px;
+	}
+/* 
+-----------------------------------------*/
+#privacy .normalBox{
+	width:866px;
+	margin:auto;
+	padding:10px;
+	line-height:1.3;
+	}
+#privacy .normalBox p{
+	padding:0 0 10px 0;
+	}
+#privacy .normalBox p strong{
+	display:block;
+	font-size:16px;
+	font-weight:bold;
+	color:#060;
+	margin-bottom:3px;
+	}
+#privacy .normalBox p em{
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	color:#060;
+	padding:10px 0 0 0;
+	border-top:#CCC dotted 1px;
+	}
+#privacy .normalBox p.notes{
+	font-size:10px;
+	}
+#privacy .normalBox img{
+	margin:10px 0;
+	}
+#privacy .normalBox ol li{
+	margin:10px 0;
+	}
+#privacy .normalBox ol li{
+	list-style:inside decimal;
+	margin:5px 0;
+	}
+#privacy .normalBox dl{
+	margin:20px 0;
+	}
+#privacy .normalBox dl dt{
+	margin-top:10px;
+	font-weight:bold;
+	}
+#privacy .normalBox dl dd{
+	padding:0 0 0 5px;
+	}
+#privacy .normalBox dl#personal{
+	margin:0;
+	}
+#privacy .normalBox p#ask{
+	padding:10px 10px 10px 20px;
+	background:#FFC;
+	margin:10px;
+	}
+#privacy .normalBox p#ask strong{
+	font-size:14px;
+	font-weight:bold;
+	color:#000;
+	margin-bottom:0;
+	}
+#privacy .normalBox p#name{
+	text-align:right;
+	margin:10px;
+	font-size:14px;
+	font-weight:bold;
+	}
+
+.normalBox h3 {
+	background: #82C929;
+	color: #FFF;
+	font-size: 1.4em;
+	padding: 0 10px;
+	margin:15px 0 15px 0;
+	line-height: 26px;
+	font-family: UD Shin Go NT Bold;
+	border-radius:4px;
+}
+
+.normalBox > div {
+	margin:0 25px;
+	}
+	.normalBox ul {
+		background:#EDF7DF;
+		padding:15px;
+		}
+	.normalBox ul li {
+		margin-bottom:5px;
+		}
