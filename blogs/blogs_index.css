@@ -1,0 +1,391 @@
+@charset "UTF-8";
+
+@import url("blog.css");
+/*@import url("pc.css") screen and (min-width: 769px); PC */
+/*@import url("sp.css") screen and (max-width: 768px) ; スマートフォン */
+/*@import url("tablet.css") screen and (min-width: 481px); タブレット */
+/*@import url("sp.css") screen and (max-width: 480px) ; スマートフォン */
+
+/*スマートフォン*/
+@media screen and (max-width: 768px) {
+	
+/* ================= sp.css ======================
+
+■スマートフォン用
+
+1.reset
+2.common
+　2-1.header_nav
+　2-2.layout
+　2-3.sns
+　2-4.pager
+　2-5.footer
+3.index
+4.post
+5.menu
+
+============================================= */
+
+
+/*---------------------------------------------- 
+ 2.common
+---------------------------------------------- */
+
+/* 2-2.layout
+---------------------------------------------- */
+#sb-site {
+	padding-top:40px!important;
+}
+#wrapper {
+	background: #FFF;
+	border-top: 5px solid #AE1619;
+	position: relative;
+	width:100%;
+}
+.contents {
+	width:100%;
+	position:relative;
+}
+.contents_main {
+	float:none;
+	width:96%;
+	margin:0 auto;
+}
+
+h1.pageTitle {
+	font-size:18px;
+	margin:10px auto 20px;
+
+	background: #88CD3E;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	font-size: 1.4em;
+	color: #FFF;
+	line-height: 46px;
+	padding-left: 15px;
+}
+/*---------------------------------------------- 
+ 3.index
+---------------------------------------------- */
+.blogindex_list {
+	/*margin-left:-20px;*/
+	}
+.blogindex_box {
+	/*background:#88cd3e;
+	width:330px;
+	float:left;
+	margin-left:20px;
+	border-radius:4px;*/
+    /*background: url("http://osaka-eco.ac.jp/common/img/arrowGreen.png") 99% center no-repeat;*/
+	padding:10px 0;
+	border-bottom:1px dotted #C07B24;
+	}
+.blogindex_box h3 {
+	/*font-size:1.4em;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+	margin-bottom:10px;*/
+	border-bottom:3px solid #88CD3E;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	}
+.blogindex_box h3 span {
+    background: url("http://www.osaka-eco.ac.jp/blog/img/bg_guidance.gif") repeat scroll left top #faedca;
+    border-radius: 3px;
+    padding:4px 5px;
+	font-size:10px;
+	color:#333;
+	margin-right:5px;
+}
+
+.blogindex_box iframe {
+	width: 100%;
+	/*height: 180px;*/
+	overflow-y: hidden;
+}
+
+#OldBlog li {
+	text-align:center;
+	margin-bottom:15px;
+	}
+/*------------------------------------ clear*/
+.blogindex_box:after {
+  content: ".";  /* 新しい要素を作る */
+  display: block;  /* ブロックレベル要素に */
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+	.blogindex_box {
+	  min-height: 1px;
+	}
+.blogindex_list:after {
+  content: ".";  /* 新しい要素を作る */
+  display: block;  /* ブロックレベル要素に */
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+
+/*---------------------------------------------- 
+ 4.post
+---------------------------------------------- */
+
+/*---------------------------------------------- 
+ 5.menu
+---------------------------------------------- */
+
+/* ---------------
+ * 003 - Slidebars
+ */
+
+/* --------------------
+ * 004 - Slidebar Menus
+ */
+ 
+/* Main Menu */
+.sb-menu { /* Apply to <ul> or <ol>. */
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.sb-menu li {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	border-top: 1px solid rgba(255, 255, 255, 0.1); /* Will lighten any background colour you set. */
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Will darken any background colour you set. */
+}
+
+.sb-menu > li:first-child {
+	border-top: none; /* Removes top border from first list item.. */
+}
+
+.sb-menu > li:last-child {
+	border-bottom: none; /* Removed bottom border from last list item. */
+}
+
+.sb-menu li a {
+	width: 100%; /* Makes links full width. */
+	display: inline-block;
+	padding: 1em; /* Creates an even padding the same size as your font. */
+	color: #483606;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.sb-menu li a:hover {
+	text-decoration: none;
+	background-color: rgba(255, 255, 255, 0.05); /* Will lighten any background colour you set. */
+}
+
+/* Borders */
+.sb-left .sb-menu li a {
+	border-left: 3px solid transparent;
+}
+
+.sb-left .sb-menu li a:hover {
+	border-left: 3px solid; /* Removes transparent colour, so border colour will be the same as link hover colour. */
+}
+
+.sb-right .sb-menu li a {
+	border-right: 3px solid transparent;
+}
+
+.sb-right .sb-menu li a:hover {
+	border-right: 3px solid; /* Removes transparent colour, so border colour will be the same as link hover colour. */
+}
+
+/* Submenus */
+.sb-submenu {
+	display: none;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	background-color: rgba(255, 255, 255, 0.05); /* Submenu background colour. */
+}
+
+/* Caret */
+span.sb-caret {
+	width: 0;
+	height: 0;
+	display: inline-block;
+	margin: 0 5px;
+	border: 5px solid transparent;
+}
+
+span.sb-caret { /* Caret Down */
+	border-top: 5px solid;
+	border-bottom: 0px solid transparent;
+}
+
+.sb-submenu-active > span.sb-caret { /* Caret Up */
+	border-top: 0px solid transparent;
+	border-bottom: 5px solid;
+}
+
+/* ----------------------
+ * 005 - Slidebar Widgets
+ */
+
+.sb-widget {
+	border-radius: 3px;
+	border: 1px solid rgba(255, 255, 255, 0.1); /* Will lighten any background colour you set. */
+	margin: 14px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25); /* Slight shadow. */
+}
+
+.sb-widget-header {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Will darken any background colour you set. */
+	padding: 14px;
+	background-color: #292929; /* Widget title background colour. */
+}
+
+.sb-widget-title {
+	margin: 0; /* Removes browser default margins for heading tags. */ 
+}
+
+.sb-widget-content {
+	border-top: 1px solid rgba(255, 255, 255, 0.1); /* Will lighten any background colour you set. */
+	padding: 14px;
+	background-color: #262626; /* Widget content background colour. */
+}
+
+/* ------------------------
+ * 006 - Top Navigation Bar
+ */
+
+
+/* -----------------------
+ * 007 - Slidebar Controls
+ */
+
+}
+
+
+/*PC*/
+@media screen and (min-width: 769px) {
+	
+/* ================= pc.css ======================
+■PC用
+
+1.reset
+2.common
+3.index
+4.post
+5.side
+============================================= */
+
+/*---------------------------------------------- 
+ 1.reset
+---------------------------------------------- */
+
+/*---------------------------------------------- 
+ 2.common
+---------------------------------------------- */
+#sb-site {
+	/*padding:0 0 49px !important;	*/
+}
+#sb-site { margin-bottom:-25px\9;}
+
+/*---------------------------------------------- 
+ 2-2.layout
+---------------------------------------------- */
+.contents {
+	position: relative;
+	width: 960px;
+	margin: 20px auto 0;
+	clear: both;
+	overflow: hidden;
+}
+.contents_main {
+    float: right;
+    overflow: hidden;
+    position: relative;
+    width: 680px;
+	}
+.blogindex_list {
+	margin-left:-20px;
+	}
+.blogindex_box {
+	background:#88cd3e;
+	width:330px;
+	float:left;
+	margin-left:20px;
+	margin-bottom:20px;
+	border-radius:4px;
+	}
+.blogindex_box h3 {
+	font-size:1.4em;
+	color:#FFF;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5px;
+	margin-bottom:5px;
+	}
+.blogindex_box h3 span {
+    background: url("http://www.osaka-eco.ac.jp/blog/img/bg_guidance.gif") repeat scroll left top #faedca;
+    border-radius: 3px;
+    padding:4px 5px;
+	font-size:10px;
+	color:#333;
+	margin-right:5px;
+}
+.blogindex_boxIn {
+	padding:10px;
+	border-radius:4px;
+	}
+.blogindex_box iframe {
+	width: 100%;
+	height: 190px;
+	overflow-y: hidden;
+}
+
+#OldBlog {
+	margin-left:-10px;
+}
+	#OldBlog li {
+		float:left;
+		margin:0 0 10px 10px;
+		}
+
+/*---------------------------------------------- 
+ 3.index
+---------------------------------------------- */
+
+/*------------------------------------ new post*/
+/*------------------------------------ select month*/
+/*---------------------------------------------- 
+ 4.post
+---------------------------------------------- */
+/*---------------------------------------------- 
+ 5.side
+---------------------------------------------- */
+}
+/*---------------------------------------------- 
+ general
+---------------------------------------------- */
+.fleft {
+	float:left!important;
+	}
+.fright {
+	float:right!important;
+	}
+
+.clearfix:after {
+content: ".";  /* 新しい要素を作る */
+display: block;  /* ブロックレベル要素に */
+clear: both;
+height: 0;
+visibility: hidden;
+}
+.clearfix { /*IE用*/
+min-height: 1px;
+_height: 1px;
+}

@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ベース　（サイト全体の設定）
+-----------------------------------------*/
+html {
+}
+
+a {
+	color:#0066CC;
+}
+
+a:visited {
+	color:#333399;
+}
+
+a:hover {
+	color:#33CCFF;
+}
+
+body {
+	background:url(../img/bg.gif) repeat-y top;
+	color:#333;
+	font-size:12px;	
+	font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",;
+	line-height:1.5;
+}
+
+div#wrapper {
+	width:860px;
+	margin:0 auto;
+}
+
+div#header {
+	width:860px;
+	height:110px;
+	margin-bottom:10px;
+	background-image:url(../img/header.jpg);
+	position:relative;
+}
+
+div#header h1 a {
+	position:absolute;
+	left:21px;
+	top:32px;
+	display:block;
+	width:259px;
+	height:41px;
+	text-indent:-9999px;
+	overflow:hidden;
+	background-image:url(../img/h1.jpg);
+}
+
+div#main {
+	clear:both;
+}
+
+div#footer {
+	width:860px;
+	height:56px;
+	margin:0 auto;
+}
+
+div#footer address {
+	text-align:center;
+	padding:10px 0 0 0;
+	border-top:1px solid #70C00E;
+}
+
+#contents{
+	float:right;
+	width:600px;
+	}
+
+div#navi {
+	width:222px;
+}
+
+div#navi ul {
+	width:222px;
+	margin:0 auto;
+}
+
+div#navi ul li {
+	display:block;
+	float:left;
+	margin-top:3px;
+}
+
+
+
+
+

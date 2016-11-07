@@ -1,0 +1,396 @@
+/* reset.css回避用 */
+img{
+	vertical-align:top;
+	}
+/* clearfix */	
+.clearfix:after {
+content: ".";  /* 新しい要素を作る */
+display: block;  /* ブロックレベル要素に */
+clear: both;
+height: 0;
+visibility: hidden;
+}
+.clearfix { /*IE用*/
+min-height: 1px;
+_height: 1px;
+}
+/* デフォルトリンク設定 */
+a,
+a:link,
+a:visited {
+	color:#C00;
+	}	
+a:hover {
+	color:#C60;
+	}	
+
+
+/* ----------------- */
+body{
+	/*background:url(../img/head_bg.jpg) repeat-x top left;*/
+	}
+
+div.content {
+	display: none;
+	float: left;
+	width: 442px;
+	/*height:390px;*/
+	/*height:530px;*/
+	height:600px;
+	border:4px solid #EEEEEE;
+}
+
+/*div.content a, div.navigation a {
+}
+div.content a:focus,
+div.content a:hover,
+div.content a:active {
+}*/
+
+
+/* メイン画像 */
+div.slideshow-container {
+	position: relative;
+	top:5px;
+	clear: both;
+	height: 400px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+/* メイン部分のローディング */
+div.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 450px;
+	height: 400px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.slideshow {	
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+	text-align:center;
+}
+
+/* メイン部分のリンク範囲 */
+div.slideshow a.advance-link {
+	display: block;
+	text-decoration:none;
+	/*line-height: 487px;*/
+}
+div.slideshow a.advance-link:hover,
+div.slideshow a.advance-link:active,
+div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow img {
+	width:auto;
+}
+
+div.caption-container {
+	position: relative;
+/*	clear: left;*/
+	height: 75px;
+}
+span.image-caption {
+	display: block;
+	position: absolute;
+/*	width: 450px;
+	top: 0;
+	left: 0;*/
+}
+div.caption {
+	padding: 12px;
+}
+
+
+/* 犬の名前 */
+div.image-title {
+	margin:0 0 10px 0;
+}
+div.image-title span{
+	background:url(../img/dogmark.gif) no-repeat top left;
+	padding:3px 10px 3px 40px;
+	font-weight: bold;
+	font-size: 16px;
+	color:444444;
+	border-bottom:#FF3D00 2px solid;
+}
+/* 犬のリード文 */
+div.download {
+	font-size:12px;
+	line-height:1.3;
+}
+
+/* 犬の詳細 */
+div.image-desc {
+	line-height: 1.3;
+	padding-top: 12px;
+}
+div.image-desc dl{
+	margin:0 0 3px 0;
+	padding:0 3px 3px 0;	
+	line-height:1.2;
+	font-size:12px;
+	/*border-bottom:2px #CCC dotted;*/
+	width:410px;
+}
+div.image-desc dl.lastChild{
+	border-bottom:none;
+}
+div.image-desc dt{
+	background-color:transparent;
+	background-image:url(../img/bg_kenshudt.gif);
+	background-position:left top;
+	background-repeat:no-repeat;
+	width:130px;
+	float:left;
+	padding:4px 0;
+	color:#FFF;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+}
+div.image-desc dd{
+	display:block;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:140px;
+	color:#FF3800;
+	font-size:14px;
+	font-weight:bold;
+}
+
+div.image-desc p{
+margin-top:10px;
+line-height:180%;
+}
+
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+ul.thumbs li {
+	float: left;
+	margin:0;
+}
+ul.thumbs li a.thumb {
+	margin:0 0 20px 8px;
+	padding: 5px 2px;
+	display: block;
+	border: 1px solid #CCC;
+	width:94px;
+	height:89px;
+	text-decoration:none;
+}
+ul.thumbs li a.thumb p{
+	color:#777777;
+	font-size:12px;
+	text-align:center;
+	padding:5px 0 0 0;
+}
+ul.thumbs li.selected a.thumb {
+	background: #EEE;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	display: block;
+	margin:auto;
+	height:90px;
+	width:90px;
+}
+
+
+
+/* ナビゲーション全体（サムネイル含む） */
+div.navigation {
+	position:relative;
+	margin-top:-44px;
+}
+
+/* ページネーションナビ配置div */
+div.navigation div.top {
+	margin:0 0 4px;
+}
+div.navigation div.bottom {
+	clear:both;
+}
+
+/* ページネーションナビ詳細（整形） */
+div.pagination{
+	float:right;
+	font-size:10px;
+	}
+div.pagination a,
+div.pagination span.current,
+div.pagination span.ellipsis {
+	display: block;
+	float: left;
+	margin-left: 10px;
+	/*padding: 4px 7px 2px 7px;
+	border: 1px solid #CCC;*/
+	padding:0 10px;
+	min-height:40px;
+	min-width:20px;
+	border: 1px solid #090;
+	border-radius: 3px;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+	color:#090;
+	text-align:center;
+	line-height:40px;
+	text-decoration:none;
+}
+div.pagination a:hover {
+	background:url(../img/bg_pagination.png);
+	text-decoration: none;
+	color:#FFF;
+}
+div.pagination span.current {
+	font-weight: bold;
+	background:url(../img/bg_pagination.png);
+	border-color: #090;
+	color: #FFF;
+}
+div.pagination span.ellipsis {
+	border: none;
+	padding: 5px 0 3px 2px;
+}
+
+/* スライドショーナビ */
+div.controls {
+	width:450px;
+	position:relative;
+	top:-5px;
+}
+div.controls a {
+	float:left;
+	display:block;
+	font-size:10px;
+	text-decoration:none;
+	/*padding: 4px 7px 2px 7px;*/
+	/*border: 1px solid #CCC;*/
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	color:#090;
+}
+div.controls a:hover {
+	background-position:left -40px;
+	color:#FFF;
+}
+
+div.ss-controls {
+	float: left;
+}
+
+div.nav-controls .prev{
+	width:95px;
+	display:block;
+	background:url(../img/bg_prev.png) no-repeat left top;
+	border:1px solid #009900;
+	border-radius: 3px;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+}
+
+div.nav-controls .next{
+	width:95px;
+	display:block;
+	margin-left:10px;
+	background:url(../img/bg_next.png) no-repeat left top;
+	border:1px solid #009900;
+	border-radius: 3px;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+}
+div.nav-controls {
+	float: right;
+}
+
+div.ss-controls .play{
+	width:122px/*137*/;
+	padding-left:15px;
+	display:block;
+	background:url(../img/bg_play.png) no-repeat left top;
+	border:1px solid #009900;
+	border-radius: 3px;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+}
+div.ss-controls .pause{
+	width:122px;/*137*/
+	padding-left:15px;
+	display:block;
+	background:url(../img/bg_pause.png) no-repeat left top;
+	border:1px solid #009900;
+	border-radius: 3px;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+}
+
+
+/* ヘッダー */
+h1{
+	width:886px;
+	margin:0 auto 20px;
+	}
+/* メインコンテンツ */
+div#main{
+	width:886px;
+	margin:10px auto;
+	background:url(../img/title_bg.png) no-repeat left top;
+	position:relative;
+	}
+	
+div#main h2{
+	padding-top:15px;
+	padding-left:8px;
+	margin-bottom:15px;
+}
+
+div#main .animalphotobnr{
+	position:absolute;
+	top:46px;
+	left:460px;
+	width:358px;
+	height:100px;
+	background-color:#FFF;
+}
+div#main .animalphotobnr a:hover img{opacity:0.8;filter:alpha(opacity=80);-ms-filter: "alpha( opacity=80 )";}
+
+
+div#main .taikenbnr{
+	position:absolute;
+	top:650px;
+	left:460px;
+}
+div#main .taikenbnr a:hover img{opacity:0.8;filter:alpha(opacity=80);-ms-filter: "alpha( opacity=80 )";}
+
+	
+/* 申込みフォーム */
+div#entry img{
+	display:block;
+	margin:5px auto 0;
+	}
+
+
+/* ?? */
+pre {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	overflow-x: auto;
+}
+div#ads {
+	clear: both;
+	padding: 12px 0 12px 66px;
+}
+

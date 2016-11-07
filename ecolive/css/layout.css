@@ -1,0 +1,99 @@
+/* 基本レイアウト
+---------------------------------------------- */
+
+/* ================= 目次 =======================
+
+　1.page
+　2.header
+	2-1.news
+　3.contents
+	4.live-view
+　5.footer
+
+============================================== */
+
+/* 0. wallpaper
+---------------------------------------------- */
+#wallpaper{
+	background-image:url(../images/background.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+/* 1. page
+---------------------------------------------- */
+#page{
+	margin:0px auto;
+	padding:0px;
+	width:1014px;
+	height:662px;
+	background-image:url(../images/body.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#page img{
+border:none;
+}
+
+
+/* 2. header
+---------------------------------------------- */
+#header{
+margin:0px;
+padding:0px;
+}
+
+/* 2-1. news
+---------------------------------------------- */
+.news{
+background-image:url(../images/news.gif);
+width:246px;
+height:18px;
+font-size:80%;
+margin-top:7px;
+padding-left:65px;
+padding-right:15px;
+}
+
+.news li{
+	list-style:none;
+}
+
+/* 3. contents
+---------------------------------------------- */
+#contents{
+clear:both;
+margin:0px;
+padding:0px;
+}
+
+
+/* 4. live-view
+---------------------------------------------- */
+.live-view{
+margin:0px;
+padding:99px 0px 0px 187px;
+height:396px;
+}
+
+/*5. right-btn
+---------------------------------------------- */
+.btn-backnumnber{
+padding:95px 12px 0px 0px;
+}
+
+.btn-li{
+text-align:right;
+padding:160px 22px 0px 0px;
+}
+
+
+/* 5. footer
+---------------------------------------------- */
+#footer{
+	text-align:right;
+	clear:both;
+	margin:119px 0px 0px 0px;
+	padding:0px;
+}

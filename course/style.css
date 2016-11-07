@@ -1,0 +1,1500 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 現在ページハイライト
+-----------------------------------------*/
+body#dogmaster div#side ul li#nDogmaster a,
+body#animalwelfare div#side ul li#nAnimalwelfare a,
+body#animaltherapy div#side ul li#nAnimaltherapy a,
+body#pettrimmer div#side ul li#nPettrimmer a,
+body#petesthe div#side ul li#nPetesthe a,
+body#dogcafe div#side ul li#nDogcafe a,
+body#animalnurse div#side ul li#nAnimalnurse a,
+body#dogtrainer div#side ul li#nDogtrainer a,
+body#zookeeper div#side ul li#nZookeeper a,
+body#dolphintrainer div#side ul li#nDolphintrainer a,
+body#aquarist div#side ul li#nAquarist a,
+body#oceanprotect div#side ul li#nOceanprotect a,
+body#wildanimal div#side ul li#nWildanimal a,
+body#flowershop div#side ul li#nFlowershop	 a,
+body#bridalflower div#side ul li#nBridalflower a,
+body#florist div#side ul li#nFlorist a,
+body#organicfood div#side ul li#nOrganicfood a,
+body#brandingredient div#side ul li#nBrandingredient a,
+body#farmcafe div#side ul li#nFarmcafe a,
+body#gardeningcultivation div#side ul li#nGardeningcultivation a,
+body#agripark div#side ul li#nAgripark a,
+body#graduatecourse div#side ul li#nGraduatecourse a {
+	background:#E7F5D8 url(../common/img02/ico_sub_arrow.png) no-repeat 5px 13px;
+	color:#F90;
+}
+
+/* main
+-----------------------------------------*/
+div#main {
+	clear:both;
+	float:right;
+	width:790px;
+	font-family:"メイリオ", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Georgia","Meiryo", "ＭＳ Ｐゴシック";
+}
+#main #MainTit {
+	background:#88CD3E;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	behavior: url(border-radius.htc);
+	font-size:1.4em;
+	color:#FFF;
+	}
+#main h2 {
+	background-position: 8px center;
+	background-repeat:no-repeat;
+	line-height:46px;
+	padding-left:53px;
+	margin-bottom:5px;
+}
+	body#dogmaster #main h2 {background-image:url(img_dogmaster/courseIcon.png);}
+	
+	body#animalwelfare #main h2 {background-image:url(img_animalwelfare/courseIcon.png);}
+	
+	body#animaltherapy #main h2 {background-image:url(img_animaltherapy/courseIcon.png);}
+	
+	body#pettrimmer #main h2 {background-image:url(img_pettrimmer/courseIcon.png);}
+	
+	body#petesthe #main h2 {background-image:url(img_petesthe/courseIcon.png);}
+	
+	body#dogcafe #main h2 {background-image:url(img_dogcafe/courseIcon.png);}
+	
+	body#animalnurse #main h2 {background-image:url(img_animalnurse/courseIcon.png);}
+	
+	body#dogtrainer #main h2 {background-image:url(img_dogtrainer/courseIcon.png);}
+	
+	body#zookeeper #main h2 {background-image:url(img_zookeeper/courseIcon.png);}
+	
+	body#dolphintrainer #main h2 {background-image:url(img_dolphintrainer/courseIcon.png);}
+	
+	body#aquarist #main h2 {background-image:url(img_aquarist/courseIcon.png);}
+	
+	body#oceanprotect #main h2 {background-image:url(img_oceanprotect/courseIcon.png);}
+	
+	body#wildanimal #main h2 {background-image:url(img_wildanimal/courseIcon.png);}
+	
+	body#flowershop #main h2 {background-image:url(img_flowershop/courseIcon.png);}
+	
+	body#bridalflower #main h2 {background-image:url(img_bridalflower/courseIcon.png);}
+	
+	body#florist #main h2 {background-image:url(img_florist/courseIcon.png);}
+	
+	body#organicfood #main h2 {background-image:url(img_organicfood/courseIcon.png);}
+	
+	body#brandingredient #main h2 {background-image:url(img_brandingredient/courseIcon.png);}
+	
+	body#farmcafe #main h2 {background-image:url(img_farmcafe/courseIcon.png);}
+	
+	body#gardeningcultivation #main h2 {background-image:url(img_gardeningcultivation/courseIcon.png);}
+	
+	body#graduatecourse #main h2 {background-image:url(img_graduatecourse/courseIcon.png);}
+	
+	body#agripark #main h2 {background-image:url(img_agripark/courseIcon.png);}
+
+#main h2 span {
+	display:inline-block;
+	background:url(img/pat_hosoku.gif);
+	font-size:0.8em;
+	line-height:1.5em;
+	padding:0 8px;
+	margin-left:10px;
+
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	behavior: url(border-radius.htc);
+	color:#22171F;
+	
+	text-shadow: 1px 1px 0 #FFFFFF;
+	-moz-box-shadow:1px 1px 0 #FFFFFF;　/* Firefox用 */  
+    -webkit-box-shadow:1px 1px 0 #FFFFFF;　/* Safari,Google Chrome用 */  
+}
+
+h3#h3top {
+	text-align:center;
+	font-size:2em;
+	font-weight:bold;
+	color:#F60;
+	position:relative;
+	min-height:26px;
+	overflow:hidden;
+	font-family:Shin Maru Go Heavy JIS2004;
+}
+h3#h3top:after {
+	content:url(img/des_tit.png);
+    left: 0;
+	top:0;
+    position: absolute;
+    width: 100%;
+}
+/*ポイント＆メイン*/
+#MainPoint {
+	position:relative;
+	width:100%;
+}
+	/*コースごとのメイン画像*/
+	body#dogmaster #MainPoint {
+		background:url(img_dogmaster/bg_main.png) left top no-repeat;
+		}
+	body#animalwelfare #MainPoint {
+		background:url(img_animalwelfare/bg_main.png) left top no-repeat;
+		}
+	body#animaltherapy #MainPoint{
+		background:url(img_animaltherapy/bg_main.png) left top no-repeat;
+	}
+	body#pettrimmer #MainPoint {
+		background:url(img_pettrimmer/bg_main.png) left top no-repeat;
+		}
+	body#petesthe #MainPoint {
+		background:url(img_petesthe/bg_main.png) left top no-repeat;
+		}
+	body#dogcafe #MainPoint {
+		background:url(img_dogcafe/bg_main.png) left top no-repeat;
+		}
+	body#animalnurse #MainPoint {
+		background:url(img_animalnurse/bg_main.png) left top no-repeat;
+		}
+	body#dogtrainer #MainPoint {
+		background:url(img_dogtrainer/bg_main.png) left top no-repeat;
+		}
+	body#zookeeper #MainPoint {
+		background:url(img_zookeeper/bg_main.png) left top no-repeat;
+		}
+	body#wildanimal #MainPoint {
+		background:url(img_wildanimal/bg_main.png) left top no-repeat;
+	}
+	body#dolphintrainer #MainPoint {
+		background:url(img_dolphintrainer/bg_main.png) left top no-repeat;
+		}
+	body#aquarist #MainPoint {
+		background:url(img_aquarist/bg_main.png) left top no-repeat;
+	}
+	body#oceanprotect #MainPoint {
+		background:url(img_oceanprotect/bg_main.png) left top no-repeat;
+	}
+	body#flowershop #MainPoint {
+		background:url(img_flowershop/bg_main.png) left top no-repeat;
+		}
+	body#bridalflower #MainPoint {
+		background:url(img_bridalflower/bg_main.png) left top no-repeat;
+	}
+	body#florist #MainPoint {
+		background:url(img_florist/bg_main.png) left top no-repeat;
+	}
+	body#organicfood #MainPoint {
+		background:url(img_organicfood/bg_main.png) left top no-repeat;
+		}
+	body#brandingredient #MainPoint {
+		background:url(img_brandingredient/bg_main.png) left top no-repeat;
+		}
+	body#farmcafe #MainPoint {
+		background:url(img_farmcafe/bg_main.png) left top no-repeat;
+		}
+	body#gardeningcultivation #MainPoint{
+		background:url(img_gardeningcultivation/bg_main.png) left top no-repeat;
+	}
+	body#agripark #MainPoint {
+		background:url(img_agripark/bg_main.png) left top no-repeat;
+		}
+
+#MainBtn {
+	position:absolute;
+	right:20px;
+	top:30px;
+}
+	#MainBtn dt {
+		margin-bottom:13px;
+	}
+	#MainBtn dd {
+		margin-bottom:7px;
+	}
+#MainPoint h4 {
+	float:left;
+	width:92px;
+	}
+#PointContainer {
+	padding-top:190px;
+	padding-bottom:70px;
+	padding-left:12px;
+	background:url(img/bg_lawnSky.png) left bottom no-repeat;
+	}
+#PointWrap {
+	float:left;
+	width:686px;
+	padding-top:110px;
+	}
+.PointBox {
+	width:319px;
+	float:left;
+	margin-left:18px;
+	background:url(img/bgPointBoxTop.png) left top no-repeat;
+	padding-top:6px;
+	}
+	.PointBox > div {
+		background:#88CD3E;
+		}
+	.PointBox .MaruBottom {
+		}
+	.PointBox.pointNo2,
+	.PointBox.pointNo4 {
+		margin-top:40px;
+		}
+.PointBox h5 {
+	width:109px;
+	padding-top:64px;
+	margin-top:-30px;
+	float:left;
+	}
+	.PointBox.pointNo1 h5 {
+		background:url(img/ico_point01.png) center top no-repeat;
+		}
+	.PointBox.pointNo2 h5 {
+		background:url(img/ico_point02.png) center top no-repeat;
+		}
+	.PointBox.pointNo3 h5 {
+		background:url(img/ico_point03.png) center top no-repeat;
+		}
+	.PointBox.pointNo4 h5 {
+		background:url(img/ico_point04.png) center top no-repeat;
+		}
+.PointBox h5 img {
+	margin-top:-4px;
+	}
+.PointBox dl {
+	width:188px;
+	float:right;
+	margin:10px 22px 0 0;
+}
+.PointBox dt {
+	margin-bottom:10px;
+	border:3px solid #fff;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.PointBox dd {
+	background:#E7F5D8;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding:6px;
+	}
+.PointBox dd a {
+	display:block;
+	font-weight:bold;
+	text-align:right;
+	background: url(../common/img02/ico_sub_arrow.png) no-repeat right center;
+	padding-right:18px;
+}
+
+.PushGray {
+	background: url(img/bg_pushGray.png);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(border-radius.htc);
+	padding:18px 20px;
+	margin:40px 0 0 0;
+	}
+
+.titGra,
+.titCurric{	
+	background:url(img/titCurricL.png) left top no-repeat;
+	
+	font-size:1.5em;
+	font-weight:bold;
+	color:#FFF;
+	border-bottom:2px solid #7CC032;
+	margin-bottom:15px;
+	}
+	#otherCurriculum .titCurric {
+		background:url(img/titCurricM.png) left top no-repeat;
+		}
+.titGra h3,
+.titCurric h3 {
+	background: url(img/icoPencil.png) 10px 0.4em no-repeat;
+	padding-left:42px;
+	line-height:42px;
+	text-shadow: 1px 1px 0 #7BBE32;
+	-moz-box-shadow:1px 1px 0 #7BBE32;　/* Firefox用 */  
+	-webkit-box-shadow:1px 1px 0 #7BBE32;　/* Safari,Google Chrome用 */
+	font-family:UDTypos512;
+	}
+	.titGra h3 {
+		background: url(img/icoHat.png) 10px center no-repeat;
+		}
+	.titGra h3 span,
+	.titCurric h3 span {
+		display:inline-block;
+		background:url(img/pat_hosoku.gif);
+		font-size:0.7em;
+		line-height:1.5em;
+		padding:0 8px;
+		margin-left:10px;
+	
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		color:#22171F;
+		
+		text-shadow: 1px 1px 0 #FFFFFF;
+		-moz-box-shadow:1px 1px 0 #FFFFFF;　/* Firefox用 */  
+		-webkit-box-shadow:1px 1px 0 #FFFFFF;　/* Safari,Google Chrome用 */  
+	}
+		.titGra h3 span {
+			margin-left:0;
+			margin-right:5px;
+			}
+	.titGra h3 span em,
+	.titCurric h3 em {
+		font-style:normal;
+		font-size:0.7em;
+	}
+.titCurric.Movie h3 {
+	background: url(img/icoFilm.png) 10px 0.4em no-repeat;
+}
+
+.MiniCurric,
+.BigCurric {
+	margin-bottom:15px;
+}
+.MiniCurric p,
+.BigCurric > span {
+	border:3px solid #88CD3E;
+	display:inline-block;	
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	}
+	.MiniCurric p img,
+	.BigCurric img {
+		border:4px solid #fff;
+		width:238px;
+		height:196px;
+		}
+
+
+.MovieArea dl,
+.MiniCurric dl,
+.BigCurric dl {
+		background:url(img/bg_oudo.png);
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+	}
+.MovieArea dt,
+.MiniCurric dt,
+.BigCurric dt {
+	line-height:30px;
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+	border-bottom:1px dotted #845E2B;
+	font-family:UDTypos512;
+}
+	.MovieArea dt span,
+	.MiniCurric dt span,
+	.BigCurric dt span {
+		background:url(img/bg_udYellow.png) left bottom repeat-x;
+		}
+	.MiniCurric dt small {
+		display:block;
+		line-height:1.2;
+	}
+.MovieArea dd,
+.MiniCurric dd,
+.BigCurric dd {
+	padding:10px 7px;
+}
+
+.BigCurric dl {
+	width:180px;
+}
+.BigCurric.CurricLeft {
+		background:url(img_animaltherapy/bgIcon.png) right bottom no-repeat;
+	}
+
+/*この専攻を見た人20131003追加-----------*/
+.readOther{	
+	background:url(img/titCurricL.png) left top no-repeat;
+	font-size:1.5em;
+	font-weight:bold;
+	color:#FFF;
+	border-bottom:2px solid #7CC032;
+	margin-top:25px;
+	}
+	
+.readOther h3 {
+	background: url(img/ico_smile.png) 10px 0.4em no-repeat;
+	padding-left:42px;
+	line-height:42px;
+	text-shadow: 1px 1px 0 #7BBE32;
+	-moz-box-shadow:1px 1px 0 #7BBE32;　/* Firefox用 */  
+	-webkit-box-shadow:1px 1px 0 #7BBE32;　/* Safari,Google Chrome用 */
+	font-family:UDTypos512;
+	}
+
+#readOtherMajor{
+	margin-left:-10px;
+}
+#readOtherMajor a{
+	text-decoration:none;
+}
+#readOtherMajor a:hover .readOtherMajor{
+	border-color:#BDE393;
+}
+#readOtherMajor a:hover .readOtherMajor h4{
+	background-color:#BDE393;
+}
+#readOtherMajor a:hover .readOtherMajor p{
+	color:#999;
+}
+#readOtherMajor a:hover img{
+	opacity:0.6;filter:alpha(opacity=60);-ms-filter: "alpha( opacity=60 )";
+}
+.readOtherMajor{
+	width:170px;
+	margin-left:10px;
+	margin-top:10px;
+	padding:8px;
+	border:2px solid #88CD3E;
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	float:left;
+}
+.readOtherMajor h4{
+	padding:3px 3px 3px 20px;
+	background:url(img/index_titleico.png) no-repeat 3px 50%;
+	background-color:#88CD3E;
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	color:#FFF;
+	text-decoration:none;
+}
+.readOtherMajor p{
+	margin:5px 0;
+	font-size:11px;
+	color:#000;
+}
+/*この専攻を見た人20131003追加-----------*/
+
+.MovieArea {
+	border:3px solid #88cd3e;
+	border-radius:3px;
+	padding:10px;
+	margin-top:25px;
+	}
+.MovieArea iframe {
+	float:right;
+	}
+.MovieArea dl {
+	width:180px;
+	float:left;
+}
+	
+/**/
+	body#dogmaster .BigCurric.CurricLeft {
+		background:url(img_dogmaster/bgIcon.png) right bottom no-repeat;
+		}
+	body#animalwelfare .BigCurric.CurricLeft {
+		background:url(img_animalwelfare/bgIcon.png) right bottom no-repeat;
+		}
+	body#animaltherapy .BigCurric.CurricLeft{
+		background:url(img_animaltherapy/bgIcon.png) right bottom no-repeat;
+	}
+	body#pettrimmer .BigCurric.CurricLeft {
+		background:url(img_pettrimmer/bgIcon.png) right bottom no-repeat;
+		}
+	body#petesthe .BigCurric.CurricLeft {
+		background:url(img_petesthe/bgIcon.png) right bottom no-repeat;
+		}
+	body#dogcafe .BigCurric.CurricLeft {
+		background:url(img_dogcafe/bgIcon.png) right bottom no-repeat;
+		}
+	body#animalnurse .BigCurric.CurricLeft {
+		background:url(img_animalnurse/bgIcon.png) right bottom no-repeat;
+		}
+	body#dogtrainer .BigCurric.CurricLeft {
+		background:url(img_dogtrainer/bgIcon.png) right bottom no-repeat;
+		}
+	body#zookeeper .BigCurric.CurricLeft {
+		background:url(img_zookeeper/bgIcon.png) right bottom no-repeat;
+		}
+	body#wildanimal .BigCurric.CurricLeft {
+		background:url(img_wildanimal/bgIcon.png) right bottom no-repeat;
+	}
+	body#dolphintrainer .BigCurric.CurricLeft {
+		background:url(img_dolphintrainer/bgIcon.png) right bottom no-repeat;
+		}
+	body#aquarist .BigCurric.CurricLeft {
+		background:url(img_aquarist/bgIcon.png) right bottom no-repeat;
+	}
+	body#flowershop .BigCurric.CurricLeft {
+		background:url(img_flowershop/bgIcon.png) right bottom no-repeat;
+		}
+	body#bridalflower .BigCurric.CurricLeft {
+		background:url(img_bridalflower/bgIcon.png) right bottom no-repeat;
+	}
+	body#florist .BigCurric.CurricLeft {
+		background:url(img_florist/bgIcon.png) right bottom no-repeat;
+	}
+	body#organicfood .BigCurric.CurricLeft {
+		background:url(img_organicfood/bgIcon.png) right bottom no-repeat;
+		}
+	body#brandingredient .BigCurric.CurricLeft {
+		background:url(img_brandingredient/bgIcon.png) right bottom no-repeat;
+		}
+	body#farmcafe .BigCurric.CurricLeft {
+		background:url(img_farmcafe/bgIcon.png) right bottom no-repeat;
+		}
+	body#gardeningcultivation .BigCurric.CurricLeft{
+		background:url(img_gardeningcultivation/bgIcon.png) right bottom no-repeat;
+	}
+/**/	
+	
+.BigCurric.CurricLeft > span {
+	float:left; 
+	}
+	.BigCurric.CurricLeft dl {
+		float:right;
+	}
+.BigCurric.CurricRight {
+		background:url(img_animaltherapy/bgIcon.png) left bottom no-repeat;
+	}
+/**/
+	body#dogmaster .BigCurric.CurricRight {
+		background:url(img_dogmaster/bgIcon.png) left bottom no-repeat;
+		}
+	body#animalwelfare .BigCurric.CurricRight {
+		background:url(img_animalwelfare/bgIcon.png) left bottom no-repeat;
+		}
+	body#animaltherapy .BigCurric.CurricRight{
+		background:url(img_animaltherapy/bgIcon.png) left bottom no-repeat;
+	}
+	body#pettrimmer .BigCurric.CurricRight {
+		background:url(img_pettrimmer/bgIcon.png) left bottom no-repeat;
+		}
+	body#petesthe .BigCurric.CurricRight {
+		background:url(img_petesthe/bgIcon.png) left bottom no-repeat;
+		}
+	body#dogcafe .BigCurric.CurricRight {
+		background:url(img_dogcafe/bgIcon.png) left bottom no-repeat;
+		}
+	body#animalnurse .BigCurric.CurricRight {
+		background:url(img_animalnurse/bgIcon.png) left bottom no-repeat;
+		}
+	body#dogtrainer .BigCurric.CurricRight {
+		background:url(img_dogtrainer/bgIcon.png) left bottom no-repeat;
+		}
+	body#zookeeper .BigCurric.CurricRight {
+		background:url(img_zookeeper/bgIcon.png) left bottom no-repeat;
+		}
+	body#wildanimal .BigCurric.CurricRight {
+		background:url(img_wildanimal/bgIcon.png) left bottom no-repeat;
+	}
+	body#dolphintrainer .BigCurric.CurricRight {
+		background:url(img_dolphintrainer/bgIcon.png) left bottom no-repeat;
+		}
+	body#aquarist .BigCurric.CurricRight {
+		background:url(img_aquarist/bgIcon.png) left bottom no-repeat;
+	}
+	body#flowershop .BigCurric.CurricRight {
+		background:url(img_flowershop/bgIcon.png) left bottom no-repeat;
+		}
+	body#bridalflower .BigCurric.CurricRight {
+		background:url(img_bridalflower/bgIcon.png) left bottom no-repeat;
+	}
+	body#florist .BigCurric.CurricRight {
+		background:url(img_florist/bgIcon.png) left bottom no-repeat;
+	}
+	body#organicfood .BigCurric.CurricRight {
+		background:url(img_organicfood/bgIcon.png) left bottom no-repeat;
+		}
+	body#brandingredient .BigCurric.CurricRight {
+		background:url(img_brandingredient/bgIcon.png) left bottom no-repeat;
+		}
+	body#farmcafe .BigCurric.CurricRight {
+		background:url(img_farmcafe/bgIcon.png) left bottom no-repeat;
+		}
+	body#gardeningcultivation .BigCurric.CurricRight{
+		background:url(img_gardeningcultivation/bgIcon.png) left bottom no-repeat;
+	}
+/**/
+
+.BigCurric.CurricRight > span {
+	float:right; 
+	}
+	.BigCurric.CurricRight dl {
+		float:left;
+	}
+.MiniCurric {
+	margin-left:-15px;
+}
+.MiniCurric > div {
+	width:253px;
+	float:left;
+	margin-left:15px;
+	margin-bottom:20px;
+	}
+.MiniCurric > div > p {
+	margin-bottom:12px;
+}
+/*その他のカリキュラム*/
+#otherCurriculum {
+	width:560px;
+	float:left;
+	}
+.otherWrap {
+	border:1px solid #88CD3E;
+	padding:12px 0;
+	margin-top:6px;
+	}
+#otherCurriculum ul {
+	width:186px;
+	float:left;
+	}
+#otherCurriculum ul li {
+	padding-left:20px;
+	margin-bottom:6px;
+	background:url(img/discGreen.png) 1em 0.5em no-repeat;
+	font-family:UD Shin Go Medium;
+	}
+#LinkArea {
+	width:230px;
+	float:right;
+	text-align:right;
+}
+
+/*目指せる*/
+div#aim {
+	margin-top:20px;
+	margin-left:-20px;
+	padding-top:20px;
+	font-family:UD Shin Go Medium;
+}
+
+div#aim > div {
+	width:250px;
+	float:left;
+	margin-left:20px;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	behavior: url(border-radius.htc);
+}
+	div#aim > div ul {
+		background:#FFF;
+		margin:12px;
+		padding:8px;
+	
+		-moz-border-radius: 4px;
+		-webkit-border-radius: 4px;
+		border-radius: 4px;
+		behavior: url(border-radius.htc);
+	}
+div#aim h4 {
+	margin-left:25px;
+	margin-top:-15px;
+}
+
+div#aim div ul {
+}
+div#aim div.office {
+	background:#F76F9E;
+}
+div#aim div.job {
+	background:#6BB9C7;
+}
+div#aim div.qualification {
+	background:#FEB630;
+}
+div#aim div ul li {
+	padding-left:13px;
+	margin:0 5px;
+}
+div#aim div.office ul li {
+	background:url(img/discPink.png) no-repeat left 0.5em;
+}
+div#aim div.job ul li {
+	background:url(img/discBlue.png) no-repeat left 0.5em;
+}
+div#aim div.qualification ul li {
+	background:url(img/discYellow.png) no-repeat left 0.5em;
+}
+div#aim div ul li.smalltext{
+}
+
+#footBnrDay {
+	margin:10px 0 0 -20px;
+}
+	#footBnrDay li {
+		float:left;
+		margin-left:20px;
+	}
+
+/*専攻の説明文*/
+div#textbox {
+	background:url(img/bg_grain.png) left top no-repeat;
+	padding:10px 8px;
+	position:relative;
+	font-family: Soft Gothic Regular;
+	font-size:14px;
+}
+div#textbox p {
+	background:#FFF;
+	line-height:1.8;
+}
+	div#textbox p span {
+		border-bottom:1px dashed #CA9B5B;
+	}
+	#jumpStudents {
+		position:absolute;
+		top:-90px;
+		left:10px;
+		}		
+div#textbox p {
+	padding:15px 10px 15px 15px;
+}
+div#textbox ul {
+	clear:both;
+	width:642px;
+	margin:0 auto;
+	padding-top:10px;
+}
+div#textbox li {
+	float:left;
+	padding-bottom:10px;
+}
+div#textbox li a {
+	margin:5px;
+}
+/*主なカリキュラム*/
+div#curriculum {
+	clear:both;
+	width:680px;
+	padding-top:40px;
+	overflow:hidden;
+}
+div#curriculum h3 {
+	width:680px;
+	padding-bottom:15px;
+}
+div#curriculumInner {
+	margin-left:-10px;
+	}
+div#curriculum dl {
+	width:150px;
+	float:left;
+	margin-left:20px;
+	margin-bottom:20px;
+	}
+div#curriculum dt {
+	/*line-height:26px;*/
+	font-weight:bold;
+	font-size:14px;
+	text-align:center;
+	color:#FFF;
+	padding:3px 0;
+	}
+div#curriculum dd {
+	padding:5px;
+}
+	div#curriculum dd p.firstChild {
+		margin-bottom:10px;
+	}
+div#curriculum div.curribox {
+	float:left;
+	width:340px;
+	margin-bottom:15px;
+}
+div#curriculum div.curribox h4 {
+	display:block;
+	margin:0 10px;
+	padding:5px 8px 3px 8px;
+	font-size:14px;
+	color:#FFF;
+}
+body#dogmaster div#curriculum dt,
+body#animalwelfare div#curriculum dt,
+body#animaltherapy div#curriculum dt { /*ワールドごとに色変更が必要です;dog*/
+	background-color:#FF4618;
+}
+	body#dogmaster div#curriculum dl,
+	body#animalwelfare div#curriculum dl,
+	body#animaltherapy div#curriculum dl { /*ワールドごとに色変更が必要です;dog*/
+		background:#FFEBE5;
+	}
+	body#dogmaster div#curriculum  dl.even,
+	body#animalwelfare div#curriculum dl.even,
+	body#animaltherapy div#curriculum dl.even { /*ワールドごとに色変更が必要です;dog*/
+		background:#FFCEBF;
+	}
+
+body#pettrimmer div#curriculum dt,
+body#petesthe div#curriculum dt,
+body#dogcafe div#curriculum dt,
+body#animalnurse div#curriculum dt,
+body#dogtrainer div#curriculum dt,
+body#zookeeper div#curriculum dt,
+body#wildanimal div#curriculum dt { /*ワールドごとに色変更が必要です:animal*/
+	background-color:#F39839
+}
+	body#pettrimmer div#curriculum dl,
+	body#petesthe div#curriculum dl,
+	body#dogcafe div#curriculum dl,
+	body#animalnurse div#curriculum dl,
+	body#dogtrainer div#curriculum dl,
+	body#zookeeper div#curriculum dl,
+	body#wildanimal div#curriculum dl { /*ワールドごとに色変更が必要です:animal*/
+		background-color:#FCE9D6;
+	}
+	body#pettrimmer div#curriculum dl.even,
+	body#petesthe div#curriculum dl.even,
+	body#dogcafe div#curriculum dl.even,
+	body#animalnurse div#curriculum dl.even,
+	body#dogtrainer div#curriculum dl.even,
+	body#zookeeper div#curriculum dl.even,
+	body#wildanimal div#curriculum dl.even { /*ワールドごとに色変更が必要です:animal*/
+		background-color:#FACDA0;
+	}
+body#dolphintrainer div#curriculum dt,
+body#aquarist div#curriculum dt { /*ワールドごとに色変更が必要です:marine*/
+	background-color:#118CCF;
+}
+	body#dolphintrainer div#curriculum dl,
+	body#aquarist div#curriculum dl { /*ワールドごとに色変更が必要です:marine*/
+		background-color:#DFF2FD;
+	}
+	body#dolphintrainer div#curriculum dl.even,
+	body#aquarist div#curriculum dl.even { /*ワールドごとに色変更が必要です:marine*/
+		background-color:#ABDEFA;
+	}
+body#flowershop div#curriculum dt,
+body#bridalflower div#curriculum dt { /*ワールドごとに色変更が必要です:nature*/
+	background-color:#1B967B;
+}
+	body#flowershop div#curriculum dl,
+	body#bridalflower div#curriculum dl { /*ワールドごとに色変更が必要です:nature*/
+		background-color:#E6FBF5;
+	}
+	body#flowershop div#curriculum dl.even,
+	body#bridalflower div#curriculum dl.even { /*ワールドごとに色変更が必要です:nature*/
+		background-color:#ACEAD8;
+	}
+
+
+
+body#florist div#curriculum dt { /*ワールドごとに色変更が必要です:flower*/
+	background-color:#7FBE25;
+}
+
+div#curriculum div.curribox dl,
+div#curriculum div.curribox ul {
+	margin:0 10px;
+	padding: 0 0 10px 0;
+}
+
+body#dogmaster div#curriculum div.curribox dl,
+body#animalwelfare div#curriculum div.curribox dl,
+body#animaltherapy div#curriculum div.curribox dl,
+body#dogmaster div#curriculum div.curribox ul,
+body#animalwelfare div#curriculum div.curribox ul,
+body#animaltherapy div#curriculum div.curribox ul { /*ワールドごとに色変更が必要です;dog*/
+	border:1px solid #FF4618;
+}
+body#pettrimmer div#curriculum div.curribox dl,
+body#petesthe div#curriculum div.curribox dl,
+body#dogcafe div#curriculum div.curribox dl,
+body#animalnurse div#curriculum div.curribox dl,
+body#dogtrainer div#curriculum div.curribox dl,
+body#zookeeper div#curriculum div.curribox dl,
+body#wildanimal div#curriculum div.curribox dl,
+body#pettrimmer div#curriculum div.curribox ul,
+body#petesthe div#curriculum div.curribox ul,
+body#dogcafe div#curriculum div.curribox ul,
+body#animalnurse div#curriculum div.curribox ul,
+body#dogtrainer div#curriculum div.curribox ul,
+body#zookeeper div#curriculum div.curribox ul,
+body#wildanimal div#curriculum div.curribox ul { /*ワールドごとに色変更が必要です:animal*/
+	border:1px solid #F39839
+}
+body#dolphintrainer div#curriculum div.curribox dl,
+body#aquarist div#curriculum div.curribox dl,
+body#dolphintrainer div#curriculum div.curribox ul,
+body#aquarist div#curriculum div.curribox ul { /*ワールドごとに色変更が必要です:marine*/
+	border:1px solid #118CCF;
+}
+body#flowershop div#curriculum div.curribox dl,
+body#bridalflower div#curriculum div.curribox dl,
+body#flowershop div#curriculum div.curribox ul,
+body#bridalflower div#curriculum div.curribox ul { /*ワールドごとに色変更が必要です:nature*/
+	border:1px solid #1B967B;
+}
+body#florist div#curriculum div.curribox dl,
+body#florist div#curriculum div.curribox ul { /*ワールドごとに色変更が必要です:flower*/
+	border:1px solid #7FBE25;
+}
+
+div#curriculum div.curribox dt,
+div#curriculum div.curribox li {
+	padding:5px 8px 0 8px;
+	font-weight:bold;
+	text-indent:15px;
+}
+body#dogmaster div#curriculum div.curribox dt,
+body#animalwelfare div#curriculum div.curribox dt,
+body#animaltherapy div#curriculum div.curribox dt,
+body#dogmaster div#curriculum div.curribox li,
+body#animalwelfare div#curriculum div.curribox li,
+body#animaltherapy div#curriculum div.curribox li { /*ワールドごとに色変更が必要です*/
+	color:#FF4618;
+	background:url(img/icon_curri_dog.jpg) no-repeat 8px 9px;
+}
+body#pettrimmer div#curriculum div.curribox dt,
+body#petesthe div#curriculum div.curribox dt,
+body#dogcafe div#curriculum div.curribox dt,
+body#animalnurse div#curriculum div.curribox dt,
+body#dogtrainer div#curriculum div.curribox dt,
+body#zookeeper div#curriculum div.curribox dt,
+body#wildanimal div#curriculum div.curribox dt,
+body#pettrimmer div#curriculum div.curribox li,
+body#petesthe div#curriculum div.curribox li,
+body#dogcafe div#curriculum div.curribox li,
+body#animalnurse div#curriculum div.curribox li,
+body#dogtrainer div#curriculum div.curribox li,
+body#zookeeper div#curriculum div.curribox li,
+body#wildanimal div#curriculum div.curribox li { /*ワールドごとに色変更が必要です*/
+	color:#F39839;
+	background:url(img/icon_curri_animal.jpg) no-repeat 8px 9px;
+} 
+body#dolphintrainer div#curriculum div.curribox dt,
+body#aquarist div#curriculum div.curribox dt,
+body#dolphintrainer div#curriculum div.curribox li,
+body#aquarist div#curriculum div.curribox li { /*ワールドごとに色変更が必要です:marine*/
+	color:#118CCF;
+	background:url(img/icon_curri_marine.jpg) no-repeat 8px 9px;
+}
+body#flowershop div#curriculum div.curribox dt,
+body#bridalflower div#curriculum div.curribox dt,
+body#flowershop div#curriculum div.curribox li,
+body#bridalflower div#curriculum div.curribox li { /*ワールドごとに色変更が必要です:nature*/
+	color:#1B967B;
+	background:url(img/icon_curri_nature.jpg) no-repeat 8px 9px;
+}
+body#florist div#curriculum div.curribox dt,
+body#florist div#curriculum div.curribox li { /*ワールドごとに色変更が必要です:flower*/
+	color:#7FBE25;
+	background:url(img/icon_curri_flower.jpg) no-repeat 8px 9px;
+}
+
+div#curriculum div.curribox dd {
+	padding:0 8px 5px 8px;
+	font-size:10px;
+}
+
+/*Ｗメジャー*/
+div#wmajor {
+	clear:both;
+	width:630px;
+	margin:15px auto;
+	border:1px dashed #060;
+	padding:10px;
+	overflow:hidden;
+}
+div#wmajor div {
+	float:left;
+	width:224px;
+	background-color:#2BA739;
+	color:#FFF;
+}
+div#wmajor div p {
+	padding:8px;
+}
+div#wmajor div p em {
+	font-size:14px;
+	font-weight:bold;
+}
+div#wmajor div p strong {
+	font-size:18px;
+	font-weight:bold;
+}
+div#wmajor div a {
+	display:block;
+	width:204px;
+	margin:5px auto;
+}
+div#wmajor ul {
+	width:200px;
+	float:left;
+}
+div#wmajor ul li {
+	list-style:disc;
+	margin-left:30px;
+	line-height:1.3;
+	font-size:14px;
+}
+
+
+/*インデックスページ用*/
+
+#course div#main {
+	clear:both;
+	float:left;
+	width:886px;
+}
+
+#course h2{
+	margin:0 0 10px 0;
+	padding:0;
+	width:886px;
+	height:100px;
+	line-height:0;
+	text-indent:0;
+
+}
+	
+	
+#course div#coursebox{
+	clear:both;
+	margin-top:10px;
+
+	width:886px;
+	overflow:hidden;
+}
+
+#course div.index_dog{
+	background-image:url(img/bg_index_dog.gif);
+}
+
+#course div.index_animal{
+	background-image:url(img/bg_index_animal.gif);
+}
+
+#course div.index_marine{
+	background-image:url(img/bg_index_marine.gif);
+}
+
+#course div.index_anture{
+	background-image:url(img/bg_index_nature.gif);
+}
+
+#course div.index_agriculture{
+	background-image:url(img/bg_index_agriculture.gif);
+	margin-bottom:30px;
+}
+
+#course div#coursebox h3{
+float:left;
+width:246px;
+}
+
+#course div#coursebox h4{
+float:right;
+width:640px;
+}
+
+#course div#coursebox ul{
+float:right;
+width:620px;
+display:block;
+margin-right:10px;
+}
+#course div#coursebox li{
+float:left;
+display:block;
+margin:0;
+padding:0;
+}
+/* 健康農食科バナー */
+#main #agri{
+	display:block;
+	margin:auto;}
+
+
+/* Wメジャー */
+.w_info {
+	border: 1px solid #009933;
+	padding: 15px 30px;
+}
+.w_info:after {
+content: "";
+display: block;
+clear: both;
+}
+* html .w_info {
+height: 1px;
+}
+*+html .w_info {
+min-height: 1px;
+}
+.w_info p {
+	float:left;
+	width: 450px;
+	margin: 0 10px 0 0;
+}
+.w_info a {
+	float:left;
+	display:block;
+	margin: 0;
+}
+.w_info h3 {
+	margin: 0 0 15px 0;
+}
+
+/* パンフレット・体験入学ボタン */
+.plz_pamphlet_event {
+	margin: 15px auto 30px auto;
+}
+
+
+/*indexページ用2013--------------------------*/
+.attention {
+	border:3px solid #C00;
+	border-radius:5px;
+	margin-bottom:15px;
+	}
+	.attention a {
+		display:block;
+		background:#FFE5E5;
+		padding:10px;
+		text-decoration:none;
+		color:#C00;
+	}	
+#courseIndex{
+	width:1020px;
+}
+#courseIndex a{
+	color:#333;
+	text-decoration:none;
+	display:block;
+	width:188px;
+	float:left;
+	margin-left:20px;
+}
+#courseIndex .column div a:hover,
+#courseIndex .column2 div a:hover,
+#courseIndex .column3 div a:hover,
+#courseIndex .column4 div a:hover,
+#courseIndex h2 a:hover img {
+	color:#666;
+	text-decoration:none;
+
+	opacity: .60; /* Standard: FF gt 1.5, Opera, Safari */
+	filter: alpha(opacity=60); /* IE lt 8 */
+	-ms-filter: "alpha(opacity=60)"; /* IE 8 */
+	-khtml-opacity: .60; /* Safari 1.x */
+	-moz-opacity: .60; /* FF lt 1.5, Netscape */
+}
+
+#courseIndex .column{
+	float:left;
+	width:188px;
+	margin-right:20px;
+}
+#courseIndex .column2{
+	float:left;
+	width:396px;
+	margin-right:20px;
+}
+
+#courseIndex .column3{
+	float:left;
+	width:604px;
+	margin-right:20px;
+}
+
+#courseIndex .column4{
+	float:left;
+	width:812px;
+	margin-right:20px;
+}
+#courseIndex .column > div,
+#courseIndex .column2 > div,
+#courseIndex .column3 > div,
+#courseIndex .column4 > div {
+	margin-left:-20px;
+	
+	}
+
+
+
+#courseIndex .rEnd{
+	margin-right:0px;
+}
+/*cssをリセット*/
+#courseIndex h2,
+#courseIndex h2 span{
+	margin:0;
+	padding:0;
+	background-image:none;
+	text-shadow:none;
+	width:auto;
+	height:auto;
+}
+#courseIndex h2{
+	color:#FFF;
+	line-height:130%;
+	padding:3px 10px;
+	margin-bottom:5px;
+	font-size:18px;
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */
+	font-family:UD Shin Maru Go Bold JIS2004;
+	position:relative;
+}
+#courseIndex h2 span.coursename{
+	font-size:12px;
+	color:#FFF;
+}
+#courseIndex h2 span.courseyear{
+	margin-left:5px;
+	padding-bottom:3px;
+	vertical-align:middle;
+}
+
+#courseIndex h2 a{
+	float:none;
+	margin:0;
+	position:absolute;
+	right:9px;
+	top:10px;
+	background-color:#FFF;
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */
+	width:179px;
+	height:35px;
+}
+
+#courseIndex h2.indexh2Dog3{
+	background-color:#EB5A6B;
+}
+#courseIndex h2.indexh2Dog2{
+	background-color:#EF8595;
+}
+#courseIndex h2.indexh2Animal{
+	background-color:#F39700;
+}
+#courseIndex h2.indexh2Ocean{
+	background-color:#00A8E4;
+}
+#courseIndex h2.indexh2Flower{
+	background-color:#8DC63F;
+}
+#courseIndex h2.indexh2Agri{
+	background-color:#21AB38;
+}
+#courseIndex p.leadtxt{
+	font-size:16px;
+}
+#graduatePerson {
+	margin-bottom:15px;
+}
+#graduatePerson img {
+	float:left;
+	margin:0 15px 15px 0;
+	width:243px;
+}
+#graduatePerson aside {
+	background:#F8F3D3;
+	padding:8px 6px;
+	display:inline-block;
+	border-radius:4px;
+	}
+	#graduatePerson aside small {
+		background:#CBAC75;
+		padding:3px;
+		border-radius:4px;	
+		}
+#graduatePerson aside dt {
+	border-bottom:1px dashed #CBAC75;
+	margin-bottom:5px;
+	padding-bottom:10px;
+	}
+.GraduateBase dl {
+	box-sizing:border-box;
+	width:340px;
+	}
+	/*IE7ハック*/
+	*+html .GraduateBase dl {
+		display:inline-block;
+		zoom:1;
+		}
+.GraduateBase dt {
+	border-bottom:1px dashed #CBAC75;
+	padding-bottom:3px;
+	margin-bottom:3px;
+	}
+.GraduateBase p {
+	line-height:1.8;
+}
+.GraduateBase h4 {
+	color:#009933;
+	background:none;
+	text-indent:0;
+	line-height:1.5;
+	}
+
+
+
+
+
+
+
+/*専攻-------------------------------*/
+#courseIndex div.specialty{
+	width:188px;
+	float:left;
+}
+#courseIndex div.specialty.rEnd{
+	margin-right:0px;
+}
+#courseIndex div.specialty h3{
+	width:188px;
+	padding-top:10px;
+}
+#courseIndex div.specialty h3 span{
+	display:block;
+	width:145px;
+	margin:auto;
+	padding:3px 3px 3px 25px;
+	background:url(img/index_titleico.png) no-repeat 3px 50%;
+	color:#FFF;
+	text-decoration:none;
+}
+#courseIndex div.specialty div.body{
+	width:170px;
+	padding:0 9px;
+	padding-bottom:10px;
+}
+#courseIndex div.specialty img{
+	margin-top:6px;
+}
+#courseIndex div.specialty p{
+	font-size:10px;
+}
+#courseIndex div.specialty p strong{
+	font-size:14px;
+	font-family: UDTypos512;
+}
+
+/*Dog3年制*/
+#courseIndex div.sptDog3{
+	background:url(img/index_dogbg_b.png) no-repeat left bottom;
+}
+#courseIndex div.sptDog3 h3{
+	background:url(img/index_dogbg_t.png) no-repeat left top;
+}
+#courseIndex div.sptDog3 h3 span{
+	background-color:#EB5A6B;
+}
+#courseIndex div.sptDog3 h3 span:hover{
+	background-color:#F299A5;
+}
+
+/*Dog2年制*/
+#courseIndex div.sptDog2{
+	background:url(img/index_dog2bg_b.png) no-repeat left bottom;
+}
+#courseIndex div.sptDog2 h3{
+	background:url(img/index_dog2bg_t.png) no-repeat left top;
+}
+#courseIndex div.sptDog2 h3 span{
+	background-color:#EF8595;
+}
+#courseIndex div.sptDog2 h3 span:hover{
+	background-color:#F5B4BD;
+}
+
+/*Animal*/
+#courseIndex div.sptAnimal{
+	background:url(img/index_animalbg_b.png) no-repeat left bottom;
+}
+#courseIndex div.sptAnimal h3{
+	background:url(img/index_animalbg_t.png) no-repeat left top;
+}
+#courseIndex div.sptAnimal h3 span{
+	background-color:#F39700;
+}
+#courseIndex div.sptAnimal h3 span:hover{
+	background-color:#FFB73E;
+}
+
+/*Ocean*/
+#courseIndex div.sptOcean{
+	background:url(img/index_oceanbg_b.png) no-repeat left bottom;
+}
+#courseIndex div.sptOcean h3{
+	background:url(img/index_oceanbg_t.png) no-repeat left top;
+}
+#courseIndex div.sptOcean h3 span{
+	background-color:#00A8E4;
+}
+#courseIndex div.sptOcean h3 span:hover{
+	background-color:#3ECAFF;
+}
+
+/*Flower*/
+#courseIndex div.sptFlower{
+	/*background:url(img/index_flowerbg_b.png) no-repeat left bottom;*/
+	background:#F8FCF3;
+	border:2px solid #8DC640;
+	border-radius:5px;
+}
+#courseIndex div.sptFlower h3{
+	/*background:url(img/index_flowerbg_t.png) no-repeat left top;*/
+}
+#courseIndex div.sptFlower h3 span{
+	background-color:#8DC63F;
+}
+#courseIndex div.sptFlower h3 span:hover{
+	background-color:#A6D268;
+}
+
+/*Agricultuer*/
+#courseIndex div.sptAgri{
+	background:url(img/index_agribg_b.png) no-repeat left bottom;
+}
+#courseIndex div.sptAgri h3{
+	background:url(img/index_agribg_t.png) no-repeat left top;
+}
+#courseIndex div.sptAgri h3 span{
+	background-color:#21AB38;
+}
+#courseIndex div.sptAgri h3 span:hover{
+	background-color:#28D046;
+}
+
+
+/*カラー*/
+#courseIndex .colorDog3{
+	color:#EB5A6B;
+}
+#courseIndex .colorDog2{
+	color:#EF8595;
+}
+#courseIndex .colorAnimal{
+	color:#F39700;
+}
+#courseIndex .colorOcean{
+	color:#00A8E4;
+}
+#courseIndex .colorFlower{
+	color:#8DC63F;
+}
+#courseIndex .colorAgri{
+	color:#21AB38;
+}
+
+/*indexページ用2013END--------------------------*/

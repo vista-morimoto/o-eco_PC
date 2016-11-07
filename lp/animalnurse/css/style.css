@@ -1,0 +1,621 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	margin:0px;
+	padding:0px;
+	color:#333;
+	font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+}
+
+h1,h2,h3,h4,p{margin:0; padding:0;}
+p{font-size:12px; line-height:150%;}
+img{border:0;}
+
+#wrap{
+	background-color:#ffdede;
+}
+
+#wrapper{
+	background-image:url(../images/background01.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+#top-wrapper{
+	background-image:url(../images/background02.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+
+#page{
+	margin:0px auto;
+	padding:0px;
+	width:900px;
+ background-color:#FFF;
+}
+
+/* Header---------------------------- */
+#header{
+	margin:0px auto;
+	padding:15px 20px 0;
+	width:860px;
+	height:353px;
+	background:url(../images/mainvisual.jpg) no-repeat left top;
+	position:relative;
+}
+#header #logo{
+}
+#header p.lead{
+	margin:5px auto auto 5px;
+	font-size:10px;
+}
+#header p.title{
+	position:absolute;
+	left:29px;
+	top:95px;
+}
+
+/* Header END---------------------------- */
+
+
+/* Point------------------------------*/
+#point{
+	margin:10px auto auto;
+	width:860px;
+	padding:0 20px;
+}
+#point div.column{
+margin:20px 0 0 10px;
+padding-bottom:10px;
+width: 273px;
+min-height:245px;
+_height:250px;
+background: url(../images/point_bottom.gif) no-repeat bottom;
+float:left;
+display:inline;
+}
+#point div.column h3{
+background: url(../images/point_top.gif) no-repeat left top;  
+padding: 11px 0 32px 8px;
+}
+#point div.column .txt01{
+	margin-top:-20px;
+	padding-left:40px;
+}
+#point div.column .txt02{
+	width:215px;
+	margin-top:6px;
+	margin-left:42px;
+}
+#point a{text-decoration:none; color:#333;}
+#point a:visited{color:#333;}
+#point a:hover{color:#666;}
+#point a:hover img{opacity:0.8;filter:alpha(opacity=80);-ms-filter: "alpha( opacity=80 )";}
+
+/* Point END------------------------------*/
+
+
+/*curriculum--------------------------*/
+#curriculum{
+	margin:30px auto auto;
+	width:860px;
+	padding:0 20px;
+}
+
+#curriculum h3{
+	margin-top:30px;
+	padding:0px 10px;
+}
+
+#curriculum div.enshu01{
+	width:410px;
+	float:left;
+	margin-top:20px;
+	margin-left:10px;
+	display:inline;
+}
+#curriculum div.enshu02{
+	width:410px;
+	float:left;
+	margin-top:20px;
+	margin-left:20px;
+	display:inline;
+}
+#curriculum div.enshu01 img,
+#curriculum div.enshu02 img{
+	margin-bottom:10px;
+}
+#curriculum div.enshu01 img.left,
+#curriculum div.enshu02 img.left{
+	margin-right:10px;
+}
+
+#curriculum .sub01{margin-top:20px; padding:0px 10px;}
+
+#curriculum .emtxt{
+	font-size:16px;
+	color:#ff617f;
+	font-weight:bold;
+}
+
+/*curriculum detail--------------------------*/
+#curriculum div.detail{
+	margin:20px auto 0 auto;
+	width:840px;
+	overflow:hidden;
+}
+#curriculum div.detailanimal,
+#curriculum div.detailwelfare,
+#curriculum div.detailsocial{
+	width:267px;
+	float:left;
+	margin-right:19px;
+	padding:0 0 10px 0;
+	display:inline;
+}
+#curriculum div.detailanimal{
+	background:url(../images/curriculum_animalbtm.gif) no-repeat left bottom;
+	background-color:#fed8d8;
+}
+#curriculum div.detailwelfare{
+	background:url(../images/curriculum_welfarebtm.gif) no-repeat left bottom;
+	background-color:#d1f0c9;
+}
+#curriculum div.detailsocial{
+	background:url(../images/curriculum_socialbtm.gif) no-repeat left bottom;
+	background-color:#d4e7ff;
+	margin-right:0px;
+}
+#curriculum div.detailanimal h4,
+#curriculum div.detailwelfare h4,
+#curriculum div.detailsocial h4{
+	padding:10px;
+	width:247px;
+}
+#curriculum div.detailanimal h4{
+	background:url(../images/curriculum_animaltop.gif) no-repeat left top;
+}
+#curriculum div.detailwelfare h4{
+	background:url(../images/curriculum_welfaretop.gif) no-repeat left top;
+}
+#curriculum div.detailsocial h4{
+	background:url(../images/curriculum_socialtop.gif) no-repeat left top;
+}
+
+#curriculum div.detailanimal dl,
+#curriculum div.detailwelfare dl,
+#curriculum div.detailsocial dl{
+	margin:0px auto;
+	width:247px;
+	overflow:hidden;
+}
+#curriculum div.detailanimal dt,
+#curriculum div.detailwelfare dt,
+#curriculum div.detailsocial dt{
+	margin:0;
+	padding:0 7px 5px 0;
+	width:130px;
+	font-size:12px;
+	font-weight:bold;
+	float:left;
+}
+#curriculum div.detailanimal dt{
+	color:#ff617f;
+}
+#curriculum div.detailwelfare dt{
+	color:#5ca24c;
+}
+#curriculum div.detailsocial dt{
+	color:#6198e4;
+}
+
+#curriculum div.detailanimal dd,
+#curriculum div.detailwelfare dd,
+#curriculum div.detailsocial dd{
+	margin:0;
+	padding:0 10px 0 0;
+	width:127px;
+	font-size:10px;
+	line-height:150%;
+	float:left;
+}
+#curriculum div.detailanimal dd.img,
+#curriculum div.detailwelfare dd.img,
+#curriculum div.detailsocial dd.img{
+	margin:-17px 0 0 0;
+	padding:0;
+	width:110px;
+	float:left;
+}
+
+#curriculum div.detail hr{
+border:solid #FFF;
+border-width:1px 0px 0px 0px;
+height:1px;
+overflow:hidden;
+width:247px;
+margin:10px auto;
+clear:both;
+}
+/*curriculum detail END--------------------------*/
+
+/*curriculum pro --------------------------*/
+#curriculum div.pro{
+	margin:20px auto 0 auto;
+	width:840px;
+	overflow:hidden;
+}
+#curriculum div.pro dl{
+	margin:0 20px 0 0;
+	width:400px;
+	overflow:hidden;
+	float:left;
+}
+#curriculum div.pro dt{
+	margin:0 0 0 0;
+	width:210px;
+	font-size:14px;
+	line-height:150%;
+	color:#ff617f;
+	font-weight:bold;
+	float:right;
+}
+#curriculum div.pro dd.img{
+	margin:0px;
+	width:178px;
+	float:left;
+}
+#curriculum div.pro dd.txt{
+	margin:10px 0 0 0;
+	width:210px;
+	font-size:12px;
+	line-height:150%;
+	float:right;
+}
+
+#curriculum div.pro_line{
+height:7px;
+background:url(../images/curriculum_pro_line.gif) no-repeat left center;
+margin:20px auto 0;
+width:840px;
+overflow:hidden;
+clear:both;
+}
+
+#curriculum div.pro_line hr{
+	display:none;
+}
+/*curriculum pro END--------------------------*/
+
+/*curriculum END--------------------------*/
+
+/*shikaku START--------------------------*/
+#shikaku{
+	margin:30px auto auto;
+	width:860px;
+	padding:0 20px;
+}
+#shikaku h3{
+	margin-top:50px;
+	padding:0px 10px;
+}
+
+#shikaku div.lead{
+	margin:0px auto 0 10px;
+	width:850px;
+	overflow:hidden;
+}
+#shikaku div.lead p{
+	margin-top:20px;
+	color:#FF3399;
+	font-size:14px;
+	font-weight:bold;
+	line-height:150%;
+	float:left;
+}
+#shikaku div.lead .img{
+	float:right;
+}
+
+#shikaku div.about{
+	margin:20px auto 0;
+	width:840px;
+	overflow:hidden;
+}
+
+#shikaku div.about dl{
+	margin:0;
+	width:410px;
+}
+#shikaku div.about dt{
+	margin:0;
+}
+#shikaku div.about dd{
+	margin:10px 0 0;
+	font-size:12px;
+	line-height:150%;
+}
+
+/*shikaku END--------------------------*/
+
+
+/*shushoku START--------------------------*/
+#shushoku{
+	margin:30px auto auto;
+	width:860px;
+	padding:0 20px;
+}
+#shushoku h3{
+	margin-top:30px;
+	padding:0px 10px;
+}
+#shushoku h3.msg{
+	margin-top:0px;
+	padding:0px 10px;
+}
+
+#shushoku div.support{
+	margin:20px 0 0 0;
+	width:860px;
+	overflow:hidden;
+}
+#shushoku div.support dl{
+	margin:0 9px 0 10px;
+	width:267px;
+	float:left;
+	display:inline;
+}
+
+#shushoku div.support dt{
+	margin:0;
+	font-size:16px;
+	font-weight:bold;
+}
+#shushoku div.support dd{
+	margin:10px 0 0 0;
+	font-size:12px;
+	line-height:150%;
+}
+
+#shushoku div.support .support01{
+	color:#616cff;
+}
+#shushoku div.support .support02{
+	color:#fe46ae;
+}
+#shushoku div.support .support03{
+	color:#4bac44;
+}
+
+/*----intern Start------------*/
+#shushoku div.intern{
+	margin:20px auto auto;
+	padding:10px 5px;
+	width:840px;
+	height:320px;
+	background:url(../images/shushoku_intern_f.jpg) no-repeat left top;
+}
+#shushoku div.intern_inner{
+	margin:0;
+	padding:0px;
+	width:820px;
+	height:295px;
+	overflow:hidden;
+	overflow-y:auto;
+}
+#shushoku div.intern_inner02{
+ margin:0;
+	padding:3px 0 0 40px;
+	width:770px;
+	background:url(../images/shushoku_intern_b.jpg) repeat-y left top;
+	overflow:hidden;
+}
+#shushoku div.intern_inner p{
+	line-height:210%;
+	margin-right:5px;
+	width:245px;
+	float:left;
+}
+/*----intern END------------*/
+
+#shushoku div.graduate{
+	margin:0px;
+	width:860px;
+	overflow:hidden;
+}
+
+#shushoku div.graduate_msg{
+	margin:20px 10px 0 10px;
+	padding:10px 0 0;
+	width:410px;
+	background:url(../images/shushoku_graduatetop.gif) no-repeat left top;
+	background-color:#edd3bb;
+	text-align:center;
+	float:left;
+	display:inline;
+}
+
+#shushoku div.graduate_msg p{
+	padding:10px 20px 10px;
+	background:url(../images/shushoku_graduatebtm.gif) no-repeat left bottom;
+	background-color:#edd3bb;
+	text-align:left;
+}
+
+#shushoku div.graduate_msg p strong{
+	color:#ff617f;
+}
+/*shushoku END--------------------------*/
+
+
+/*#school START--------------------------*/
+#school{
+	margin:30px auto auto;
+	width:860px;
+	padding:0 20px;
+	overflow:hidden;
+}
+#school h3{
+	margin-top:30px;
+	padding:0px 10px;
+}
+#school div.life,
+#school div.club{
+	float:left;
+	margin-top:15px;
+	position:relative;
+}
+#school div.oca,
+#school div.map{
+	float:left;
+	margin-top:4px;
+	position:relative;
+}
+
+#school div.map{
+	width:399px;
+	height:292px;
+	padding:61px 0 0 32px;
+	background:url(../images/school_map.jpg) no-repeat left top;
+}
+#school div.map p{
+	padding-top:5px;
+}
+#school div.life img.btn{
+	position:absolute;
+	left:96px;
+	top:305px;
+}
+#school div.club img.btn{
+	position:absolute;
+	left:99px;
+	top:305px;
+}
+#school div.oca img.btn{
+	position:absolute;
+	left:97px;
+	top:305px;
+}
+#school div.map img.btn{
+	position:absolute;
+	left:99px;
+	top:305px;
+}
+
+/*#school END--------------------------*/
+
+/*#sotsugo START--------------------------*/
+#sotsugo{
+	margin:50px auto auto;
+	width:860px;
+	padding:0 20px 50px 20px;
+	overflow:hidden;
+}
+#sotsugo h3{
+	margin-top:20px;
+	padding:0px 10px;
+}
+
+#sotsugo p{
+	width:840px;
+	margin:20px auto auto;
+}
+#sotsugo .img{
+	width:840px;
+	margin:20px auto auto;
+	text-align:center;
+}
+/*#sotsugo END--------------------------*/
+
+/*問い合わせバナー----------*/
+div.toiawase{
+	margin:30px auto auto;
+	width:860px;
+	height:100px;
+	padding:0 0px;
+	background:url(../images/toiawase.jpg) no-repeat left top;
+	clear:both;
+}
+
+div.toiawase .taikenbtn{
+	margin-top:17px;
+	margin-left:20px;
+}
+div.toiawase .shiryobtn{
+	margin-top:17px;
+	margin-left:10px;
+}
+div.toiawase .toiawasesaki{
+	margin-top:12px;
+	margin-left:10px;
+}
+
+/*Pagetopボタン----------*/
+div.pagetop{
+	margin:10px auto auto;
+	width:860px;
+	text-align:right;
+	clear:both;
+}
+
+/* footer ---------------*/
+#footer{
+	background-color:#e58393;
+	padding-bottom:20px;
+}
+#footer_inner{
+	margin:0 auto;
+	padding:40px 0 0 0;
+	width:900px;
+	background:url(../images/footer_background.jpg) no-repeat center top;
+}
+
+#footer_inner img.taikenbtn{
+	margin-left:40px;
+}
+#footer_inner img.shiryobtn{
+	margin-left:10px;
+}
+#footer_inner img.telbtn{
+	margin-left:10px;
+}
+
+#footer_inner p{
+	width:900px;
+	font-size:10px;
+	color:#FFF;
+	text-align:center;
+}
+#footer_inner p.txt{
+	margin-top:40px;
+}
+#footer_inner p.address{
+	margin-top:10px;
+}
+
+#footer_inner .logo{
+	text-align:center;
+	margin-top:10px;
+}
+/* footer END ---------------*/
+
+.fleft{float:left;}
+.fright{float:right;}
+
+.clearfix {
+	display: inline-block;
+}
+.clearfix:after{
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0.1px;
+	font-size: 0.1em;
+	line-height: 0;
+	clear: both;
+}
+
+a.ov:hover img{opacity:0.8;filter:alpha(opacity=80);-ms-filter: "alpha( opacity=80 )";}
+

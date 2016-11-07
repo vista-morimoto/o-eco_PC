@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	display:table;
+	width:100%;
+	overflow-x:hidden;
+	min-width:1020px;
+	margin:0 auto;
+	}
+/*--commonのdiv#content02を上書き--*/
+div#content02 {
+	clear:both;
+	/*width:1020px;*/
+	width:100%;/*2013.03*/
+	margin:0 auto;
+}
+
+/*--#mainVisual----------------*/
+#mainVisualArea{
+	margin: 0 auto;
+	/*width:1020px;*/
+	width:100%;
+	clear:both;
+	/*IE用*/
+	min-height: 1px;
+	_height: 1px;
+}
+#mainVisualArea:after {
+	content: ".";  /* 新しい要素を作る */
+	display: block;  /* ブロックレベル要素に */
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+#mainVisual {
+	/*width:1280px;*/
+	height:344px;
+	margin:0 auto;
+	position:relative;
+	background:url(img/anime/bg.jpg) center top no-repeat;
+}
+#mainVisual #mainBgMove {
+	height:375px;
+	background: url(img/anime/koshi.jpg) repeat-x;
+}
+#mainVisual #mainBgMove h2 {
+	text-align:center;
+	padding-top:27px;
+}
+/*--midNav----------------------------*/
+#midNavArea{
+	width:100%;
+	margin:0px auto 15px;
+	padding:8px 0 10px 0;
+	background:url(img/nav_mid_bg.png) repeat left top #FBF0D3;
+}
+#midNavArea nav{
+	width:1016px;
+	margin:auto;
+	position: relative;
+}
+#midNavArea ul {
+	text-align: center;
+	}
+#midNavArea li {
+	/*float:left;
+	margin-left:5px;*/
+	display:inline;
+	/*margin-left:18px;*/
+}
+#midNavArea li:first-child {
+	margin-left:0;
+}
+#midNavArea .midNavBal {
+	position: absolute;
+	top: -10px;
+	left: -18px;
+	z-index: 999;
+}
+
+/* main_content
+-----------------------------------------*/
+div#mainContent{
+	width:1020px;
+	margin:15px auto 0 auto;
+	clear:both;
+	/*IE用*/
+ min-height: 1px;
+ _height: 1px;
+}
+div#mainContent:after {
+content: ".";  /* 新しい要素を作る */
+display: block;  /* ブロックレベル要素に */
+clear: both;
+height: 0;
+visibility: hidden;
+}
+
+/* 2column メイン：mainArea 右：sideArea
+------------------------------------------------------------*/
+div#mainContent #mainArea{
+	width:750px;
+	float:left;
+}
+div#mainContent #sideArea{
+	width:250px;
+	float:right;
+}
+
+/*#mainArea-------------------------------*/
+#mainArea{
+	width:750px;
+}
+/*--topicArea--*/
+#topicArea{
+}
+/*--main_bnr--*/
+#topicArea ul.main_bnr{
+	width:490px;
+	float: left;
+
+	background:url(img/pickup_bg.jpg) right bottom no-repeat;
+}
+#topicArea ul.main_bnr li{
+	width:240px;
+	height: 140px;
+	float:left;
+	margin:0 0 16px;
+}
+#topicArea ul.main_bnr li:nth-child(2n){
+	margin-left: 10px;
+}
+/*--movieArea--*/
+#movieArea{
+	float: right;
+}
+#movieArea dl{
+	width:250px;
+}
+#movieArea dl dt{
+	position: relative;
+}
+#movieArea dl dt span{
+	position: absolute;
+	top: 10px;
+	right: 17px;
+}
+#movieArea iframe{
+	margin: 10px 0;
+}
+/*--pickupArea--*/
+#pickupArea{
+	background:url(img/pickup_bg.jpg) no-repeat left 54px;
+	margin-bottom: 30px;
+}
+#pickupArea ul{
+	width: 722px;
+	margin:0 auto;
+	padding-top: 26px;
+
+}
+#pickupArea ul li{
+	width: 232px;
+	height: 203px;
+	float: left;
+	margin: 0 13px 14px 0;
+}
+#pickupArea ul li:nth-child(3n){
+	margin-right: 0;
+}
+/*--updateinfo--*/
+#mainArea .updateinfo dl{
+	overflow-y: auto;
+	height: 230px !important;
+}
+
+#mainArea .updateinfo dt{
+	float:left;
+	padding: 13px 10px;
+	width:100px;
+	clear:both;
+}
+#mainArea .updateinfo dd{
+	border-bottom: 1px dotted #CCC;
+	padding: 13px 10px;
+	}
+#mainArea .updateinfo dl a,
+#mainArea .updateinfo dl a:visited{
+	color:#666;
+}
+#mainArea .updateinfo dl a:hover{
+	color:#F63;
+}
+
+/*--sideArea-------------------------------*/
+#sideArea{
+	width: 250px;
+}
+/*--blogNews--*/
+div#blogNews {
+	position: relative;
+	margin-bottom: 18px;
+}
+div#blogNews > dl{
+	background: #92D245;
+	padding: 13px 0;
+	border: 1px solid #92D245;
+	border-radius: 5px;
+}
+div#blogNews > dl > dt{
+	margin-bottom: 15px;
+	padding-left: 56px;
+}
+div#blogNews > dl > dt span{
+	margin-left: 3px;
+}
+div#blogNews > dl > dd{
+	width: 224px;
+	background: #FFF;
+	margin: 0 auto;
+	padding: 7px 0 4px 0;
+	text-align: center;
+}
+div#blogNews .blogNewsText {
+	width: 211px;
+	margin: 0 auto;
+	text-align: left;
+}
+div#blogNews .blogNewsText dt {
+	font-size: 1.2em;
+}
+div#blogNews p.blogNewsBal{
+	position: absolute;
+	top: -10px;
+	left: 3px;
+	z-index: 999;
+}
+/*--tweet--*/
+#sideArea div#tweet{
+	margin-bottom: 10px;
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+}
+#sideArea div#tweet img{
+	margin: 6px 0 6px 7px;
+}
+#sideArea div#tweet #tweetArea {
+	margin:0 7px;
+}
+#sideArea div#tweet #tweetArea .twtr-hd,
+#sideArea div#tweet #tweetArea .twtr-ft {
+	display:none;
+	}
+/*--facebook--*/
+#sideArea div#facebook{
+	margin-bottom: 10px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+}
+#sideArea div#facebook img{
+	margin: 6px 0 6px 7px;
+}
+#sideArea div#facebook #facebookArea {
+	margin:0 7px;
+	border: 1px solid #E5E5E5;
+	border-radius: 5px;
+}
+
+
+
+/* 告知
+------------------------------------------------------------*/
+div.centerInfo {
+	width:470px;
+	margin:0 auto 12px auto;
+	border:1px solid #F90;
+	background:#FFC;
+}
+div.centerInfo h2 {
+	padding:4px 10px;
+	background:#F90;
+	margin:5px;
+	text-align:center;
+	color:#FFF;
+}
+div.centerInfo p {
+	margin:5px 10px;
+}
+
+/* 2column メイン：mainArea 右：sideArea
+------------------------------------------------------------*/
+
+/* カルーセル
+------------------------------------------------------------*/
+#jCarouselLite {
+	width:1020px;
+	margin:30px auto;
+}
+#jCarouselLite li {
+	float:left;
+	margin-right:10px;
+	}
+
+
+/* emergencyList緊急情報
+------------------------------------------------------------*/
+.emergencyList {
+  border: 3px solid red;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.emergencyList_title {
+  margin-bottom: 5px;
+  padding: 10px;
+  background: red;
+  font-weight: bold;
+  color: #fff;
+}
+.emergencyList_text {
+  padding: 10px;
+}
+
+/* Instagram
+------------------------------------------------------------*/
+#insta {
+	display:-webkit-flex;
+	display:flex;
+	
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	
+	-webkit-justify-content:space-between;
+	justify-content:space-between;
+	}
+	#insta .list_insta {
+		overflow: hidden;
+		width: 115px;/* トリミングしたい枠の幅 */
+		height: 115px;/* トリミングしたい枠の高さ */
+		position: relative;
+		margin-bottom:15px;
+		background:#dfdfdf;
+		}
+	#insta .list_insta img {
+		 position: absolute;
+		 top: 50%;
+		 left: 50%;
+		 -webkit-transform: translate(-50%, -50%);
+		 -ms-transform: translate(-50%, -50%);
+		 transform: translate(-50%, -50%);
+		 width: 150%;
+		 height: auto;
+   　　　}

@@ -1,0 +1,119 @@
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+
+header, section, footer,
+aside, nav, article, figure {
+	display: block;
+}
+
+
+/*============================*/
+/*=== Custom Slider Styles ===*/
+/*============================*/
+#slider img { display:none; }
+#slider {
+	position:relative;
+	width:350px;
+	height:300px;
+	margin-left:5px;
+	margin-top:4px;
+	/*width:695px;
+	height:302px;*/
+	/*background:url(images/loading.gif) no-repeat 50% 50%;*/
+}
+/*#slider img {
+	position:absolute;
+	top:4px;
+	left:4px;
+	display:none;
+}*/
+
+#slider .nivo-controlNav {
+	border:0;
+	display:block;
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:670px;
+	z-index:9999;
+}
+
+
+
+	/*マウスオーバー時サンプル*/
+	#bgArea {
+		background:url(../../../img/hover.png) left top no-repeat;
+		width:670px;
+		height:100px;
+		margin-top:-100px;
+		position:absolute;
+		bottom:0;
+		left:0;
+		}
+#slider .nivo-controlNav a img {
+	display:block;
+}
+#slider .nivo-controlNav a {
+	display:block;
+	width:111px;
+	height:73px;
+	text-indent:-9999px;
+	border:0;
+	float:left;
+}
+/*#slider .nivo-controlNav a:hover img {
+	display:none;
+}*/
+/*#slider .nivo-controlNav a:first-child {
+	display:none;
+}*/
+.nivo-directionNav a {
+    cursor: pointer;
+    font-family: 'Josefin Sans',sans-serif;
+    font-size: 400%;
+    line-height: 1;
+    padding: 10px;
+    position: absolute;
+    text-decoration: none;
+    top: 35%;
+    z-index: 9;
+}
+/*.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../../images/slideshow/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+*/a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}

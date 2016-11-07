@@ -1,0 +1,752 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* サイドナビ
+-----------------------------------------*/
+#side div.oca100 {
+	background:#FFF;
+	display:block;
+	padding-top:10px;
+}
+
+/* 現在ページハイライト
+-----------------------------------------*/
+body#introduction div#side ul li#nIntroduction a,
+body#eligibility div#side ul li#nEligibility a,
+body#ao div#side ul li#nAo a,
+body#flow div#side ul li#nFlow a,
+body#transfer div#side ul li#nTransfer a,
+body#graduatecourse div#side ul li#nIgraduatecourse a,
+body#method div#side ul li#nMethod a,
+body#support div#side ul li#nSupport a,
+body#digital div#side ul li#nDigital a{
+	background:#E7F5D8 url(../common/img02/ico_sub_arrow.png) no-repeat 5px 13px;
+	color:#F90;
+}
+
+
+/* main
+-----------------------------------------*/
+/*#main h2 {
+	width:680px;
+	height:52px;
+	margin:0 0 12px 0;
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	line-height:51px;
+	text-indent:33px;
+	background-image:url(img/h2_bg.gif);
+}
+#main h2 span {
+	font-size:12px;
+}*/
+
+p.leadtext {
+	clear:both;
+	padding:5px;
+	margin-bottom:15px;
+}
+p.leadtext strong {
+	font-size:16px;
+	font-weight:bold;
+	color:#093;
+}
+p.normaltext {
+	clear:both;
+	padding:5px 10px;
+	margin-bottom:25px;
+}
+h3 {
+	width:676px;
+	height:38px;
+	margin:0 auto 5px auto;
+	color:#81C928;
+	font-size:14px;
+	font-weight:bold;
+	line-height:38px;
+	text-indent:18px;
+	background-image:url(img/h3_bg.gif);
+}
+h4 {
+	width:670px;
+	margin:5px auto;
+	padding:0.4em 0;
+	text-indent:0.8em;
+	background:#81C928;
+	color:#FFF;
+	line-height:1;
+	font-size:14px;
+}
+div .h3Box{
+	width:676px;
+	margin:auto;
+	}
+
+/* 「募集要項」ページ共通のフッター「div#footinfo」
+---------------------------------------------------*/
+div#footinfo {
+	width:660px;
+	height:158px;
+	margin:20px auto;
+	background:url(img/footinfo.jpg);
+	position:relative;
+}
+div#footinfo p {
+	width:224px;
+	height:90px;
+	left:118px;
+	top:70px;
+	position:absolute;
+}
+div#footinfo div {
+	width:288px;
+	height:110px;
+	right:0;
+	top:40px;
+	position:absolute;
+}
+div#footinfo div ul {
+	margin-top:5px;
+}
+div#footinfo div ul li {
+	font-size:14px;
+	background:url(img/icon_footinfo.jpg) no-repeat center left;
+	padding-left:25px;
+	line-height:1.2;
+	letter-spacing:0.1em;
+}
+
+
+
+/* 募集要項
+-----------------------------------------*/
+#invitation div .h3Box p{
+	padding:0 5px 5px;
+	}
+#invitation div .h3Box p.caution{
+	font-size:16px;
+	color:#C00;
+	text-align:center;
+	text-decoration:underline;
+	padding:15px 0 5px;
+	}
+#invitation div .h3Box p.caution span{
+	font-size:12px;
+	text-decoration:none;
+	}
+#invitation .notes {
+	margin:5px auto 20px;
+	font-size:10px;
+	width:600px;	
+}
+#invitation table tr.table-green1 {
+	border-collapse:collapse;
+	border:1px solid #039A03;
+	background-color:#80C729;
+	padding: 2px;
+	font-size:12px;
+	text-align:center;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+#invitation table.table-green2 {
+	width:600px;
+	margin:auto;
+	border-collapse:collapse;
+	border:1px solid #039A03;
+	background-color:#FFFFCC;
+	padding: 3px;
+	font-size:12px;
+	text-align:center;
+}
+#invitation table.table-green2 td {
+	border-collapse:collapse;
+	border:1px solid #039A03;
+	padding: 3px;
+
+}
+#invitation table.table-green2 th {
+	border-collapse:collapse;
+	border:1px solid #039A03;
+/*	background-color:#EDEDED;*/
+	padding: 2px;
+	text-align:left;
+	color:#333333;
+}
+#invitation .annotation{
+	width:558px;
+	border:#CCC 1px solid;
+	padding:20px;
+	color:#060;
+	line-height:150%;
+	margin:10px auto;
+	background:#E6FFE6;
+	}
+
+/* 募集学科・専攻表
+-----------------------------------------*/
+#introduction table{
+	width:630px;
+	margin:0px auto 15px;
+	}
+
+
+/* 2011.12.12 追加 */
+
+#introduction table td.border-gray{
+	border:#999 1px solid;
+}
+
+#introduction table td.red a
+{
+	color:#F24D35;
+}
+#introduction table td.orange a
+{
+	color:#FF9900;
+}
+#introduction table td.blue a
+{
+	color:#46A2FF;
+}
+#introduction table td.green a
+{
+	color:#1E9D97;
+}
+#introduction table td.yellow-green a
+{
+	color:#84C24B;
+}
+
+/* ここまで */
+
+
+#introduction table caption{
+	color:#FFF;
+	padding:5px;
+	}
+#introduction table#dog caption,
+#introduction table#pet2 caption{
+	background:#F24D35;
+	}
+#introduction table#animal2 caption,
+#introduction table#animal3 caption{
+	background:#FF9900;
+	}
+#introduction table#ocean caption{
+	background:#46A2FF;
+	}
+#introduction table#nature caption{
+	background:#1E9D97;
+	}
+#introduction table#flower caption{
+	background:#1E9D97;
+	}
+#introduction table#agriculture caption{
+	background:#84C24B;
+	}
+#introduction table td{
+	padding:5px;
+	}
+#introduction table#dog td,
+#introduction table#pet2 td {
+	border:#F24D35 1px solid;
+	}
+#introduction table#animal2 td,
+#introduction table#animal3 td{
+	border:#FF9900 1px solid;
+	}
+#introduction table#ocean td{
+	border:#46A2FF 1px solid;
+	}
+#introduction table#nature td{
+	border:#1E9D97 1px solid;
+	}
+#introduction table#flower td{
+	border:#1E9D97 1px solid;
+	}
+#introduction table#agriculture td{
+	border:#84C24B 1px solid;
+	}
+#introduction table#dog td a,
+#introduction table#pet2 td a{
+	color:#F24D35;
+	}
+#introduction table#animal2 td a,
+#introduction table#animal3 td a{
+	color:#FF9900;
+	}
+#introduction table#ocean td a{
+	color:#46A2FF;
+	}
+#introduction table#nature td a{
+	color:#1E9D97;
+	}
+#introduction table#flower td a{
+	color:#1E9D97;
+	}
+#introduction table#agriculture td a{
+	color:#84C24B;
+	}
+#introduction table td a:hover{
+	color:#FC0 !important;
+	}
+#introduction table td a:visited{
+	color:#999 !important;
+	}
+#introduction table td li{
+	list-style:inside square;
+	}
+
+
+
+
+
+/* eligibility.html
+-----------------------------------------*/
+p.eligiText {
+	padding:5px 12px;
+}
+
+ul.eligiUl {
+	padding:0 12px;
+}
+ul.eligiUl li {
+	list-style:outside disc;
+	margin-left:20px;
+}
+ul.eligiUl li span {
+	display:block;
+	margin-left:6em;
+}
+ul.eligiUl li span span {
+	margin-left:0;
+}
+
+dl.entryroot {
+	width:660px;
+	margin:0px auto 10px auto;
+	padding:0 0 8px 0;
+	background:#F8FFF0;
+	border:1px solid #CCC;
+	overflow:hidden;
+}
+dl.entryroot dt {
+	width:180px;
+	float:left;
+	padding:3px 10px;
+	font-size:14px;
+	font-weight:bold;
+	color:#13A63A;
+	margin:8px 0 0 0;
+}
+dl.entryroot dd {
+	display:block;
+	width:439px;
+	padding:3px 10px;
+	margin:8px 0 0 0;
+	float:left;
+	border-left:1px solid #CCC;
+	overflow:hidden;
+}
+dl.entryroot dl dt {
+	float:none;
+	width:auto;
+	padding:0;
+	margin:0;
+	font-size:12px;
+}
+dl.entryroot dl dd {
+	float:none;
+	width:auto;
+	padding:0;
+	margin:0;
+	margin-bottom:10px;
+	border:none;
+}
+
+
+
+
+/* ao.html
+-----------------------------------------*/
+p.aboutaoText {
+	padding:5px 12px;
+}
+p.aboutaoText b {
+	color:#F60;
+}
+
+ul.aboutaoUl {
+	padding:0 12px;
+}
+ul.aboutaoUl li {
+	list-style:outside disc;
+	margin-left:20px;
+}
+ul.aboutaoUl li span {
+	display:block;
+	margin-left:6em;
+}
+
+dl.aoflow {
+	width:650px;
+	margin:0 auto;
+	overflow:hidden;
+	background:url(img_ao/bg_flow.png) left top repeat-y;
+}
+dl.aoflow dt {
+	width:180px;
+	clear:both;
+	float:left;
+}
+dl.aoflow dd {
+	width:470px;
+	float:left;
+}
+dl.aoflow dd h4 {
+	padding:0.2em 0;
+	margin:0;
+	text-indent:-1em;
+	width:auto;
+	background:none;
+	color:#F60;
+	line-height:1;
+	font-size:14px;
+}
+dl.aoflow dd span.pointbox {
+	margin:2px;
+	padding:2px;
+	border:1px solid #F60;
+	color:#F60;
+	font-weight:bold;
+	line-height:2;
+}
+dl.aoflow dd ul li {
+	list-style:outside disc;
+	margin-left:20px;
+}
+
+#ao .aoSchedule {
+	margin:0 12px;
+	}
+#ao .aoSchedule table {
+	width:100%;
+	margin:10px 0;
+}
+#ao .aoSchedule th,
+#ao .aoSchedule td {
+	padding:8px;
+	border:1px solid #D7DFCC;
+}
+#ao .aoSchedule th {
+	background:#D9EEBE;
+	text-align:center;
+}
+#ao .aoSchedule th.LineTit {
+	background:#ECF7DF;
+	}
+#ao .aoSchedule .odd td {
+	background:#F4F5EF;
+}
+/*.aoStartday {
+	display:inline-block;
+	color:#fff;
+	background:#F60;
+	padding:3px;
+	}*/
+.aoStartday {
+    background: none repeat scroll 0 0 #FF6600;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 3px;
+}
+#ao .aoSchedule td{
+	border-spacing : 10px 4px;
+}
+
+
+/* flow.html
+-----------------------------------------*/
+div.flow {
+	width:649px;
+	margin:0 auto;
+	text-align:center;
+}
+
+/* transfer.html
+-----------------------------------------*/
+table.transTable {
+	width:650px;
+	margin:0 auto;
+	text-align:center;
+}
+table.transTable th {
+	border:1px solid #82C929;
+	background-color:#DFFFBF;
+	text-align:center;
+	font-weight:normal;
+	padding:5px;
+}
+table.transTable td {
+	border:1px solid #82C929;
+	text-align:center;
+	font-weight:normal;
+	padding:5px;
+}
+
+p.transText {
+	padding:5px 12px;
+}
+p.transText b {
+	color:#F60;
+	font-size:14px;
+}
+
+ul.transUl {
+	padding:5px 12px;
+}
+ul.transUl li {
+	list-style:outside disc;
+	margin-left:20px;
+}
+ul.transUl li b {
+	color:#F60;
+	font-size:14px;
+}
+
+ol.transOl {
+	padding:5px 12px;
+}
+ol.transOl li {
+	list-style:outside decimal;
+	margin-left:20px;
+}
+
+
+
+
+
+/* method.html
+-----------------------------------------*/
+dl.methodDl {
+	width:660px;
+	margin:0px auto 10px auto;
+	padding:0;
+	background:#F8FFF0;
+	border:1px solid #CCC;
+	overflow:hidden;
+	padding-bottom:8px;
+}
+dl.methodDl dt {
+	width:300px;
+	float:left;
+	padding:3px 10px;
+	font-size:14px;
+	font-weight:bold;
+	color:#13A63A;
+	margin:8px 0 0 0;
+}
+dl.methodDl dt p {
+	font-size:12px;
+	font-weight:normal;
+	color:#333;
+}
+dl.methodDl dd {
+	display:block;
+	width:309px;
+	padding:3px 10px;
+	margin:8px 0 0 0;
+	float:left;
+	border-left:1px solid #CCC;
+	overflow:hidden;
+}
+dl.methodDl dd img {
+	vertical-align:text-top;
+}
+
+div.methodImg {
+	text-align:center;
+}
+div.methodImg img {
+	margin:6px;
+}
+
+
+
+
+
+
+
+
+
+/* support.html
+-----------------------------------------*/
+dl.supportDl {
+	width:660px;
+	margin:0px auto 10px auto;
+	padding:0 0 8px 0;
+	background:#F8FFF0;
+	border:1px solid #CCC;
+	overflow:hidden;
+}
+dl.supportDl dt {
+	width:180px;
+	float:left;
+	padding:3px 10px;
+	font-size:14px;
+	font-weight:bold;
+	color:#13A63A;
+	margin:8px 0 0 0;
+}
+dl.supportDl dt small {
+	font-weight:normal;
+}
+dl.supportDl dd {
+	display:block;
+	width:439px;
+	padding:3px 10px;
+	margin:8px 0 0 0;
+	float:left;
+	border-left:1px solid #CCC;
+	overflow:hidden;
+}
+
+dl.supportDl ul {
+	padding:5px 12px;
+}
+dl.supportDl ul li {
+	list-style:outside disc;
+	margin:5px 2px 2px 20px;
+	font-weight:bold;
+}
+dl.supportDl ul li small {
+	font-weight:normal;
+}
+
+div.supportflow {
+	width:630px;
+	margin:0 auto 25px auto;
+}
+div.supportflow p {
+	margin:5px 2px 2px 0;
+}
+div.supportflow p.info {
+	padding:10px;
+	background-color:#FFC;
+}
+
+table.supportUse {
+	width:650px;
+	margin:0 auto;
+	text-align:center;
+}
+table.supportUse th {
+	border:1px solid #82C929;
+	background-color:#DFFFBF;
+	text-align:center;
+	font-weight:normal;
+	padding:5px;
+}
+table.supportUse td {
+	border:1px solid #82C929;
+	text-align:center;
+	font-weight:normal;
+	padding:5px;
+}
+table.supportUse tfoot td {
+	border:none;
+	text-align:left;
+}
+
+/*　2015.8.20　追記 -- support --
+/*---------------------------------------*/
+#consultation {
+	margin-bottom: 25px;
+}
+
+#consultation h3 {
+	margin-bottom: 15px;
+}
+
+#consultation div.conLine {
+	width: 630px;
+	margin:0 auto;
+}
+
+#consultation div.conLine div.left {
+	float: left;
+	width: 380px;
+}
+
+#consultation div.conLine div.left ul {
+	margin-bottom: 10px;
+}
+#consultation p.image {
+	float: right
+}
+
+#consultation div.left ul {
+	margin: 0 0 10px 10;
+}
+
+/*　2016.7.1　追記 -- support --
+/*---------------------------------------*/
+.top_box {
+	background-color: #fff;border: 1px solid #cccccc;margin: 10px 0;padding: 17px; text-align:center;
+}
+
+
+/*　2015.8.20　追記 -- ao --
+/*---------------------------------------*/
+
+.aoBanner {
+	width: 656px;
+	margin:0 auto 30px;
+}
+
+/*　2010.06.28　追記
+/*---------------------------------------*/
+
+.ao-text{
+	background-image: url(img_ao/dotline.gif);
+	background-repeat: repeat-x;
+	background-position: center;
+	font-size:18px;
+	text-align:center;
+	font-weight:bold;
+	color:#F00;
+	margin-bottom:10px;
+}
+
+.ao-text span{
+	background-color:#FFF;
+	padding:0px 10px 0px 10px;
+}
+
+.mg-bottom{
+	margin-bottom:5px;
+}
+
+.mg-right{
+	margin-right:10px;
+}
+
+/* 2015.12.7　追加ここから */
+.bosyuTable {
+    border: 1px solid #c5ee9a;
+    border-collapse: collapse;
+}
+.bosyuTable th{
+	background-color: #c5ee9a;
+	font-weight:normal;
+    padding: 3px 10px;
+}
+.bosyuTable td{
+    padding: 8px 13px;
+}
+/* 2015.12.7　追加ここまで */
+
+

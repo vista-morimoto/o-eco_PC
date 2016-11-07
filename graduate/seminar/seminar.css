@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* seminar.html
+-----------------------------------------*/
+h4 {
+	width:584px;
+	margin:8px auto 2px auto;
+	padding:3px 8px;
+	border:1px solid #339933;
+	background-color:#ECFFEC;
+	font-size:14px;
+	color:#339933;
+}
+h4 span {
+	font-size:12px;
+	font-weight:normal;
+}
+
+table.outlinebox td.number {
+	color:#FFFFFF;
+	background:#339933;
+	font-size:10px;
+	padding:2px;
+}
+table.outlinebox td.title {
+	color:#339933;
+	font-size:14px;
+	font-weight:bold;
+	background:#ECFFEC;
+	padding:5px 12px;
+}
+table.outlinebox td.title span {
+	font-size:12px;
+	font-weight:normal;
+}
+
+table.outlinebox td.notes {
+	font-size:10px;
+	border:none;
+	padding:3px 0;
+}
+table.outlinebox td.notes span {
+	color:#CC0000;
+}
+
+table.end {
+	color:#999999;
+}
+
+table.end td.number {
+	background:#CCCCCC;
+}
+table.end td.title {
+	background:#F5F5F5;
+	color:#999999;
+}
+
+.endtext {
+	padding:3px;
+	color:#CC0000;
+	border:1px solid #CC0000;
+	background:#FFCCCC;
+	font-size:10px;
+	margin-left:10px;
+}
+p.endtext {
+	padding:3px;
+	color:#CC0000;
+	border:1px solid #CC0000;
+	background:#FFCCCC;
+	font-size:12px;
+	margin:10px;
+}
+
+div.btnCenter span {
+	font-size:10px;
+}
+div.btnCenter {
+	margin-bottom:50px;
+}
+

@@ -1,0 +1,677 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* サイドナビ
+-----------------------------------------*/
+#side div.oca100 {
+	background:#FFF;
+	display:block;
+	padding-top:10px;
+}
+
+
+
+/* 現在ページハイライト
+-----------------------------------------*/
+body#index div#side ul li#nInstructor a,
+body#sp_training div#side ul li#nSptraining a,
+body#instructor div#side ul li#nInstructor a,
+body#dog div#side ul li#nIdog a,
+body#animal div#side ul li#nIanimal a,
+body#marine div#side ul li#nImarine a,
+body#nature div#side ul li#nInature a,
+body#flower div#side ul li#nIflower a,
+body#agriculture div#side ul li#nIagriculture a{
+	background:#E7F5D8 url(../common/img02/ico_sub_arrow.png) no-repeat 5px 13px;
+	color:#F90;
+}
+
+
+/* main
+-----------------------------------------*/
+/*div#main {
+	clear:both;
+	float:left;
+	width:680px;
+}*/
+
+/*#main h2 {
+	width:680px;
+	height:52px;
+	margin:0 0 12px 0;
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	line-height:51px;
+	text-indent:33px;
+	background-image:url("img/h2_index.gif");
+}
+*/
+div#textbox{
+	width:680px;
+	margin:10px auto;
+}
+
+div#textbox strong{
+	display:block;
+	margin:0 0 15px 10px;
+	font-size:14px;
+	font-weight:bold;
+	color:#009933;
+}
+
+div#textbox p{
+	margin:0 0 15px 10px;
+}
+
+.caption{
+	font-size:10px;
+	color:#666666;
+}
+p.leadtext {
+	clear:both;
+	padding:5px;
+}
+p.leadtext strong {
+	font-size:16px;
+	font-weight:bold;
+	color:#093;
+}
+p.normaltext {
+	clear:both;
+	padding:5px 10px;
+	margin-bottom:25px;
+}
+
+/*    */
+#instructor #main div.profile{
+	padding:0 5px 10px;	
+	}
+#instructor #main div.profile p strong{
+	font-size:18px;
+	color:#060;
+	border-bottom:1px solid #060;
+	padding:5px 0 5px 0;
+	margin:0 0 5px 0;
+	display:block;
+	}
+#instructor #main div.profile p span{
+	font-size:12px;
+	}
+#instructor #main div.profile p em{
+	font-size:12px;
+	color:#81C928;
+	}
+#instructor #main div.profile img.mainPhoto{
+	float:left;
+	padding:0 10px 0 0;	
+	}
+#instructor #main div.fixHeightNAuto{
+	width:680px;
+	}
+#instructor #main div.fixHeightNAuto dl{
+	display:inline;
+	border:#C8C5B7 5px solid;
+	padding:5px;
+	background:url(img/bg_icon.gif) no-repeat left top;
+	width:310px;
+	float:left;
+	margin:0 5px;
+	}
+#instructor #main div.fixHeightNAuto dl dt{
+	padding:5px 5px 5px 40px;
+	margin:0 0 10px 0;
+	font-size:22px;
+	color:#F93;
+	font-weight:bold;
+	border-bottom:3px #C8C5B7 solid;
+	}
+#instructor #main div.fixHeightNAuto dl dd{
+	}
+#instructor #main div.fixHeightNAuto dl dd img{
+	float:right;
+	padding:0 5px 0;
+	}
+
+/* sp_training
+-----------------------------------------*/
+
+#sp_training .spbox,
+#sp_training .spbox2{
+	/*width:660px;*/
+	margin:0 0 15px 10px;
+	border: 1px solid #CCCCCC;
+	height:auto;
+	overflow:auto;
+	text-align:justify;
+}
+.spboxset,
+.instructorboxset {
+	margin-left:-10px;
+	}
+#sp_training .spbox2{
+	_display:inline;
+	width:388px;
+	float:left;
+}
+
+#sp_training .spbox img,
+#sp_training .spbox2 img{
+	float:left;
+	padding:10px 5px 10px 10px;
+}
+
+#sp_training .spbox div,
+#sp_training .spbox2 div{
+	display:inline;
+	float:right;
+	width:530px;
+	margin:10px 10px 10px 0;
+	border-top: 3px solid #009933;
+}
+
+#sp_training .spbox2 div{
+	width:224px;
+}
+
+
+#sp_training .spbox h3{
+	padding:5px 0 10px 0;
+	font-size:20px;
+	color:#009933
+}
+
+#sp_training .spbox2 h3{
+	padding:5px 0 10px 0;
+	font-size:16px;
+	color:#009933
+}
+
+#sp_training .spbox span,
+#sp_training .spbox2 span{
+	font-size:12px;
+}
+
+#sp_training .spbox dt,
+#sp_training .spbox2 dt{
+	color:#81C928;
+}
+#sp_training .spbox dd{
+	margin-bottom:10px;
+}
+
+#sp_training .bottomdd {
+	margin-bottom:0px;
+}
+
+#sp_training .bottomdl{
+	clear:both;
+	margin:10px;
+}
+
+#sp_training h3 .smalltext{
+	font-size:14px;
+}
+
+
+/* instructor dog - flower
+-----------------------------------------*/
+
+#instructorset a img#trialButton{
+	float:right;
+	padding:0 0 0 10px;
+}
+#instructorset p.insttext{
+	padding:5px 10px;
+	margin-bottom:25px;}
+
+#instructorset .instructorbox{
+	_display:inline;
+	float:left;
+	width:388px;
+	margin:0 0 15px 10px;
+	border: 1px solid #CCCCCC;
+	height:auto;
+	overflow:none;
+	text-align:justify;
+	padding:0px;
+}
+
+#instructorset .topbox{
+	overflow:hidden;
+	width:100%;
+	height:auto;
+	background-color:#FFFFD9;
+}
+
+#instructorset .instructorbox .leftbox{
+	float:left;
+	padding:10px 5px 0 10px;
+	height:auto;
+}
+
+#instructorset .instructorbox .leftbox img{
+	margin-bottom:10px;
+}
+
+#instructorset .instructorbox .rightbox{
+	display:inline;
+	float:right;
+	width:160px;
+	margin:10px 10px 0 0;
+	border-top: 3px solid #FF9933;
+}
+
+#instructorset .instructorbox h3{
+	padding-top:5px;
+	font-size:16px;
+	color:#FF9933
+}
+
+#instructorset .instructorbox .rightbox strong{
+	font-size:10px;
+	font-weight:normal;
+}
+
+#instructorset .instructorbox dl{
+	padding-top:10px;
+}
+
+#instructorset .instructorbox dt{
+	color:#FF9933;
+}
+
+#instructorset .instructorbox dd{
+	margin-bottom:10px;
+}
+
+#instructorset .instructorbox .bottomdl{
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+
+#instructorset .instructorbox .bottomdl dt.toptd{
+	margin:0 10px;
+	padding-top:10px;
+	border-top: 1px solid #FF9933;
+}
+#instructorset .instructorbox .bottomdl dt{
+	margin:0 10px;
+}
+
+#instructorset .instructorbox .bottomdl dd{
+	margin:0 10px 10px 10px;
+}
+	
+#instructorset .instructorbox .bottomdd {
+	margin-bottom:0px;
+}
+
+#instructorset .instructorbox .bottombox{
+	height:auto;
+}
+
+
+
+
+#animal #instructorset .topbox{
+	background-color:#FFECE8;
+}
+
+#animal #instructorset .instructorbox h3{
+	color:#FF4618;
+}
+
+#animal #instructorset .instructorbox .rightbox{
+	border-top: 3px solid #FF4618;
+}
+
+#animal #instructorset .instructorbox dt{
+	color:#FF4618;
+}
+
+#animal #instructorset .instructorbox .bottomdl dt.toptd{
+	border-top: 1px solid #FF4618;
+}
+
+
+
+#marine #instructorset .topbox{
+	background-color:#C3E2F3;
+}
+
+#marine #instructorset .instructorbox h3{
+	color:#118CCF;
+}
+
+#marine #instructorset .instructorbox .rightbox{
+	border-top: 3px solid #118CCF;
+}
+
+#marine #instructorset .instructorbox dt{
+	color:#118CCF;
+}
+
+#marine #instructorset .instructorbox .bottomdl dt.toptd{
+	border-top: 1px solid #118CCF;
+}
+
+
+
+#nature #instructorset .topbox{
+	background-color:#E2F2EE;
+}
+
+#nature #instructorset .instructorbox h3{
+	color:#1B967B;
+}
+
+#nature #instructorset .instructorbox .rightbox{
+	border-top: 3px solid #1B967B;
+}
+
+#nature #instructorset .instructorbox dt{
+	color:#1B967B;
+}
+
+#nature #instructorset .instructorbox .bottomdl dt.toptd{
+	border-top: 1px solid #1B967B;
+}
+
+
+
+#flower #instructorset .topbox{
+	background-color:#FFF5EF;
+}
+
+#flower #instructorset .instructorbox h3{
+	color:#FF6600;
+}
+
+#flower #instructorset .instructorbox .rightbox{
+	border-top: 3px solid #FF6600;
+}
+
+#flower #instructorset .instructorbox dt{
+	color:#FF6600;
+}
+
+#flower #instructorset .instructorbox .bottomdl dt.toptd{
+	border-top: 1px solid #FF6600;
+}
+
+
+
+#agriculture #instructorset .topbox{
+	background-color:#EFF7E4;
+}
+
+#agriculture #instructorset .instructorbox h3{
+	color:#7FBE25;
+}
+
+#agriculture #instructorset .instructorbox .rightbox{
+	border-top: 3px solid #7FBE25;
+}
+
+#agriculture #instructorset .instructorbox dt{
+	color:#7FBE25;
+}
+
+#agriculture #instructorset .instructorbox .bottomdl dt.toptd{
+	border-top: 1px solid #7FBE25;
+}
+/*--------------*/
+
+
+/* instructor dog - flower 2013.05.31New
+-----------------------------------------*/
+
+.instructorset a img#trialButton{
+	float:right;
+	padding:0 0 0 10px;
+}
+.instructorset p.insttext{
+	padding:5px 10px;
+	margin-bottom:25px;}
+
+.instructorset .instructorbox{
+	_display:inline;
+	float:left;
+	width:388px;
+	margin:0 0 15px 10px;
+	border: 1px solid #CCCCCC;
+	height:auto;
+	overflow:none;
+	text-align:justify;
+	padding:0px;
+}
+
+.instructorset .topbox{
+	overflow:hidden;
+	width:100%;
+	height:auto;
+	background-color:#FFFFD9;
+}
+
+.instructorset .instructorbox .leftbox{
+	float:left;
+	padding:10px 5px 0 10px;
+	height:auto;
+}
+
+.instructorset .instructorbox .leftbox img{
+	margin-bottom:10px;
+}
+
+.instructorset .instructorbox .rightbox{
+	display:inline;
+	float:right;
+	width:224px;
+	margin:10px 10px 0 0;
+	border-top: 3px solid #FF9933;
+}
+
+.instructorset .instructorbox h3{
+	padding-top:5px;
+	font-size:16px;
+	color:#FF9933
+}
+
+.instructorset .instructorbox .rightbox strong{
+	font-size:10px;
+	font-weight:normal;
+}
+
+.instructorset .instructorbox dl{
+	padding-top:10px;
+}
+
+.instructorset .instructorbox dt{
+	color:#FF9933;
+}
+
+.instructorset .instructorbox dd{
+	margin-bottom:10px;
+}
+
+.instructorset .instructorbox .bottomdl{
+	clear:both;
+	margin:0px;
+	padding:0px;
+}
+
+.instructorset .instructorbox .bottomdl dt.toptd{
+	margin:0 10px;
+	padding-top:10px;
+	border-top: 1px solid #FF9933;
+}
+.instructorset .instructorbox .bottomdl dt{
+	margin:0 10px;
+}
+
+.instructorset .instructorbox .bottomdl dd{
+	margin:0 10px 10px 10px;
+}
+	
+.instructorset .instructorbox .bottomdd {
+	margin-bottom:0px;
+}
+
+.instructorset .instructorbox .bottombox{
+	height:auto;
+}
+
+
+
+
+#animalinstructor .instructorset .topbox{
+	background-color:#FFECE8;
+}
+
+#animalinstructor .instructorset .instructorbox h3{
+	color:#FF4618;
+}
+
+#animalinstructor .instructorset .instructorbox .rightbox{
+	border-top: 3px solid #FF4618;
+}
+
+#animalinstructor .instructorset .instructorbox dt{
+	color:#FF4618;
+}
+
+#animalinstructor .instructorset .instructorbox .bottomdl dt.toptd{
+	border-top: 1px solid #FF4618;
+}
+
+
+
+#marineinstructor .instructorset .topbox{
+	background-color:#C3E2F3;
+}
+
+#marineinstructor .instructorset .instructorbox h3{
+	color:#118CCF;
+}
+
+#marineinstructor .instructorset .instructorbox .rightbox{
+	border-top: 3px solid #118CCF;
+}
+
+#marineinstructor .instructorset .instructorbox dt{
+	color:#118CCF;
+}
+
+#marineinstructor .instructorset .instructorbox .bottomdl dt.toptd{
+	border-top: 1px solid #118CCF;
+}
+
+
+
+#natureinstructor .instructorset .topbox{
+	background-color:#E2F2EE;
+}
+
+#natureinstructor .instructorset .instructorbox h3{
+	color:#1B967B;
+}
+
+#natureinstructor .instructorset .instructorbox .rightbox{
+	border-top: 3px solid #1B967B;
+}
+
+#natureinstructor .instructorset .instructorbox dt{
+	color:#1B967B;
+}
+
+#natureinstructor .instructorset .instructorbox .bottomdl dt.toptd{
+	border-top: 1px solid #1B967B;
+}
+
+
+
+#flowerinstructor .instructorset .topbox{
+	background-color:#FFF5EF;
+}
+
+#flowerinstructor .instructorset .instructorbox h3{
+	color:#FF6600;
+}
+
+#flowerinstructor .instructorset .instructorbox .rightbox{
+	border-top: 3px solid #FF6600;
+}
+
+#flowerinstructor .instructorset .instructorbox dt{
+	color:#FF6600;
+}
+
+#flowerinstructor .instructorset .instructorbox .bottomdl dt.toptd{
+	border-top: 1px solid #FF6600;
+}
+
+
+
+#agricultureinstructor .instructorset .topbox{
+	background-color:#EFF7E4;
+}
+
+#agricultureinstructor .instructorset .instructorbox h3{
+	color:#7FBE25;
+}
+
+#agricultureinstructor .instructorset .instructorbox .rightbox{
+	border-top: 3px solid #7FBE25;
+}
+
+#agricultureinstructor .instructorset .instructorbox dt{
+	color:#7FBE25;
+}
+
+#agricultureinstructor .instructorset .instructorbox .bottomdl dt.toptd{
+	border-top: 1px solid #7FBE25;
+}
+/*---------------------*/
+
+
+/* Box Height
+------------------------- */
+.instructorboxset:after,
+.spboxset:after {
+	display: block;
+	visibility: hidden;
+	content: ".";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
+* html .spboxset,
+* html .spboxset {
+	zoom: 1;
+} /* IE6 */
+*:first-child+html .spboxset,
+*:first-child+html .spboxset {
+	zoom: 1;
+} /* IE7 */
+
+
+/* General Classes
+------------------------- */
+.clearfix:after {
+	display: block;
+	visibility: hidden;
+	content: ".";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
+* html .clearfix {
+	zoom: 1;
+} /* IE6 */
+*:first-child+html .clearfix {
+	zoom: 1;
+} /* IE7 */

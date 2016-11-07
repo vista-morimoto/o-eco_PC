@@ -1,0 +1,359 @@
+@charset "utf-8";
+
+body {
+		font-family: "メイリオ" , Meiryo , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto, "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" ,  "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+		font-size: 14px;
+		line-height: 1.4;
+}
+.red {	color: #e60012; }
+.mb10 { margin-bottom: 10px; }
+
+
+.read span {
+	color: #e60012;
+	font-weight: bold;
+}
+
+.indentList {
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
+h1 {
+	text-align: center;	
+	padding: 15px 10px;
+	background: #fff; /*各校カラー*/
+	border-bottom: 3px solid #6FB92C;/*各校カラー*/
+}
+
+footer {
+	width: 100%;
+	margin-top: 20px;
+	background: #ECECEC; /*各校カラー*/
+	text-align: center;
+}
+.entryBtn {
+	background: #e60012;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	margin: 30px auto 0;
+	text-align: center;
+	padding: 20px 0;
+	border-radius: 5px;
+}
+a:hover {
+	opacity: 0.7;
+}
+/*----------------------------------------------------------
+	　PC
+-------------------------------------------------------------*/
+@media screen and (min-width : 641px){ /*641以上で適用*/
+	
+	.block {	display: block; 	}	
+	.f12    { 	font-size: 12px;	}
+	a {
+		color: #000;
+		text-decoration: underline;
+	}
+	
+	#wrap {
+		width: 800px;
+		margin: 0 auto;
+		padding-bottom: 20px;
+	}
+	.rap { 
+		padding: 15px;	
+	}	
+	.read {
+		text-align: center;
+	}	
+	h2 {
+		text-align: center;
+		margin: 15px 0;
+	}
+	h2 img {
+		width: 650px;
+	}
+	h3.tit {
+		width: 100%;
+		padding: 10px;
+		margin-bottom: 10px;
+		text-align: center;
+		background: #666;
+		color: #fff;
+		clear: both;
+		font-size: 24px;
+	}
+	h3.tit span {
+		font-size: 20px;		
+	}
+	.tit_02 {
+		font-size: 22px;
+	}
+	
+	/*----- 説明 -----*/
+	#method {
+		width: 800px;
+		margin: 20px 0;
+		overflow: hidden;
+	}
+	#method li {
+		width: 265px;
+		height: 165px;
+		float: left;
+		text-align: center;
+		padding: 15px;
+		border-right: 2px solid #000;
+		position: relative;
+	}
+	#method li:last-child { border: none; }
+	
+	#method li p {
+		margin-bottom: 10px;
+	}
+	#method li:first-child p {
+		margin-top: -10px;
+	}		
+	#method li img {
+		position: absolute;
+		bottom: 10px;
+		left: 60px;
+	}
+	
+	/*----- クレジットカード -----*/
+	.cardArea {
+		border-bottom: 2px solid #000;
+		margin-bottom: 10px;
+	}
+	.tit_card {
+		float: left;
+		margin: 5px 0 10px;
+	}
+	.tit_card span {
+		display: block;
+	}
+	#cardList {
+		float: right;
+	}
+	#cardList li {
+		float: left;
+	}
+	#cardList li:nth-child(2) {
+		margin: 0 10px;
+	}
+	#cardList li img {
+		width: 100px;
+	}
+	
+	/*-----  コンビニ-----*/
+	.tit_conveni {
+		float: left;
+	}
+	.tit_conveni + p {
+		float: right;
+		font-size: 12px;
+		margin-bottom: 20px;
+	}
+	#conveniList {
+		margin: 15px 0 10px 10px;
+	}
+	#conveniList li {
+		float: left;
+	}
+	#conveniList img {
+		width: 380px;
+	}
+	
+	.textList {
+		clear: both;
+		padding-top: 10px;
+	}
+	
+	/*----- 必要書類-----*/
+	.documentArea {
+		padding: 15px;
+	}
+	.documentArea h4 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.documentArea .bgGray {
+		background: #999;
+		color: #fff;
+		padding: 5px 10px;
+		margin-bottom: 5px;
+		display: inline-block;
+		font-weight: bold;
+	}
+	
+	/*----- footer -----*/
+	footer div {
+		width: 800px;
+		padding: 10px 0;
+		margin: 0 auto;
+	}
+	footer li {
+		display: inline-block;
+	}
+	footer li:first-child {
+		margin-right: 10px;
+	}
+	#tel_sm {
+		display: none;
+	}
+	
+	/*他*/
+	.arrow {
+		font-size: 100px;
+		color: #999;
+		text-align: center;
+		line-height: 0;
+		margin-top: -40px;
+		margin-bottom: -20px;
+	}	
+	
+}
+
+
+/*----------------------------------------------------------
+	　スマホ
+-------------------------------------------------------------*/
+@media screen and (max-width : 640px){ /*640以下で適用*/
+	
+	img {	width: 100%;	}
+	.f12 {	font-size: 12px;	}
+	
+	a {		color: #B50182;	}/*各校カラー*/
+
+	body {
+		font-size: 14px;
+	}
+	#wrap {
+		padding: 0 3%;
+	}
+	h2 {
+		text-align: center;
+		padding: 0 3%;
+		margin: 15px 0;
+	}
+	
+	h3.tit {
+		width: 100%;
+		padding: 10px;
+		margin-bottom: 10px;
+		text-align: center;
+		background: #666;
+		color: #fff;
+		clear: both;
+		font-size: 20px;
+	}
+	h3.tit span {
+		font-size: 14px;		
+	}
+	.tit_02 {
+		font-size: 18px;
+		text-align: center;
+		margin-bottom: 10px;
+		font-weight: bold;
+	}
+	
+	/*説明*/
+	#method li {
+		width: 100%;
+		clear: both;
+		padding: 20px 0 20px 3%;
+		overflow: hidden;
+		border-bottom: 2px solid #818181;
+		position: relative;
+	}
+	#method li:last-child {	border: none; }
+	#method li p {
+		float: right;
+		width: 70%;
+	}
+	#method li img {
+		width: 25%;
+		position: absolute;
+    top: 50%;
+		left: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+	}	
+	.textList {
+		padding-top: 10px;
+	}
+	
+	
+	/*----- クレジットカード -----*/
+	.cardArea {
+		border-bottom: 3px solid #666;
+		margin-bottom: 20px;
+		padding: 10px 0 20px;
+	}
+	#cardList {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+    	   -ms-flex-wrap: wrap;
+								flex-wrap: wrap;								
+	-webkit-justify-content: space-around;
+	   	   -ms-justify-content: space-around;
+								justify-content: space-around;
+	}
+	#cardList li {
+		width: calc(100% / 3 - 10px);
+		margin-bottom: 15px;
+	}
+	
+	
+	/*----- 必要書類-----*/	
+	.documentArea {
+		padding-bottom: 15px;
+	}
+
+	.documentArea h4 {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	.documentArea .bgGray {
+		background: #999;
+		color: #fff;
+		padding: 5px 10px;
+		margin-bottom: 5px;
+		font-weight: bold;
+		text-align: center;
+	}
+	.borderB {
+		border-bottom: 3px solid #666;
+		margin-bottom: 15px;
+	}
+	
+	/*----- footer -----*/
+	footer div {
+		padding: 10px;
+	}
+	footer ul {
+		color: #B50182;/*各校カラー*/
+	}
+	#tel_pc {
+		display: none;
+	}
+	
+	/*他*/
+	.arrow {
+		font-size: 80px;
+		color: #999;
+		text-align: center;
+		line-height: 0;
+		margin-top: -20px;
+		margin-bottom: -10px;
+	}
+	
+
+}
+
+

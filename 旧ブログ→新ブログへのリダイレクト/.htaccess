@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteBase /blogs/
+RewriteRule .* /contents/blogs/ [R=301,L]

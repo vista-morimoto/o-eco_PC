@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*インデックスページ用*/
+
+#asuenotobira div#main {
+	clear:both;
+	margin: 0 auto;
+	overflow: hidden;
+	zoom: 1;
+	width:864px;
+}
+#asuenotobira h2{
+	padding:0;
+	line-height:0;
+	text-indent:0;
+}
+.voiceBox {
+	background: url(img/bg_section.gif) left top repeat;
+	padding: 5px;
+	margin-top: 30px;
+}
+.voiceBoxIn {
+	background-color: #fff;
+	padding: 8px 20px 20px 20px;
+}
+div.sectionWrap {
+	overflow: hidden;
+	zoom: 1;
+	padding-top: 1em;
+}
+div.sectionWrap p {
+	float: left;
+	overflow: hidden;
+	width: 460px;
+}
+div.sectionWrap strong,
+div.sectionWrap p strong {
+	color: #5fa900;
+}
+.leftImg {
+	float: left;
+	padding-right: 1em;
+}
+.rightImg {
+	float: right;
+	padding-left: 1em;
+}
+.moreBox {
+	margin: 30px 0;
+}
+.moreBox ul {
+	overflow: hidden;
+	zoom: 1;
+	margin-left: -20px;
+}
+.moreBox ul li {
+	float: left;
+	padding-left: 20px;
+}
+#footBanner {
+	margin-left: 90px !important;
+}

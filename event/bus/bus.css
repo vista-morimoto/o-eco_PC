@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+/*トップページ専用*/
+
+/*------------------------------*/
+
+#bus #container table,
+#bus #container th,
+#bus #container td{
+margin:0;
+padding:0;
+border-collapse:separate;
+border:none;
+border-spacing:0;
+}
+
+#bus #container table{
+width:930px;
+border:1px solid #EEEEEE;
+background:#E6EFF9;
+}
+#bus #container th{
+padding:0.8em 0.5em;
+border-color:#EEEEEE #8DB7E6 #EEEEEE #EEEEEE;
+border-style:solid;
+border-width:1px;
+color:#FFFFFF;
+background: #629CDD;
+font-weight:bold;
+text-align:center;
+font-size:14px;
+}
+#bus #container td{
+padding:0.8em 0.5em;
+border-color:#EEEEEE #8DB7E6 #8DB7E6 #EEEEEE;
+border-style:solid;
+border-width:1px;
+font-size:14px;
+text-align:center;
+}
+#bus #container td a{
+display:block;
+padding:0.5em 0;
+background:#FF9900;
+color:#FFFFFF;
+text-decoration:none;
+font-size:12px;
+text-align:center;
+border:1px solid #629CDD;
+}
+#bus #container td a:hover{
+background:#FFCC00;
+}
+
+#bus #container table #date{
+width:120px;
+}
+#bus #container table #departure{
+background-color:#FFFFCC;
+width:120px;
+}
+#bus #container table #place{
+width:360px;
+}
+#bus #container table #start{
+width:110px;
+}
+#bus #container table #return{
+width:110px;
+}
+#bus #container table #map{
+background-color:#FFFFFF;
+}
+
+
+#bus #container table.attention caption{
+margin:0 auto;
+padding:20px 0 0 0;
+text-indent:20px;
+font-size:16px;
+font-weight:bold;
+color:#336600;
+text-align:left;
+}
+#bus #container table.attention{
+padding:0;
+border-collapse:separate;
+border:none;
+border-spacing:0;
+}
+#bus #container table.attention th,
+#bus #container table.attention td{
+margin:0;
+padding:0;
+border-collapse:separate;
+border:none;
+border-spacing:0;
+}
+
+#bus #container table.attention{
+width:860px;
+border:1px solid #ECFFF0;
+background:#ECFFF0;
+margin: 0 auto;
+}
+#bus #container table.attention th{
+width:20%;
+padding:0.8em 0.5em;
+border-color:#336600 #8DB7E6 #ECFFF0 #ECFFF0;
+border-style:solid;
+border-width:1px;
+color:#FFFFFF;
+background: #336600;
+font-weight:bold;
+text-align:center;
+font-size:12px;
+}
+#bus #container table.attention td{
+padding:0.8em;
+line-height:1.5em;
+border-color:#ECFFF0 #339900 #339900 #ECFFF0;
+border-style:solid;
+border-width:1px;
+font-size:12px;
+text-align:left;
+}
+#bus #container table.attention span{
+color:#FF0000;
+}
+#bus #container .busTitle{
+background:url(img/bus_title.gif) no-repeat;
+width:658px;
+height:78px;
+margin:10px 0 5px;
+text-indent:-9999px;
+}
+
+
+/* tabindex */
+
+#bus #container .tabNav {
+position:relative;
+z-index:10;
+}
+#bus #container .tabNav li {
+float:left;
+margin-right:0.25em;
+list-style:none;
+text-decoration:none;
+color:#629CDD;
+font-weight:bold;
+}
+#bus #container .tabNav li a {
+-moz-border-radius-topleft:3px;
+-moz-border-radius-topright:3px;
+background-color:#EEEEEE;
+border:1px solid #CCCCCC;
+display:block;
+padding:0.25em 0.5em;
+text-decoration:none;
+color:#629CDD;
+}
+#bus #container .tabNav li a:hover {
+background-color:#F8F8F8;
+color:#629CDD;
+}
+#bus #container .tabNav li a.active {
+background-color:#629CDD;
+border-bottom:1px solid #629CDD;
+color:#FFFFFF;
+}
+/*.tabContent {
+-moz-border-radius-bottomleft:3px;
+-moz-border-radius-bottomright:3px;
+-moz-border-radius-topright:3px;
+border:1px solid #CCCCCC;
+clear:left;
+padding:1em;
+position:relative;
+top:-1px;
+z-index:1;
+}*/
+
+/* 申込フォーム */
+#container div.entry a{
+display:block;
+padding:0px;
+width:156px;
+height:36px;
+}
+#container div.entry{
+overflow:hidden;
+text-indent:-9999px;
+display:block;
+margin:20px auto;
+padding:0px;
+width:156px;
+height:36px;
+}
+#container div.entry{
+background:url(../img_entryform/entry_normal_on.gif) no-repeat;
+}
+#container div.entry a{
+background:url(../img_entryform/entry_normal.gif) no-repeat;
+}
+#container div.entry a:hover{
+background:none;
+}
+/* その他 */
+.busOther{
+	position:relative;
+	}
+.busOtherIn{
+	position:absolute;
+	top:-10px;
+	right:0;
+	}
+/**/
+.InPageLink li {
+	display:inline-block;
+	padding:5px;
+	border-radius:5px;
+	border:1px solid #F90;
+	background:#FC9;
+	font-size:16px;
+}
+
+	.InPageLink li a {
+		color:#F60;
+		}
+body#bus h3 {
+	background:#629cdd;
+	padding:10px;
+	font-size:16px;
+	color:#FFF;
+	margin-top:15px;
+	}

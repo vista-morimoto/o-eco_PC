@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+/*トップページ専用*/
+
+/*------------------------------*/
+
+#special #container table,
+#special #container th,
+#special #container td{
+margin:0;
+padding:0;
+border-collapse:separate;
+border:none;
+border-spacing:0;
+font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+#special #container table{
+width:800px;
+border:1px solid #EEEEEE;
+background:#E6EFF9;
+margin:auto;
+}
+#special #container th{
+padding:0.5em 0.3em;
+border-color:#CCCCCC;
+border-style:solid;
+border-width:1px;
+color:#FFFFFF;
+background: #A93C1B;
+font-weight:bold;
+text-align:center;
+font-size:14px;
+}
+#special #container td{
+padding:0.5em 0.5em;
+border-color:#CCCCCC;
+border-style:solid;
+border-width:1px;
+font-size:14px;
+text-align:center;
+}
+#special #container td a{
+display:block;
+padding:0.5em 0;
+background:#A93C1B;
+color:#FFFFFF;
+text-decoration:none;
+font-size:12px;
+text-align:center;
+border:1px solid #A93C1B;
+}
+#special #container td a:hover{
+	background-color:#B56A6A;
+}
+
+#special #container table #date{
+width:110px;
+color:#993300;
+font-weight:bold;
+background-color:#FFFFFF;
+}
+#special #container table #departure{
+background-color:#FFFFCC;
+width:110px;
+color:#993300;
+font-weight:bold;
+
+}
+#special #container table #place{
+width:480px;
+background-color:#FFFFFF;
+}
+#special #container table #map{
+width:80px;
+background-color:#FFFFFF;
+}
+
+
+#special #container table.attention caption{
+margin:0 auto;
+padding:20px 0 0 0;
+text-indent:20px;
+font-size:16px;
+font-weight:bold;
+color:#336600;
+text-align:left;
+}
+#special #container table.attention{
+padding:0;
+border-collapse:separate;
+border:none;
+border-spacing:0;
+}
+#special #container table.attention th,
+#special #container table.attention td{
+margin:0;
+padding:0;
+border-collapse:separate;
+border:none;
+border-spacing:0;
+}
+
+#special #container table.attention{
+width:860px;
+border:1px solid #ECFFF0;
+background:#ECFFF0;
+margin: 0 auto;
+}
+#special #container table.attention th{
+width:20%;
+padding:0.8em 0.5em;
+border-color:#336600 #8DB7E6 #ECFFF0 #ECFFF0;
+border-style:solid;
+border-width:1px;
+color:#FFFFFF;
+background: #336600;
+font-weight:bold;
+text-align:center;
+font-size:12px;
+}
+#special #container table.attention td{
+padding:0.8em;
+line-height:1.5em;
+border-color:#ECFFF0 #339900 #339900 #ECFFF0;
+border-style:solid;
+border-width:1px;
+font-size:12px;
+text-align:left;
+}
+#special #container table.attention span{
+color:#FF0000;
+}
+#special #container .busTitle{
+background:url(img/bus_title.gif) no-repeat;
+width:658px;
+height:78px;
+margin:10px auto 5px;
+text-indent:-9999px;
+}
+
+
+/* 申込フォーム */
+#container div.entry a{
+display:block;
+padding:0px;
+width:156px;
+height:36px;
+}
+#container div.entry{
+overflow:hidden;
+text-indent:-9999px;
+display:block;
+margin:20px auto;
+padding:0px;
+width:156px;
+height:36px;
+}
+#container div.entry{
+background:url(../img_entryform/entry_normal_on.gif) no-repeat;
+}
+#container div.entry a{
+background:url(../img_entryform/entry_normal.gif) no-repeat;
+}
+#container div.entry a:hover{
+background:none;
+}
+/* その他 */
+.busOther{
+	position:relative;
+	}
+.busOtherIn{
+	position:absolute;
+	top:-10px;
+	right:0;
+	}

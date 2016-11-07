@@ -1,0 +1,480 @@
+@charset "utf-8";
+
+/*トップページ専用*/
+
+/*------------------------------*/
+
+#home #caution{
+	border:1px #090 solid;
+	width:908px;
+	padding:20px 10px 20px;
+	font-weight:bold;
+	font-size:16px;
+	text-align:center;
+	margin:15px auto -5px;
+}
+#home #container{
+	position:relative;
+	z-index:5;
+	/*overflow:hidden;*/
+	width:930px;
+	vertical-align:top;
+	/*font-size: 12px;*/
+	margin-top: 15px;
+	color: #333;
+}
+
+#topIcons {
+	width:930px;
+	margin:10px auto 0 auto;
+	}
+
+#topIcons img {
+	padding-left:35px;
+}
+
+/* 背景動物たち */
+
+#home #animalBox{
+	width:930px;
+	/*margin:15px auto 0px;*/
+	margin:10px auto 0px;
+	position:relative;
+}
+
+#home div.iguana{
+	position:absolute;
+	left: -60px;
+	top: 277px;
+	z-index:1;
+}
+#home div.macaw{
+	position:absolute;
+	left: 910px;
+	top: 100px;
+	z-index:1;
+}
+#home div.bird{
+	position:absolute;
+	left: 812px;
+	z-index:3;
+	bottom: -50px;
+}
+#home div.monkey{
+	position:absolute;
+	left: 888px;
+	z-index:1;
+	bottom: -190px;
+}
+#home div.capibara{
+	position:absolute;
+	left: 488px;
+	z-index:3;
+	bottom: -60px;
+}
+#home div.pig{
+	position:absolute;
+	left: 49px;
+	z-index:3;
+	bottom: -60px;
+}
+
+
+/* container setting */
+
+#home #container ul {
+	list-style-type: none;
+}
+#home #container img {
+	vertical-align: bottom;
+}
+
+/* leftCnt setting */
+
+div#leftCnt {
+	float: left;
+	width: 644px;
+}
+
+/* spbox setting */
+div#spBox ul,
+div#myschoolBox ul {
+	overflow: hidden;
+	zoom: 1;
+	margin:0 0 0 16px;
+}
+div#spBox ul li,
+div#myschoolBox ul li {
+	display: block;
+	float: left;
+	width: 303px;
+	margin-top: 10px;
+	margin-right:7px;
+	
+	border:1px solid #83C92B;
+	border-radius:3px;
+	background:#F8FFF7;
+
+	background: #F8FFF7 url(img/ico_Aarrow.png) right bottom no-repeat;
+}
+	div#myschoolBox ul li {
+		width:613px;
+	}
+div#spBox ul li p {
+	padding-top: 15px;
+	overflow: hidden;
+	line-height: 1.4;
+	cursor: pointer;
+}
+div#spBox ul li span {
+	font-size: 10px;
+}
+div#spBox ul li a,
+div#myschoolBox ul li a {
+	display: block;
+	min-height:81px;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 1.4;
+	color: #f60;
+	text-decoration:none;
+
+	word-break:break-all;
+	word-wrap: break-word;
+}
+div#spBox ul li a:hover,
+div#myschoolBox ul li a:hover {
+	opacity: .65; /* Standard: FF gt 1.5, Opera, Safari */
+	filter: alpha(opacity=65); /* IE lt 8 */
+	-ms-filter: "alpha(opacity=65)"; /* IE 8 */
+	-khtml-opacity: .65; /* Safari 1.x */
+	-moz-opacity: .65; /* FF lt 1.5, Netscape */
+}
+
+div#spBox ul li a span {
+	line-height: 1.4;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none !important;
+}
+div#spBox ul li a:link span,
+div#spBox ul li a:visited span,
+div#spBox ul li a:hover span,
+div#spBox ul li a:active span{
+	text-decoration: none;
+}
+div#spBox ul li img,
+div#myschoolBox ul li img,
+.additionBox li img {
+	float: left;
+	margin: 4px 10px 4px 4px;
+}
+
+div#rightCnt {
+	float: right;
+	width: 253px;
+}
+
+div#rightCnt div h2 {
+	text-align:center;
+	margin-top:5px;
+	}
+
+div#sessionBox,
+div#trialBox,
+div#eventCalBox,
+div#spBox,
+div#myschoolBox,
+div#rightCnt > div
+.additionBox li {
+	border: 1px solid #b4c91a;
+	
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	
+	margin-bottom: 15px;
+	padding-bottom:10px;
+	background-color: #fff;
+}
+	.additionBox {
+		margin-left:-14px;
+		}
+	.additionBox li {
+		
+		margin-bottom: 15px;
+		padding-bottom:10px;
+		background-color: #fff;
+		
+		width:313px;
+		float:left;
+		margin-left:14px;
+		
+		border: 1px solid #b4c91a;
+		background: url(img/ico_Aarrow.png) right bottom no-repeat;
+		
+		border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;		
+		}
+
+	.additionBox li a {
+		display:block;
+		text-decoration:none;
+		color:#666;
+		}
+	.additionBox li a:hover {
+		opacity: .55; /* Standard: FF gt 1.5, Opera, Safari */
+		filter: alpha(opacity=55); /* IE lt 8 */
+		-ms-filter: "alpha(opacity=55)"; /* IE 8 */
+		-khtml-opacity: .55; /* Safari 1.x */
+		-moz-opacity: .55; /* FF lt 1.5, Netscape */
+		}
+	.additionBox li strong {
+		color:#FF6600;
+		text-decoration:underline;
+		}
+div#underCntBox {
+	background: url(img/bg_under_cnt.jpg) left bottom no-repeat;
+	overflow: hidden;
+	zoom: 1;
+}
+div#mySchoolBox,
+div#ecoMarketBox {
+	border-top: none;
+	width: 300px;
+	float: left;
+}
+div#ecoMarketBox {
+	margin-left: 10px;
+}
+div#mySchoolBox p,
+div#ecoMarketBox p {
+	padding: 15px;
+	overflow: hidden;
+	zoom: 1;
+}
+div#mySchoolBox p img,
+div#ecoMarketBox p img {
+	float: left;
+	margin-right: 10px;
+}
+div#mySchoolBox p span,
+div#ecoMarketBox p span {
+	overflow: hidden;
+	line-height: 1.4;
+	display: block;
+	cursor: pointer;
+}
+
+/* eventCalBox setting */
+
+div#eventCalBox h2 {
+	position:relative;
+	}
+	div#eventCalBox h2 a {
+		display:block;
+		width:82px;
+		height:19px;
+		position:absolute;
+		top:9px;
+		right:30px;
+	}
+
+div#eventCalBox p {
+	width:220px;
+	margin:0 auto;
+}
+div#eventCalBox p.calHd {
+	overflow: hidden;
+	zoom: 1;
+	padding-bottom: 5px;
+	font-weight: bold;
+}
+div#eventCalBox p span.calMonth {
+	float: left;
+}
+div#eventCalBox p span.calNavi {
+	float: right
+}
+div#eventCalBox p.calNote {
+	padding-top: 5px;
+}
+p.btnConditional {
+	position:absolute;
+	top:-30px;
+	right:-60px;
+	}
+
+/* trialBox setting */
+
+div#trialBox {
+	padding-right: 0;
+}
+div#trialBox p {
+	font-weight: bold;
+}
+	div#trialBox h2,
+	div#spBox h2,
+	div#myschoolBox h2 {
+		margin:5px 0 0 4px;
+		}
+				
+div#trialBox ul {
+	overflow: hidden;
+	zoom: 1;	
+	margin:0 0 0 16px;
+}
+div#trialBox ul li {
+	float: left;
+	padding: 10px 7px 0 0;
+}
+	div#trialBox ul li a:hover {
+		opacity: .75; /* Standard: FF gt 1.5, Opera, Safari */
+		filter: alpha(opacity=75); /* IE lt 8 */
+		-ms-filter: "alpha(opacity=75)"; /* IE 8 */
+		-khtml-opacity: .75; /* Safari 1.x */
+		-moz-opacity: .75; /* FF lt 1.5, Netscape */
+		}
+/* sessionBox setting */
+
+div#sessionBox {
+	margin-bottom: 0;
+}
+div#sessionBox p.description {
+	font-weight: bold;
+}
+div#sessionBox ul {
+	width:226px;
+	margin:0 auto;
+	}
+div#sessionBox ul li {
+	border-bottom:1px dotted #C1E496;
+	overflow: hidden;
+	zoom: 1;
+	padding: 8px 0 10px 0;
+	background: url(img/ico_Aarrow.png) right bottom no-repeat;
+}
+	div#sessionBox ul li a {
+		text-decoration:none;
+		color:#666;
+		}
+	div#sessionBox ul li a:hover {
+		opacity: .55; /* Standard: FF gt 1.5, Opera, Safari */
+		filter: alpha(opacity=55); /* IE lt 8 */
+		-ms-filter: "alpha(opacity=55)"; /* IE 8 */
+		-khtml-opacity: .55; /* Safari 1.x */
+		-moz-opacity: .55; /* FF lt 1.5, Netscape */
+		}
+	div#sessionBox ul li strong {
+		color:#FF6600;
+		text-decoration:underline;
+		}
+div#sessionBox ul li img,
+div#myschoolBox ul li img {
+	float: left;
+	margin-right: 10px;
+}
+	div#myschoolBox ul li p {
+		line-height:1.4;
+		}
+div#sessionBox ul li a {
+	overflow: hidden;
+	zoom: 1;
+	cursor: pointer;
+}
+div#sessionBox ul li a span {
+	display: block;
+	line-height: 1.4;
+	overflow: hidden;
+}
+div#sessionBox span.moreLink {
+	display: block;
+	padding: 5px 0 10px 0;
+	text-align: right;
+}
+div#sessionBox span.moreLink a {
+	background: url(img/icon_arrow_01.gif) left center no-repeat;
+	padding-left: 20px;
+	font-weight: bold;
+	line-height: 1.7;
+	display: inline-block;
+}
+
+/* calendar */
+
+.calenderNaviStatic {
+	position:relative;
+	font-weight: bold;
+	font-size: 14px;
+	width: 268px;
+	height: 220px;
+}
+.calenderNavi{
+	position:absolute;
+	width:150px;
+	top: 0px;
+	right: 0px;
+	text-align: right;
+	font-weight: bold;
+}
+.changeMONTH {
+	display: none;
+}
+.changeMONTH p {
+	padding-top: 10px;
+}
+
+
+/*おすすめイベント*/
+div#pickupevent{
+	width:246px;
+	position:relative;
+	
+	border: 1px solid #82C929;
+	
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	
+	margin-bottom: 10px;
+	padding-left:10px;
+	padding-bottom:10px;
+	background-color: #fff
+}
+div#rightCnt div#pickupevent h2 {
+	text-align:left;
+}
+div#pickupevent #jCarouselLite {
+	padding-left:1px;
+}
+div#pickupevent #jCarouselLite ul{
+	overflow:hidden;
+}
+div#pickupevent #jCarouselLite li{
+	float:left;
+	margin-right:5px;
+}
+div#pickupevent .jCarouselprev{
+	position:absolute;
+	left:-19px;
+	top:145px;
+	z-index:100;
+}
+div#pickupevent .jCarouselnext{
+	position:absolute;
+	right:-19px;
+	top:145px;
+	z-index:100;
+}
+
+/*交通費サポート*/
+#traffic_support{
+	width:625px;
+	background:url(img/traffic_support_bg.gif) no-repeat;
+	padding:10px;
+}
+#traffic_support p{
+	margin-top:10px;
+	width:300px;
+}

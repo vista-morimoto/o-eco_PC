@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#photogallery #Petcontents {
+	background: #F7FED3 url(img/pagehead.jpg) no-repeat top center;
+	margin:0;
+	padding:0 0 50px 0;
+	text-align:center;
+	width:884px;
+	border:#EEE solid 1px;
+}
+#photogallery #eventLink {
+	margin:10px auto;
+}
+#photogallery h2 {
+	margin: 0px;
+	padding: 0px;
+	text-indent: -9999px;
+	visibility: hidden;
+	height: 135px;
+}
+
+#photogallery .tabNav {
+	background: url(img/number_back.gif) repeat-x;
+	display: block;
+	width: 760px;
+	border: 1px solid #74B18D;
+	vertical-align: middle;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#photogallery .tabNav li {
+	display: inline;
+}
+#photogallery .tabNav li a {
+	/*width: 60px;*/
+	height: 1.5em;
+	border: 1px solid #ccc;
+	color: #777;
+	/*text-align: center;*/
+	display: inline;
+	text-decoration: none;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-right: 5px;
+}
+#photogallery .tabNav li a:hover,
+#photogallery .tabNav li a.active {
+	border-color: #74B18D;
+	color: #FFFFFF;
+	background: #74B18D;
+}
+
+
+#photogallery #Info {
+	background: url(img/info.jpg) no-repeat;
+	height: 114px;
+	text-align: left;
+	vertical-align: 50%;
+	margin: 0px auto 20px;
+	width: 736px;
+}
+#photogallery #Info ul {
+	font-size: 11px;
+	_font-size: 80%;
+	width: 480px;
+	padding-left: 150px;
+	vertical-align: middle;
+	padding-top: 15px;
+}
+#photogallery #Info li {
+	background: url(img/arrow.gif) no-repeat;
+	line-height: 11px;
+	text-indent: 20px;
+	padding-bottom: 10px;
+}
+#photogallery #AnimalList {
+	width: 760px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#photogallery #AnimalList li {
+	height: 318px;
+	width: 360px;
+	margin: 0px;
+	padding: 0px 0px 0px 15px;
+	position: relative;
+	float: left;
+}
+#photogallery a.BoKabegami {
+	height: 87px;
+	width: 86px;
+	top: 201px;
+	margin: 0px;
+	padding: 0px;
+	right: 18px;
+	position: absolute;
+	display: block;
+	text-indent: -9999px;
+}
+#photogallery a.BoKabegami:link ,
+#photogallery a.BoKabegami:visited  {
+	background-image: url(img/kabegami.png);
+}
+#photogallery a.BoKabegami:hover {
+	background-image: url(img/kabegami2.png);
+}
+#photogallery a.BoMove {
+	height: 20px;
+	width: 109px;
+	top: 6px;
+	margin: 0px;
+	padding: 0px;
+	right: 9px;
+	position: absolute;
+	display: block;
+	text-indent: -9999px;
+}
+#photogallery a.BoMove:link ,
+#photogallery a.BoMove:visited  {
+	background-image: url(img/move.gif);
+}
+#photogallery a.BoMove:hover {
+	background-image: url(img/move2.gif); 
+}

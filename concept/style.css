@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+#concept #main {
+	width:1020px;
+	float: none;
+}
+#concept #conceptRinen {
+	margin: 20px 0;
+}
+#concept #conceptRinen dt {
+	font-size: 1.4em;
+	background: #FFB806;
+	margin-bottom: 20px;
+	padding: 5px 10px;
+}
+#concept #conceptRinen dd {
+	margin-bottom: 20px;
+}
+#concept #conceptSymbol {
+	border: 3px solid #DEDEDE;
+	margin: 0 auto 20px;
+	padding: 20px;
+	width: 880px;
+}
+#concept #conceptSymbol dt {
+	float: left;	
+}
+#concept #conceptSymbol dd {
+	margin-left: 93px;
+	padding: 10px 0;
+}
