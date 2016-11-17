@@ -24,8 +24,7 @@ body#brandingredient div#side ul li#nBrandingredient a,
 body#farmcafe div#side ul li#nFarmcafe a,
 body#gardeningcultivation div#side ul li#nGardeningcultivation a,
 body#agripark div#side ul li#nAgripark a,
-body#graduatecourse div#side ul li#nGraduatecourse a,
-body#lifeplanning div#side ul li#nLifeplanning a {
+body#graduatecourse div#side ul li#nGraduatecourse a {
 	background:#E7F5D8 url(../common/img02/ico_sub_arrow.png) no-repeat 5px 13px;
 	color:#F90;
 }
@@ -97,8 +96,6 @@ div#main {
 	body#graduatecourse #main h2 {background-image:url(img_graduatecourse/courseIcon.png);}
 	
 	body#agripark #main h2 {background-image:url(img_agripark/courseIcon.png);}
-
-	body#lifeplanning #main h2 {background-image:url(img_lifeplanning/courseIcon.png);}
 
 #main h2 span {
 	display:inline-block;
@@ -204,9 +201,6 @@ h3#h3top:after {
 	}
 	body#agripark #MainPoint {
 		background:url(img_agripark/bg_main.png) left top no-repeat;
-		}
-	body#lifeplanning #MainPoint {
-		background:url(img_lifeplanning/bg_main.png) left top no-repeat;
 		}
 
 #MainBtn {
@@ -565,9 +559,6 @@ h3#h3top:after {
 	body#gardeningcultivation .BigCurric.CurricLeft{
 		background:url(img_gardeningcultivation/bgIcon.png) right bottom no-repeat;
 	}
-	body#lifeplanning .BigCurric.CurricLeft{
-		background:url(img_lifeplanning/bgIcon.png) right bottom no-repeat;
-	}
 /**/	
 	
 .BigCurric.CurricLeft > span {
@@ -636,9 +627,6 @@ h3#h3top:after {
 		}
 	body#gardeningcultivation .BigCurric.CurricRight{
 		background:url(img_gardeningcultivation/bgIcon.png) left bottom no-repeat;
-	}
-	body#lifeplanning .BigCurric.CurricRight{
-		background:url(img_lifeplanning/bgIcon.png) left bottom no-repeat;
 	}
 /**/
 
@@ -838,20 +826,17 @@ div#curriculum div.curribox h4 {
 }
 body#dogmaster div#curriculum dt,
 body#animalwelfare div#curriculum dt,
-body#animaltherapy div#curriculum dt,
-body#lifeplanning div#curriculum dt { /*ワールドごとに色変更が必要です;dog*/
+body#animaltherapy div#curriculum dt { /*ワールドごとに色変更が必要です;dog*/
 	background-color:#FF4618;
 }
 	body#dogmaster div#curriculum dl,
 	body#animalwelfare div#curriculum dl,
-	body#animaltherapy div#curriculum dl,
-	body#lifeplanning div#curriculum dl { /*ワールドごとに色変更が必要です;dog*/
+	body#animaltherapy div#curriculum dl { /*ワールドごとに色変更が必要です;dog*/
 		background:#FFEBE5;
 	}
 	body#dogmaster div#curriculum  dl.even,
 	body#animalwelfare div#curriculum dl.even,
-	body#animaltherapy div#curriculum dl.even,
-	body#lifeplanning div#curriculum dl.even { /*ワールドごとに色変更が必要です;dog*/
+	body#animaltherapy div#curriculum dl.even { /*ワールドごとに色変更が必要です;dog*/
 		background:#FFCEBF;
 	}
 
@@ -922,11 +907,9 @@ div#curriculum div.curribox ul {
 body#dogmaster div#curriculum div.curribox dl,
 body#animalwelfare div#curriculum div.curribox dl,
 body#animaltherapy div#curriculum div.curribox dl,
-body#lifeplanning div#curriculum div.curribox dl,
 body#dogmaster div#curriculum div.curribox ul,
 body#animalwelfare div#curriculum div.curribox ul,
-body#animaltherapy div#curriculum div.curribox ul,
-body#lifeplanning div#curriculum div.curribox ul { /*ワールドごとに色変更が必要です;dog*/
+body#animaltherapy div#curriculum div.curribox ul { /*ワールドごとに色変更が必要です;dog*/
 	border:1px solid #FF4618;
 }
 body#pettrimmer div#curriculum div.curribox dl,
@@ -971,11 +954,9 @@ div#curriculum div.curribox li {
 body#dogmaster div#curriculum div.curribox dt,
 body#animalwelfare div#curriculum div.curribox dt,
 body#animaltherapy div#curriculum div.curribox dt,
-body#lifeplanning div#curriculum div.curribox dt,
 body#dogmaster div#curriculum div.curribox li,
 body#animalwelfare div#curriculum div.curribox li,
-body#animaltherapy div#curriculum div.curribox li,
-body#lifeplanning div#curriculum div.curribox li { /*ワールドごとに色変更が必要です*/
+body#animaltherapy div#curriculum div.curribox li { /*ワールドごとに色変更が必要です*/
 	color:#FF4618;
 	background:url(img/icon_curri_dog.jpg) no-repeat 8px 9px;
 }
