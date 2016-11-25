@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="ja"><!-- InstanceBegin template="/Templates/course.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="ja"><!-- InstanceBegin template="/Templates/tmp.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
 <meta charset="utf-8">
 <meta name="Author.Corporate" content="大阪ECO動物海洋専門学校 旧校名・OCA-大阪コミュニケーションアート専門学校" />
@@ -18,11 +18,7 @@
 <![endif]-->
 <link rel="shortcut icon" href="../favicon.ico" />
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>ドッグカフェ専攻（2年制） | 動物専門学校　大阪ECO動物海洋専門学校 大阪エコ</title>
-<meta name="Description" content="通常授業の他に、学生たちがオリジナルカフェをプロデュースし、イベントとして随時開催。内装のプランニングや試作を重ねてのメニュー考案、実際に一般のお客様を接客します。メニューブックやディスプレイも手作り。実習・実践中心の2年間が、あなたをプロへと導きます。" /> 
-<meta name="Keywords" content="専門学校, 大阪,動物専門学校,大阪動物専門学校,学校,動物,動物看護,トリマー,ドッグトレーナー,家庭犬トレーナー,ドルフィントレーナー,水族館スタッフ,フラワー" /> 
-<link rel="alternate" media="only screen and (max-width: 640px)" href="http://osaka-eco.ac.jp/course/dogcafe.html">
-<link rel="alternate" media="handheld" href="http://osaka-eco.ac.jp/course/dogcafe.html" /> 
+<title>専門学校 大阪 | 動物専門学校　 大阪ECO動物海洋専門学校 旧校名・OCA-大阪コミュニケーションアート専門学校 大阪エコ</title>
 <!-- InstanceEndEditable -->
 <meta name="twitter:card" content="photo" />
 <meta name="twitter:site" content="@osaka_eco" />
@@ -36,20 +32,26 @@
 <meta property="og:url" content="http://www.osaka-eco.ac.jp/" />
 <meta property="og:type" content="website" />
 <script type="text/javascript" src="../common/js/set_ogp.js"></script>
-
 <!-- InstanceBeginEditable name="head" -->
-<link rel="stylesheet" href="style.css" />
-<script type="text/javascript" src="http://typesquare.com/accessor/script/typesquare.js?BEV0f3NuvtU%3D" charset="utf-8"></script>
+<!-- TemplateBeginEditable name="head" -->
+<link rel="stylesheet" href="../course/style.css" />
+<!--[if lte IE 6]>
+<script type="text/javascript" src="../common/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">
+  /* EXAMPLE */
+  DD_belatedPNG.fix('.png_bg,#naviSchool,#navi');
+</script>
+<![endif]-->
 
+<!-- TemplateEndEditable -->
+<!-- TemplateParam name="course_side" type="boolean" value="true" -->
+<!-- TemplateParam name="footBanner" type="boolean" value="true" -->
 <!-- InstanceEndEditable -->
-<!-- InstanceParam name="course_side" type="boolean" value="true" -->
-<!-- InstanceParam name="footBanner" type="boolean" value="true" -->
-
-<!-- InstanceParam name="category" type="text" value="dogcafe" -->
-<!-- InstanceParam name="pagetop" type="boolean" value="true" -->
-
-
-
+<!-- InstanceParam name="category" type="text" value="" passthrough="true" -->
+<!-- InstanceParam name="pagetop" type="boolean" value="true" passthrough="true" -->
+<!-- InstanceParam name="thickboxJS" type="boolean" value="true" -->
+<!-- InstanceParam name="targetNav" type="boolean" value="true" -->
+<!-- InstanceParam name="pageSecond" type="boolean" value="true" -->
 <script type="text/javascript" src="../common/js/fixHeight.js"></script>
 
 
@@ -61,7 +63,7 @@
 
 </head>
 
-<body id="dogcafe">
+<body id="@@@(category)@@@">
 <!-- Facebook -->
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
@@ -79,12 +81,11 @@ var WRInitTime=(new Date()).getTime();
 </script> -->
 <!-- ClickTale end of Top part --> 
 <!-- InstanceBeginEditable name="goSP" -->
-<div id="ForSP"><a href="http://osaka-eco.ac.jp/course/dogcafe.html" class="btns" onclick="javascript:urchinTracker('/goSP');">スマートフォンサイトを見る</a> </div>
+編集可能領域です（goSP）
 <!-- InstanceEndEditable -->
 <header id="siteHeader">
   <!-- InstanceBeginEditable name="h1title" -->
-<h1><a href="../">ドッグカフェ専攻（2年制） | 動物専門学校　大阪ECO動物海洋専門学校</a></h1>
-<p class="lead">犬も人も一緒にくつろげるお店づくりのために、専門知識から経営まで幅広く学びます。</p>
+<h1><a href="../">動物・ペットの専門学校　学校法人コミュニケーションアート　大阪ECO動物海洋専門学校 旧校名・OCA-大阪コミュニケーションアート専門学校　―動物業界と共に6,000名以上の卒業生を業界へと送り出した学校です。―</a></h1>
 <!-- InstanceEndEditable -->
   <div id="snsLink"> <a href="https://twitter.com/osaka_eco" id="head_tw" class="OverStyle" title="大阪ECO動物海洋専門学校のTwitter" target="_blank"><img src="../common/img02/ico_tw.png" alt="Twitter" /></a> <a href="https://www.facebook.com/osakaeco" id="head_fa" class="OverStyle" title="大阪ECO動物海洋専門学校のFacebook" target="_blank"><img src="../common/img02/ico_fa.png" alt="Facebook" /></a> <a href="http://accountpage.line.me/oeco" id="head_li" class="OverStyle" title="大阪ECO動物海洋専門学校のLine" target="_blank"><img src="../common/img02/ico_li.png" alt="Line" /></a> <a href="http://www.youtube.com/user/ocaeco2/" id="head_yt" class="OverStyle" title="大阪ECO動物海洋専門学校のYoutube" target="_blank"><img src="../common/img02/ico_yt.png" alt="YouTube" /></a> <a href="https://www.instagram.com/osaka_eco/" id="head_in" class="OverStyle" title="大阪ECO動物海洋専門学校のInstagram" target="_blank"><img src="../common/img02/ico_in.png" alt="Instagram" /></a> <a href="../index.html" id="home02" class="OverStyle" title="HOMEに戻る"><img src="../common/img02/btn_home.png" alt="HOMEに戻る" /></a> </div>
   <div id="headerRight">
@@ -161,21 +162,21 @@ var WRInitTime=(new Date()).getTime();
           <div class="naviTit"><a href="../course/">専攻・コース紹介<br>
             <img src="../common/img02/nav_dd_course.jpg" width="170" height="170"></a></div>
           <ul>
-            <li id="nDogmaster"><a href="dogmaster.html">ドッグマスター専攻</a></li>
-            <li id="nAnimalwelfare"><a href="animalwelfare.html">動物看護福祉&amp;理学療法専攻</a></li>
-            <li id="nPettrimmer"><a href="pettrimmer.html">ペットトリマー&amp;エステティシャン専攻</a></li>
-            <li id="nDogcafe"><a href="dogcafe.html">ドッグカフェ専攻</a></li>
-            <li id="nAnimalnurse"><a href="animalnurse.html">動物看護師専攻</a></li>
-            <li id="nDogtrainer"><a href="dogtrainer.html">ドッグトレーナー専攻</a></li>
-            <li id="nWildanimal"><a href="wildanimal.html">野生動物&amp;環境保護専攻</a></li>
-            <li id="nZookeeper"><a href="zookeeper.html">動物園・動物飼育専攻<br />
+            <li id="nDogmaster"><a href="../course/dogmaster.html">ドッグマスター専攻</a></li>
+            <li id="nAnimalwelfare"><a href="../course/animalwelfare.html">動物看護福祉&amp;理学療法専攻</a></li>
+            <li id="nPettrimmer"><a href="../course/pettrimmer.html">ペットトリマー&amp;エステティシャン専攻</a></li>
+            <li id="nDogcafe"><a href="../course/dogcafe.html">ドッグカフェ専攻</a></li>
+            <li id="nAnimalnurse"><a href="../course/animalnurse.html">動物看護師専攻</a></li>
+            <li id="nDogtrainer"><a href="../course/dogtrainer.html">ドッグトレーナー専攻</a></li>
+            <li id="nWildanimal"><a href="../course/wildanimal.html">野生動物&amp;環境保護専攻</a></li>
+            <li id="nZookeeper"><a href="../course/zookeeper.html">動物園・動物飼育専攻<br />
             動物園公務員専攻</a></li>
           </ul>
           <ul>
-            <li id="nDolphintrainer"><a href="dolphintrainer.html">ドルフィントレーナー専攻</a></li>
-            <li id="nAquarist"><a href="aquarist.html">水族館・アクアリスト専攻</a></li>
-            <li id="nOceanprotect"><a href="oceanprotect.html">海洋生物保護専攻</a></li>
-            <li id="nFlowershop"><a href="flowershop.html">フラワーショップ&amp;ブライダルフラワー専攻</a></li>
+            <li id="nDolphintrainer"><a href="../course/dolphintrainer.html">ドルフィントレーナー専攻</a></li>
+            <li id="nAquarist"><a href="../course/aquarist.html">水族館・アクアリスト専攻</a></li>
+            <li id="nOceanprotect"><a href="../course/oceanprotect.html">海洋生物保護専攻</a></li>
+            <li id="nFlowershop"><a href="../course/flowershop.html">フラワーショップ&amp;ブライダルフラワー専攻</a></li>
           </ul>
         </div>
       </div>
@@ -271,387 +272,19 @@ var WRInitTime=(new Date()).getTime();
 
 
 <div id="content02">
- 
+ <!-- InstanceBeginEditable name="content" -->
 <div id="crumbs">
 <ul itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
   <li><a href="../" itemprop="url"><span itemprop="title">HOME</span></a></li>
-<!-- InstanceBeginEditable name="crumbs" -->
-  <li><a href="../course/" itemprop="url"><span itemprop="title">14の専攻紹介</span></a></li>
-  <li><span itemprop="title">ドッグカフェ専攻</span></li>
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="crumbs" -->
+  <li><a href="../course/" itemprop="url"><span itemprop="title">20の専攻紹介</span></a></li>
+  <li><a href="../course/ｘｘｘ.html" itemprop="url"><span itemprop="title">任意</span></a></li>
+<!-- TemplateEndEditable -->
 </ul>
 </div>
 <div id="main">
-<!-- InstanceBeginEditable name="course" -->
-<div id="MainTit"><h2>ドッグカフェ専攻<span>2年制</span></h2></div>
-<h3 id="h3top">犬も人も一緒にくつろげるお店づくりのために、<br />専門知識から経営まで幅広く学びます。</h3>
-
-<!--MainPoint-->
-<div id="MainPoint" class="curribox">
-
-<dl id="MainBtn">
-    <dt><a href="http://www.osaka-eco.ac.jp/event/results.html?category[]=2049" title="この専攻の無料体験入学"><img src="img/btn_mainEvent_off.png" alt="この専攻の体験メニューを見る" /></a></dt>
-    <dd><a href="#PointWrap" title="ECOだからできる！学びのポイント"><img src="img/btn_mainPointdog_off.png" alt="学びのポイント" /></a></dd>
-    <dd><a href="#Curric" title="充実のカリキュラム"><img src="img/btn_mainCdog_off.png" alt="カリキュラム" /></a></dd>
-    <dd><a href="#aim" title="目指せる職場・仕事・資格"><img src="img/btn_mainGoal_off.png" alt="目指せる職場・仕事・資格" /></a></dd>
-</dl>
-
-<br / style="clear:both;">
-
-<!--PointContainer-->
-<div id="PointContainer" class="clearfix">
-<h4><img src="img_dogcafe/tit_point.png" alt="好きな仕事だから感動を人に伝えられる ECOだからできる！　ドッグカフェスタッフになるための4つのポイント" /></h4>
-
-<!--PointWrap-->
-<div id="PointWrap" class="clearfix">
-    
-    <!-- ポイント1-->
-    <div class="PointBox pointNo1">
-        <div class="clearfix">
-            <h5><img src="img_dogcafe/tit_point01.png" alt="ポイント1 将来のカフェ・ショップ経営を目指す！" /></h5>
-            <dl>
-                <dt><img src="img_dogcafe/img_point01.png" alt="将来のカフェ・ショップ経営を目指す！" /></dt>
-                <dd>犬のことはもちろん、ホールでの接客からキッチン業務、経営学、ホームページ制作まで、将来、独立・開業を目指したカリキュラムで学びます。</dd>
-            </dl>
-        </div>
-        <img src="img/bgPointBoxBottom.png" class="MaruBottom" />
-    </div>
-    <!-- / ポイント1End-->
-    <!-- ポイント1-->
-    <div class="PointBox clearfix pointNo2">
-        <div class="clearfix">
-        <h5><img src="img_dogcafe/tit_point02.png" alt="ポイント2 犬にも人にも喜ばれるフードを作る！" /></h5>
-        <dl>
-            <dt><img src="img_dogcafe/img_point02.png" alt="犬にも人にも喜ばれるフードを作る！" /></dt>
-            <dd>調理実習では、クッキーやケーキなどペットも飼い主も食べられるお菓子作りを実践的に学び、ドッグカフェやペットショップでの販売も行います。</dd>
-        </dl>
-        </div>
-        <img src="img/bgPointBoxBottom.png" class="MaruBottom" />
-    </div>
-    <!-- / ポイント1End-->
-    <!-- ポイント1-->
-    <div class="PointBox clearfix pointNo3">
-        <div class="clearfix">
-        <h5><img src="img_dogcafe/tit_point03.png" alt="ポイント3 飼い主さんのよきアドバイザーを目指す！" /></h5>
-        <dl>
-            <dt><img src="img_dogcafe/img_point03.png" alt="飼い主さんのよきアドバイザーを目指す！" /></dt>
-            <dd>犬の健康やしつけについて学びます。飼い主の方に的確なアドバイスができ、信頼される人材を育成します。</dd>
-        </dl>
-        </div>
-        <img src="img/bgPointBoxBottom.png" class="MaruBottom" />
-    </div>
-    <!-- / ポイント1End-->
-    <!-- ポイント1-->
-    <div class="PointBox clearfix pointNo4">
-        <div class="clearfix">
-        <h5><img src="img_dogcafe/tit_point04.png" alt="ポイント4 ペット用ウェア・グッズをプロデュース!" /></h5>
-        <dl>
-            <dt><img src="img_dogcafe/img_point04.png" alt="ペット用ウェア・グッズをプロデュース!" /></dt>
-            <dd>正しい知識に基づいた商品を提案し、身につけたペット自身が心地よいと感じるウェア・グッズを制作できる技術とセンスを養います。<a href="../school/practice_class.html#DC_class">ドッグカフェ実習<br />について詳しく</a></dd>
-        </dl>
-        </div>
-        <img src="img/bgPointBoxBottom.png" class="MaruBottom" />
-    </div>
-    <!-- / ポイント1End-->
-</div>
-<!-- / PointWrap-->
-</div>
-<!-- / PointContainer-->
-
-</div>
-<!-- / MainPoint-->
-
-<div id="textbox">
-<p>
-<span>さまざまなペット産業のなかで、いまとくに注目を集めているのが「ドッグカフェ」。カフェを開くには、犬に関することから経営・サービス・フードについてまで、幅広い知識を身につける必要があります。
-本専攻では、犬についての専門知識を基本に、カフェ経営のノウハウやサービス業の基礎などをトータルに学べるカリキュラムを備えています。犬用のお菓子だけでなく、人間も食べられるお菓子作り（調理実習）を始め、お客様に的確なアドバイスができるよう、犬の健康管理やしつけに関する講義も行ないます。将来の独立・開業も視野に入れ、トータルなプランニング力を習得。人にも犬にも気配りできる人材を育成します。</span>
-</p>
-<img src="img/img_students.png" alt="ジャンプしているECOの生徒たち" id="jumpStudents" />
-</div>
-
-
-
-<div id="aim" class="clearfix fixHeight">
-<div class="office">
-<h4><img src="img/goalWorkspace.png" alt="目指せる職場" /></h4>
-<ul class="fixHeightChild">
-    <li>ドッグカフェ</li>
-    <li>ペットカフェ</li>
-    <li>カフェ・雑貨ショップ</li>
-    <li>ペットホテル</li>
-    <li>ペット同伴宿泊施設</li>
-    <li>ペットショップ 他</li>
-</ul>
-</div>
-
-<div class="job">
-<h4><img src="img/goalJob.png" alt="目指せる仕事"/></h4>
-<ul class="fixHeightChild">
-    <li>ドッグカフェオーナー</li>
-    <li>ドッグカフェスタッフ</li>
-    <li>ドッグパティシエ</li>
-    <li>ペットショップスタッフ</li>
-    <li>ペットショップオーナー 他</li>
-</ul>
-</div>
-
-<div class="qualification">
-<h4><img src="img/goalLicense.png" alt="目指せる資格" /></h4>
-<ul class="fixHeightChild">
-    <li>ECOアニマルコーディネーター検定</li>
-    <li>コミュニケーションスキルアップ検定</li>
-    <li>愛玩動物飼養管理士</li>
-    <li>フードコーディネーター</li>
-    <li>ホリスティックケアカウンセラー</li>
-    <li>色彩検定</li>
-    <li>ドッグライフカウンセラー など</li>
-</ul>
-</div>
-</div>
-
-<ul id="footBnrDay" class="clearfix">
-<li><a href="../career/jobday18.html" title="夢を叶えた先輩の一日に密着！発見！探検！プロの仕事場" class="OverStyle"><img src="img/footBnrDayDog.png" alt="夢を叶えた先輩の一日に密着！発見！探検！プロの仕事場" /></a></li>
-<li><a href="../career/graduate.html#dogcafe" title="夢を叶えた先輩の声" class="OverStyle"><img src="img/footBnrVoiceDog.png" alt="夢を叶えた先輩の声" /></a></li>
-<li><a href="../career/qualification.html" title="就職決定に差がつく！資格取得者の声" class="OverStyle"><img src="img/footBnrLicence.png" alt="就職決定に差がつく！資格取得者の声" /></a></li>
-</ul>
-
-<div id="Gra" class="titGra mt15">
-    <h3><span>活躍する卒業生</span> カフェに来るとワンちゃんが嬉しそうな顔をしてくれる</h3>
-</div>
-<div id="graduatePerson">
-    <p>
-    <img src="img_dogcafe/graduate.jpg" alt="林さん" />
-    小さい頃に犬を家族にむかえたくて、両親に頼んで飼う事になりました。<br>
-自分で飼い始めるとしつけのことなど、色々と興味が出てきて勉強をしたくなり入学しました。<br>
-元々接客が好きだったので、ワンちゃんとお客様とゆっくり会話ができるカフェで働こうと決めました。<br>
-お客様からしつけや食事の事など相談を受ける事が多く、学校で学んだことがとても役に立っています。「うちの子、ここに来ると嬉しそうなの」と言ってもらえると嬉しいです。
-    </p>
-    
-    <aside>
-        <dl>
-            <dt><small>就職先:株式会社ネットワーク DOG DEPT ＋ CAFE横浜</small> 林さん 2008年卒業</dt>
-            <dd>愛犬と散歩中に気軽に立ち寄れるカフェスペース「DOG DEPT＋CAFE」。接客とともにデザートやドリンク、ワンちゃんのご飯を作りを担当。</dd>
-        </dl>
-    </aside>    
-
-</div>
-
-<div id="Curric" class="titCurric Movie mt15">
-    <h3>実習内容を動画でチェック！</h3>
-</div>
-<div class="BigCurric clearfix CurricLeft">
-    <span class="pr5 pl5 pt5"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZuTyobCMhw0" frameborder="0" allowfullscreen></iframe></span>
-</div>
-
-<p class="textC mt30"><a href="../career/talk_8.html" title="福岡動物医療センターグループ院長・佐藤さん×動物看護師・ペットトリマーとして活躍中の卒業生" class="OverStyle"><img src="img/bnr_talk_8.png" width="677" height="88" alt="福岡動物医療センターグループ院長・佐藤さん×動物看護師・ペットトリマーとして活躍中の卒業生" /></a></p>
-
-<!--犬・動物・海洋・農業で別パーツ-->
-<!-- #BeginLibraryItem "/Library/pushCafe.lbi" -->
-<div class="PushGray">
-  <ul class="clearfix">
-    <li><a href="../school/w_curriculum.html" title="他専攻の科目を
-選択できるWメジャーカリキュラム" class="OverStyle"><img src="img/btn_wmajor.png" alt="追加学費無料目指せる仕事が広がります！他専攻の科目を選択できるWメジャーカリキュラム" class="Fleft" /></a></li>
-    <li><a href="http://www.osaka-eco.ac.jp/event/results.html?category[]=2049" title="無料体験入学はこちら" class="OverStyle"><img src="img/btn_taikenDog.png" alt="この専攻の体験メニューを見る" class="Fright" /></a></li>
-  </ul>
-</div>
-<!-- #EndLibraryItem -->
-
-
-<div id="Curric" class="titCurric mt20">
-    <h3>代表的なカリキュラム（例）</h3>
-</div>
-
-<!--MiniCurric-->
-<div class="MiniCurric clearfix fixHeight">
-    <div>
-        <p><img src="img_dogcafe/Curric02.png" alt="ドッグカフェ演習" /></p>
-        <dl class="fixHeightChild">
-            <dt><span>ドッグカフェ演習</span></dt>
-        <dd>製菓の基礎から、ドッグカフェで提供する人用・犬用メニュー、商品作りを学びます。</dd>
-        </dl>
-    </div>
-
-    <div>
-        <p><img src="img_dogcafe/Curric03.png" alt="ビバレッジ" /></p>
-        <dl class="fixHeightChild">
-            <dt><span>ビバレッジ</span></dt>
-            <dd>コーヒー・紅茶、アレンジドリンクやラテアートなどカフェドリンクについて学ぶ実習です。</dd>
-        </dl>
-    </div>
-    <div>
-        <p><img src="img_dogcafe/Curric07.png" alt="ドッググッズ演習" /></p>
-        <dl class="fixHeightChild">
-            <dt><span>ドッググッズ演習</span></dt>
-            <dd>ドッグウエア・グッズの企画・縫製を学び、オリジナル商品をプロデュースします。</dd>
-        </dl>
-    </div>
-</div>
-<!-- / MiniCurric-->
-
-<!--MiniCurric-->
-<div class="MiniCurric clearfix fixHeight">
-    <div>
-        <p><img src="img_dogcafe/Curric01.png" alt="テーブルコーディネート" /></p>
-        <dl class="fixHeightChild">
-            <dt><span>テーブルコーディネート</span></dt>
-            <dd>テーブルマナーや季節に応じたテーブルセッティング・ディスプレイの方法を学びます。</dd>
-        </dl>
-    </div>
-    <div>
-        <p><img src="img_dogcafe/Curric04.png" alt="動物栄養学" /></p>
-        <dl class="fixHeightChild">
-            <dt><span>動物栄養学</span></dt>
-            <dd>犬を中心とした栄養・カロリーについて学んだり、オリジナルレシピの開発を行います。</dd>
-        </dl>
-    </div>
-    <div>
-        <p><img src="img_dogcafe/Curric08.png" alt="アニマルトレーニング" /></p>
-        <dl class="fixHeightChild">
-            <dt><span>アニマルトレーニング</span></dt>
-            <dd>犬のしつけの基礎を学び、ドッグカフェでの飼い主様へのマナー啓発やアドバイスができるようにします。</dd>
-        </dl>
-    </div>
-</div>
-<!-- / MiniCurric-->
-
-<div class="clearfix">
-    <!--otherCurriculum-->
-    <div id="otherCurriculum">
-        <div class="titCurric">
-            <h3>その他のカリキュラム<em>（1～2年次）</em><span>総授業時間数＝2年間1800時間以上</span></h3>
-        </div>
-    
-    <div class="otherWrap clearfix">
-    <ul>
-        <li>ペットビジネス</li>
-        <li>ドッグカフェ経営</li>
-        <li>色彩学</li>
-        <li>フードコーディネーター</li>
-        <li>食品衛生学</li>
-    </ul>
-    <ul>
-        <li>公衆衛生</li>
-        <li>アニマルトレーニング</li>
-        <li>アニマルヒストリー</li>
-        <li>動物の健康管理</li>
-        <li>動物の体のしくみ</li>
-    </ul>
-    <ul>
-        <li>コンピュータ演習</li>
-        <li>プレゼンテーション</li>
-        <li>ＨＰ制作イラストレーター</li>
-        <li>コミュニケーションスキル</li>
-        <li>就職セミナー　他</li>
-    </ul>
-    </div>
-    </div>
-    <!-- / otherCurriculum-->
-    
-    <!--LinkArea-->
-    <div id="LinkArea">
-        <p><a href="../campus/photo_dogs/" class="OverStyle" title="実習で協力してくれるワンちゃんたち"><img src="img/linkWanchan.png" alt="カットモデル犬は80犬種2500頭
-しつけ担当犬は1人で複数頭を担当！実習で協力してくれるワンちゃんたち" /></a></p>
-        <p class="mt20"><a href="../instructor/index.html#doginstructor" class="OverStyle" title="ドッグ系の担当講師"><img src="img/linkInstructor.png" alt="この専攻の講師紹介" /></a></p>
-    </div>
-    <!-- / LinkArea-->
-</div>
-
-<div id="Curric" class="titCurric">
-    <h3>企業プロジェクト・イベント実践</h3>
-</div>
-
-<p>様々な実習を通して、実践的な知識、技術、人間力を身につけます。</p>
-
-<!--MiniCurric-->
-<div class="MiniCurric clearfix fixHeight">
-    <div>
-        <p><img src="img_dogcafe/pickup01.jpg" alt="カフェプロデュース" /></p>
-        <dl class="fixHeightChild">
-            <dt><span>カフェプロデュース</span></dt>
-        <dd>企画・製作・運営を全て学生が手掛けるオリジナルカフェをイベントとして開催。お店のコンセプトやメニュー、内装のプランニングやキッチン・ホールの業務など、店舗づくりや経営のノウハウを学びながら、現場での実践を通して接客技術やホスピタリティを身につけます。</dd>
-        </dl>
-    </div>
-
-    <div>
-        <p><img src="img_dogcafe/pickup02.jpg" alt="犬用オリジナルレシピ提案" /></p>
-        <dl class="fixHeightChild">
-            <dt><span>犬用オリジナルレシピ提案</span></dt>
-            <dd>実際のドッグカフェやトリミングサロン等からの企業課題として犬用スイーツのレシピ開発に取り組んでいます。お客様をお招きして、試食会イベントを行い、優れた作品は商品化する場合も。お客様の生の声をきき、現場で実際に求められていることが学べるチャンスです。</dd>
-        </dl>
-    </div>
-    <div>
-        <p><img src="img_dogcafe/pickup03.jpg" alt="販売イベント" /></p>
-        <dl class="fixHeightChild">
-            <dt><span>販売イベント</span></dt>
-            <dd>犬がたくさん訪れる地域のイベントやドッグイベントにて、犬用・人用お菓子の制作販売を行っています。<br>商品化に必要な知識や接客技術を学びます。</dd>
-        </dl>
-    </div>
-</div>
-<!-- / MiniCurric-->
-
-<!--MovieArea-->
-<div class="MovieArea clearfix">
-    <iframe width="560" height="315" src="//www.youtube.com/embed/OTjW3ALW-Us?rel=0" frameborder="0" allowfullscreen></iframe>
-    <dl>
-        <dt><span>大阪ECOの看板犬アクア</span></dt>
-        <dd>アクアの生活9/12<br />
-        事務局で過ごしました</dd>
-    </dl>
-</div>
-<!-- / MovieArea-->
-
-<!--犬・動物・海洋・農業で別パーツ--><!-- #BeginLibraryItem "/Library/pushDog.lbi" --><div class="PushGray">
-    <ul class="clearfix">
-        <li><a href="../school/w_curriculum.html" title="他専攻の科目を
-選択できるWメジャーカリキュラム" class="OverStyle"><img src="img/btn_wmajor.png" alt="追加学費無料目指せる仕事が広がります！他専攻の科目を選択できるWメジャーカリキュラム" class="Fleft" /></a></li>
-        <li><a href="http://www.osaka-eco.ac.jp/event/results.html?category[]=301" title="無料体験入学はこちら" class="OverStyle"><img src="img/btn_taikenDog.png" alt="この専攻の体験メニューを見る" class="Fright" /></a></li>
-    </ul>
-</div><!-- #EndLibraryItem -->
-
-
-<div class="readOther">
-    <h3>この専攻を見た人はこんな専攻も見ています</h3>
-</div>
-
-<!--専攻-->
-<div id="readOtherMajor" class="clearfix fixHeight">
-
-<a href="dogtrainer.html">
-<div class="readOtherMajor">
-<div class="fixHeightChild">
-<h4>ドッグトレーナー専攻</h4>
-<p>飼い主さんも愛犬も笑顔に出来る、レベルの高い家庭犬・警察犬・補助犬トレーナーに！</p>
-</div>
-<img src="img/index_dogtrainer.png" width="170" height="106" alt="ドッグトレーナー専攻" />
-</div>
-</a>
-
-<a href="pettrimmer.html">
-<div class="readOtherMajor">
-<div class="fixHeightChild">
-<h4>ペットトリマー専攻&amp;エステティシャン専攻</h4>
-<p>ペットの美容と健康を学び、飼い主さんとペットの心を癒すトリマー･エステティシャンに。</p>
-</div>
-<img src="img/index_pettrimmer.png" width="170" height="106" alt="ペットトリマー専攻&amp;エステティシャン専攻" />
-</div>
-</a>
-
-<a href="animalnurse.html">
-<div class="readOtherMajor">
-<div class="fixHeightChild">
-<h4>動物看護師専攻</h4>
-<p>認定動物看護師の資格を取得し、飼い主さんや獣医師から信頼される動物看護師を目指して。</p>
-</div>
-<img src="img/index_animalnurse.png" width="170" height="106" alt="動物看護師専攻" />
-</div>
-</a>
-
-</div>
-<!--専攻END-->
-
-
-<!-- InstanceEndEditable -->
-
+<!-- TemplateBeginEditable name="course" -->course<!-- TemplateEndEditable -->
+<!-- TemplateBeginIf cond="footBanner" -->
 <ul id="footBanner">
 <li><a href="http://www.osaka-eco.ac.jp/event/f-shiryo.html" target="_blank"><img src="../common/img/foot_request_off.png" alt="パンフレットを資料請求する" /></a></li>
 <li><a href="../event/" target="_blank"><img src="../common/img/foot_event_off.png" alt="体験入学に参加する" /></a></li>
@@ -664,25 +297,24 @@ var WRInitTime=(new Date()).getTime();
     </dl>
 </li>
 </ul>
-</div>
-
+<!-- TemplateEndIf --></div>
+<!-- TemplateBeginIf cond="course_side" -->
 <div id="side">
 <div id="sideMain">
-<h2><a href="../course/" class="OverStyle"><img src="img/btn_course.png" alt="14の専攻紹介" /></a></h2>
+<h2><a href="../course/" class="OverStyle"><img src="../course/img/btn_course_2017.png" alt="20の専攻紹介" /></a></h2>
 <ul>
-<li id="nDogmaster"><a href="dogmaster.html">ドッグマスター専攻</a></li>
-<li id="nAnimalwelfare"><a href="animalwelfare.html">動物看護福祉&amp;理学療法専攻</a></li>
-<li id="nAnimalnurse"><a href="animalnurse.html">動物看護師専攻</a></li>
-<li id="nPettrimmer"><a href="pettrimmer.html">ペットトリマー&amp;エステティシャン専攻</a></li>
-<li id="nDogcafe"><a href="dogcafe.html">ドッグカフェ専攻</a></li>
-<li id="nDogtrainer"><a href="dogtrainer.html">ドッグトレーナー専攻</a></li>
-<li id="nLifeplanning"><a href="lifeplanning.html">ECOライフプランニング専攻</a></li>
-<li id="nZookeeper"><a href="zookeeper.html">動物園・動物飼育専攻<br />動物園公務員専攻</a></li>
-<li id="nWildanimal"><a href="wildanimal.html">野生動物&amp;環境保護専攻</a></li>
-<li id="nOceanprotect"><a href="oceanprotect.html">海洋生物保護専攻</a></li>
-<li id="nDolphintrainer"><a href="dolphintrainer.html">ドルフィントレーナー専攻</a></li>
-<li id="nAquarist"><a href="aquarist.html">水族館・アクアリスト専攻</a></li>
-<li id="nFlowershop"><a href="flowershop.html">フラワーショップ専攻&amp;ブライダルフラワー専攻</a></li>
+<li id="nDogmaster"><a href="../course/dogmaster.html">ドッグマスター専攻</a></li>
+<li id="nAnimalwelfare"><a href="../course/animalwelfare.html">動物看護福祉&amp;理学療法専攻</a></li>
+<li id="nAnimalnurse"><a href="../course/animalnurse.html">動物看護師専攻</a></li>
+<li id="nPettrimmer"><a href="../course/pettrimmer.html">ペットトリマー&amp;エステティシャン専攻</a></li>
+<li id="nDogcafe"><a href="../course/dogcafe.html">ドッグカフェ専攻</a></li>
+<li id="nDogtrainer"><a href="../course/dogtrainer.html">ドッグトレーナー専攻</a></li>
+<li id="nZookeeper"><a href="../course/zookeeper.html">動物園・動物飼育専攻<br />動物園公務員専攻</a></li>
+<li id="nWildanimal"><a href="../course/wildanimal.html">野生動物&amp;環境保護専攻</a></li>
+<li id="nOceanprotect"><a href="../course/oceanprotect.html">海洋生物保護専攻</a></li>
+<li id="nDolphintrainer"><a href="../course/dolphintrainer.html">ドルフィントレーナー専攻</a></li>
+<li id="nAquarist"><a href="../course/aquarist.html">水族館・アクアリスト専攻</a></li>
+<li id="nFlowershop"><a href="../course/flowershop.html">フラワーショップ専攻&amp;ブライダルフラワー専攻</a></li>
 </ul>
 </div>
 <ul id="sideSocial" class="clearfix">
@@ -691,7 +323,7 @@ var WRInitTime=(new Date()).getTime();
 </ul>
 <p class="bnr"><a href="https://www.facebook.com/sizentairiku" target="_blank" title="https://www.facebook.com/osakaeco" class="OverStyle"><img src="../common/img02/bnr_sizentairiku.png" alt="一般社団法人　自然大陸" /></a></p>
 </div>
-
+<!-- TemplateEndIf --><!-- InstanceEndEditable -->
 </div>
 
 <div id="snsBtn">
@@ -714,9 +346,9 @@ var WRInitTime=(new Date()).getTime();
     </li>
   </ul>
 </div>
-
+<!-- TemplateBeginPassthroughIf cond="pagetop" -->
 <div id="pagetop"><a href="#siteHeader" title="このページの先頭へ">PAGE TOP</a></div>
-
+<!-- TemplateEndPassthroughIf -->
 
 <footer>
   <address>
@@ -765,39 +397,39 @@ var WRInitTime=(new Date()).getTime();
       <li><strong>ペットワールド<br />
         (3年制)</strong>
         <ul>
-          <li><a href="dogmaster.html">ドッグマスター専攻</a></li>
-          <li><a href="animalwelfare.html">動物看護福祉&amp;理学療法専攻</a></li>
+          <li><a href="../course/dogmaster.html">ドッグマスター専攻</a></li>
+          <li><a href="../course/animalwelfare.html">動物看護福祉&amp;理学療法専攻</a></li>
         </ul>
       </li>
       <li><strong>ペットワールド<br />
         (2年制)</strong>
         <ul>
-          <li><a href="animalnurse.html">動物看護師専攻</a></li>
-          <li><a href="pettrimmer.html">ペットトリマー&amp;エステティシャン専攻</a></li>
-          <li><a href="dogcafe.html">ドッグカフェ専攻</a></li>
-          <li><a href="dogtrainer.html">ドッグトレーナー専攻</a></li>
+          <li><a href="../course/animalnurse.html">動物看護師専攻</a></li>
+          <li><a href="../course/pettrimmer.html">ペットトリマー&amp;エステティシャン専攻</a></li>
+          <li><a href="../course/dogcafe.html">ドッグカフェ専攻</a></li>
+          <li><a href="../course/dogtrainer.html">ドッグトレーナー専攻</a></li>
         </ul>
       </li>
       <li><strong>動物ワールド<br />
         (2年制)</strong>
         <ul>
-          <li><a href="zookeeper.html">動物園・動物飼育専攻<br />
+          <li><a href="../course/zookeeper.html">動物園・動物飼育専攻<br />
             動物園公務員専攻</a></li>
-          <li><a href="wildanimal.html">野生動物&amp;環境保護専攻</a></li>
+          <li><a href="../course/wildanimal.html">野生動物&amp;環境保護専攻</a></li>
         </ul>
       </li>
       <li><strong>海洋ワールド<br />
         (2年制)</strong>
         <ul>
-          <li><a href="oceanprotect.html">海洋生物保護専攻</a></li>
-          <li><a href="dolphintrainer.html">ドルフィントレーナー専攻</a></li>
-          <li><a href="aquarist.html">水族館・アクアリスト専攻</a></li>
+          <li><a href="../course/oceanprotect.html">海洋生物保護専攻</a></li>
+          <li><a href="../course/dolphintrainer.html">ドルフィントレーナー専攻</a></li>
+          <li><a href="../course/aquarist.html">水族館・アクアリスト専攻</a></li>
         </ul>
       </li>
       <li><strong>フラワーワールド<br />
         (2年制)</strong>
         <ul>
-          <li><a href="flowershop.html">フラワーショップ専攻&amp;ブライダルフラワー専攻</a></li>
+          <li><a href="../course/flowershop.html">フラワーショップ専攻&amp;ブライダルフラワー専攻</a></li>
         </ul>
       </li>
       <li><!--<strong class="fixHeightChild">ターゲット別</strong>-->

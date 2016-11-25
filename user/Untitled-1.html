@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無題ドキュメント</title>
+<style>
+#Wrap {
+	display:flex;
+	}
+#flex1 {
+	width:30%;
+	text-align:center;
+	/*font-size:0.9rem;*/
+	}
+#flex2 {
+	flex-grow:1;
+	padding-left:10px;
+	/*font-size:0.9rem;*/
+	}
+	/*PC版の場合丸のサイズ固定したい*/
+	#flex2 aside {
+		background:#67B720;
+		border-radius:100px;
+		transform: rotate(-15deg);
+		text-align:center;
+		vertical-align:middle;
+		display:table-cell;
+		padding:6px;
+		box-sizing:border-box;
+		color:#FFF;
+		}
+	#flex2 .andmore {
+		background:#67B720;
+		padding:8px;
+		color:#FFF;
+		display:inline-block;
+	}
+@media screen and (min-width:768px) {
+		#flex2 aside {
+			width:60px;
+			height:60px;
+		}
+	}
+@media screen and (max-width:767px) {
+		#flex1 img {
+			width:100%;
+		}
+		#flex2 aside {
+			width:15vw;
+			height:15vw;
+		}
+		
+	}
+</style>
+</head>
+<body>
+<div id="Wrap">
+
+    <div id="flex1">
+        <img src="pamphlet.png" />
+    </div>
+    <div id="flex2">
+        <aside>無料</aside>
+        <p>学校案内を<br />郵送にてお届けします。</p>
+        <p class="andmore">学費一覧・願書一式も同封</p>
+    </div>
+</div>
+</body>
+</html>

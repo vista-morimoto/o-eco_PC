@@ -9,7 +9,7 @@ body#animaltherapy div#side ul li#nAnimaltherapy a,
 body#pettrimmer div#side ul li#nPettrimmer a,
 body#petesthe div#side ul li#nPetesthe a,
 body#dogcafe div#side ul li#nDogcafe a,
-body#animalnurse div#side ul li#nAnimalnurse a,
+body#animalnurse div#side ul li#nAnimalnurse a,s
 body#dogtrainer div#side ul li#nDogtrainer a,
 body#zookeeper div#side ul li#nZookeeper a,
 body#dolphintrainer div#side ul li#nDolphintrainer a,
@@ -492,6 +492,7 @@ h3#h3top:after {
 	color:#000;
 }
 /*この専攻を見た人20131003追加-----------*/
+
 
 .MovieArea {
 	border:3px solid #88cd3e;
@@ -1393,9 +1394,9 @@ min-height: 1px;
 	text-decoration:none;
 }
 #courseIndex div.specialty div.body{
-	width:170px;
-	padding:0 9px;
-	padding-bottom:10px;
+	width: 170px;
+	padding: 0 9px;
+	padding-bottom: 10px;
 }
 #courseIndex div.specialty img{
 	margin-top:6px;
@@ -1438,10 +1439,15 @@ min-height: 1px;
 
 /*Animal*/
 #courseIndex div.sptAnimal{
-	background:url(img/index_animalbg_b.png) no-repeat left bottom;
+	/*background:url(img/index_animalbg_b.png) no-repeat left bottom;*/
+	background:#FFF;
+	border:2px solid #F39700;
+	border-radius:5px;
+	height:324px!important;
 }
 #courseIndex div.sptAnimal h3{
-	background:url(img/index_animalbg_t.png) no-repeat left top;
+	/*background:url(img/index_animalbg_t.png) no-repeat left top;*/
+	padding-top:9px;
 }
 #courseIndex div.sptAnimal h3 span{
 	background-color:#F39700;
@@ -1470,9 +1476,11 @@ min-height: 1px;
 	background:#F8FCF3;
 	border:2px solid #8DC640;
 	border-radius:5px;
+	height:324px!important;
 }
 #courseIndex div.sptFlower h3{
 	/*background:url(img/index_flowerbg_t.png) no-repeat left top;*/
+	padding-top:9px!important;
 }
 #courseIndex div.sptFlower h3 span{
 	background-color:#8DC63F;
@@ -1515,5 +1523,436 @@ min-height: 1px;
 #courseIndex .colorAgri{
 	color:#21AB38;
 }
+
+/*ライフプランニング*/
+/*選択カリキュラム*/
+#Curric2,
+#Curric3,
+#Curric4,
+#Curric5, 
+#Curric6, 
+#Curric7, 
+#Curric8 {
+	margin-left:-10px;
+	margin-bottom:10px;
+}
+
+#Curric2 a,
+#Curric3 a,
+#Curric4 a,
+#Curric5 a,
+#Curric6 a,
+#Curric7 a,
+#Curric8 a {
+	text-decoration:none;
+}
+#Curric2 a:hover .Curric2 p,
+#Curric3 a:hover .Curric3 p,
+#Curric4 a:hover .Curric4 p,
+#Curric5 a:hover .Curric5 p,
+#Curric6 a:hover .Curric6 p,
+#Curric7 a:hover .Curric7 p,
+#Curric8 a:hover .Curric8 p {
+	color:#999;
+}
+#Curric2 a:hover img,
+#Curric3 a:hover img,
+#Curric4 a:hover img,
+#Curric5 a:hover img,
+#Curric6 a:hover img,
+#Curric7 a:hover img,
+#Curric8 a:hover img {
+	opacity:0.6;filter:alpha(opacity=60);-ms-filter: "alpha( opacity=60 )";
+}
+.Curric2 p,
+.Curric3 p,
+.Curric4 p,
+.Curric5 p,
+.Curric6 p,
+.Curric7 p,
+.Curric8 p {
+	margin:5px 0;
+	font-size:11px;
+	color:#000;
+}
+/*#Curric2 a:hover .Curric2{
+	border-color:#90D2ED;
+}
+#Curric2 a:hover .Curric2 h5{
+	background-color:#90D2ED;
+}*/
+.Curric2{
+	width:170px;
+	margin-left:10px;
+	/*margin-top:10px;*/
+	padding:8px;
+	border:2px solid #90D2ED;
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	float:left;
+}
+#Curric2 h4{
+	font-size:1.4em;
+	font-weight:bold;
+	margin-bottom:5px;
+	background-color:#90D2ED;
+	color:#fff;
+	margin-left:10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding:2px 10px 0;
+}
+.Curric2 h5{
+	padding-top:10px;
+	text-align:center;
+	line-height:1;
+		/*color:#90D2ED;*/
+}
+.Curric3{
+	width:170px;
+	margin-left:10px;
+	/*margin-top:10px;*/
+	padding:8px;
+	border:2px solid #FEE49F;
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	float:left;
+}
+#Curric3 h4{
+	font-size:1.4em;
+	font-weight:bold;
+	margin-bottom:5px;
+	background-color:#FEE49F;
+	color:#fff;
+	margin-left:10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding:2px 10px 0;
+}
+.Curric3 h5{
+	padding-top:10px;
+	text-align:center;
+	line-height:1;
+		/*color:#FEE49F;*/
+}
+.Curric4{
+	width:170px;
+	margin-left:10px;
+	/*margin-top:10px;*/
+	padding:8px;
+	border:2px solid #DFC1DC;
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	float:left;
+}
+#Curric4 h4{
+	font-size:1.4em;
+	font-weight:bold;
+	margin-bottom:5px;
+	background-color:#DFC1DC;
+	color:#fff;
+	margin-left:10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding:2px 10px 0;
+}
+.Curric4 h5{
+	padding-top:10px;
+	text-align:center;
+	line-height:1;
+		/*color:#DFC1DC;*/
+}
+.Curric5{
+	width:170px;
+	margin-left:10px;
+	/*margin-top:10px;*/
+	padding:8px;
+	border:2px solid #DBEABF;
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	float:left;
+}
+#Curric5 h4{
+	font-size:1.4em;
+	font-weight:bold;
+	margin-bottom:5px;
+	background-color:#DBEABF;
+	color:#fff;
+	margin-left:10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding:2px 10px 0;
+}
+.Curric5 h5{
+	padding-top:10px;
+	text-align:center;
+	line-height:1;
+		/*color:#DBEABF;*/
+}
+
+.Curric6{
+	width:170px;
+	margin-left:10px;
+	/*margin-top:10px;*/
+	padding:8px;
+	border:2px solid #BFE1D5;
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	float:left;
+}
+#Curric6 h4{
+	font-size:1.4em;
+	font-weight:bold;
+	margin-bottom:5px;
+	background-color:#BFE1D5;
+	color:#fff;
+	margin-left:10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding:2px 10px 0;
+}
+.Curric6 h5{
+	padding-top:10px;
+	text-align:center;
+	line-height:1;
+		/*color:#BFE1D5;*/
+}
+.Curric7{
+	width:170px;
+	margin-left:10px;
+	/*margin-top:10px;*/
+	padding:8px;
+	border:2px solid #F7C5B6;
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	float:left;
+}
+#Curric7 h4{
+	font-size:1.4em;
+	font-weight:bold;
+	margin-bottom:5px;
+	background-color:#F7C5B6;
+	color:#fff;
+	margin-left:10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding:2px 10px 0;
+}
+.Curric7 h5{
+	padding-top:10px;
+	text-align:center;
+	line-height:1;
+		/*color:#F7C5B6;*/
+}
+.Curric8{
+	width:170px;
+	margin-left:10px;
+	/*margin-top:10px;*/
+	padding:8px;
+	border:2px solid #F7C7CA;
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */  
+	float:left;
+}
+#Curric8 h4{
+	font-size:1.4em;
+	font-weight:bold;
+	margin-bottom:5px;
+	background-color:#F7C7CA;
+	color:#fff;
+	margin-left:10px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding:2px 10px 0;
+}
+.Curric8 h5{
+	padding-top:10px;
+	text-align:center;
+	line-height:1;
+		/*color:#F7C7CA;*/
+}
+
+/*選択カリキュラムEND*/
+
+#changeSupport {
+	margin-bottom:15px;
+    line-height:1.8;
+}
+#changeSupport img {
+	float:right;
+	margin:0 0 15px 15px;
+	width:243px;
+}
+#changeSupport aside {
+	background:#F8F3D3;
+	padding:8px 6px;
+	display:inline-block;
+	border-radius:4px;
+	}
+#changeSupport aside small {
+		background:#CBAC75;
+		padding:3px;
+		border-radius:4px;	
+		}
+#changeSupport aside dt {
+	border-bottom:1px dashed #CBAC75;
+	margin-bottom:5px;
+	padding-bottom:10px;
+	}
+#changeSupport h4 {
+	font-size:1.5em;
+	font-weight:bold;
+	padding-bottom:10px;
+}
+#changeSupport h4 span.c_blue {
+	color:#5DC3E3;
+}
+#changeSupport h4 span.c_red {
+	color:#ED9CC1;
+}
+#changeSupport .change_program {
+background:url(../course/img_lifeplanning/change02.png) no-repeat right 10px;
+background-size:350px;
+border-top:solid 2px #ED9CC1;
+padding-top:10px;
+margin-top:15px;
+}
+#changeSupport .change_program dl.change_left {
+	float:left;
+	width:380px;	
+}
+#changeSupport .change_program dl.change_left>dt {
+    background:url(../course/img_lifeplanning/label01.png) no-repeat left top;
+	background-size:130px 37px;
+	height:37px;
+	padding-left:20px;
+	padding-top:7px;
+	color:#fff;
+	font-weight:bold;
+	font-size:1.2em;
+	box-sizing:border-box;
+}
+#changeSupport .change_program dl.change_left>dd {
+	background-color:#fff;
+	border:solid 1px #ccc;
+	box-sizing:border-box;
+	padding:20px;
+	text-align:center;
+}
+#changeSupport .change_program dl.change_left>dd h5 {
+	color:#ED9CC1;
+	font-size:1.2em;
+	font-weight:bold;
+	border-top:solid 2px #ED9CC1;
+	border-bottom:solid 2px #ED9CC1;
+	line-height:2;
+}
+#changeSupport .change_program dl.change_left>dd img {
+	width:100%;
+	float:none;
+	margin:10px 0;
+}
+#changeSupport .change_program dl.change_left dd dl.ex {
+	border-top:solid 1px #ED9CC1;
+	border-bottom:solid 1px #ED9CC1;
+	text-align:left;
+	overflow:hidden;
+	line-height:2;
+	font-weight:bold;
+	color:#ED9CC1;
+}
+#changeSupport .change_program dl.change_left dd dl.ex dt {
+	width:60px;
+	float:left;
+	text-align:center;
+}
+#changeSupport .change_program dl.change_left dd dl.ex dd {
+	width:270px;
+	float:right;
+}
+#changeSupport .change_program dl.change_left dd dl.ex dd span {
+    color:#333;	
+}
+#changeSupport .change_program dl.change_right {
+	float:right;
+	width:380px;
+}
+#changeSupport .change_program dl.change_right>dt {
+    background:url(../course/img_lifeplanning/label02.png) no-repeat left top;
+	background-size:130px 37px;
+	height:37px;
+	padding-left:20px;
+	padding-top:7px;
+	color:#fff;
+	font-weight:bold;
+	font-size:1.2em;
+	box-sizing:border-box;
+}
+#changeSupport .change_program dl.change_right>dd {
+	background-color:#fff;
+	border:solid 1px #ccc;
+	box-sizing:border-box;
+	padding:20px;
+	text-align:center;
+}
+#changeSupport .change_program dl.change_right>dd h5 {
+	color:#5DC3E3;
+	font-size:1.2em;
+	font-weight:bold;
+	border-top:solid 2px #5DC3E3;
+	border-bottom:solid 2px #5DC3E3;
+	line-height:2;
+}
+#changeSupport .change_program dl.change_right>dd img {
+	width:100%;
+	float:none;
+	margin:10px 0;
+}
+#changeSupport .change_program dl.change_right dd dl.ex {
+	border-top:solid 1px #5DC3E3;
+	border-bottom:solid 1px #5DC3E3;
+	text-align:left;
+	overflow:hidden;
+	line-height:2;
+	font-weight:bold;
+	color:#5DC3E3;
+}
+#changeSupport .change_program dl.change_right dd dl.ex dt {
+	width:60px;
+	float:left;
+	text-align:center;
+}
+#changeSupport .change_program dl.change_right dd dl.ex dd {
+	width:270px;
+	float:right;
+}
+#changeSupport .change_program dl.change_right dd dl.ex dd span {
+    color:#333;	
+}
+
+
+.DogBox {
+	width:319px;
+	float:left;
+	margin-left:18px;
+	padding-top:6px;
+	margin-top:40px;
+		}
+
+
 
 /*indexページ用2013END--------------------------*/
