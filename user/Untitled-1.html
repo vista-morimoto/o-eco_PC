@@ -35,12 +35,17 @@
 		color:#FFF;
 		display:inline-block;
 	}
+/*PCの場合*/
 @media screen and (min-width:768px) {
+		#flex1 {
+			width:20%;
+			}
 		#flex2 aside {
 			width:60px;
 			height:60px;
 		}
 	}
+/*SPの場合*/
 @media screen and (max-width:767px) {
 		#flex1 img {
 			width:100%;
@@ -57,7 +62,7 @@
 <div id="Wrap">
 
     <div id="flex1">
-        <img src="pamphlet.png" />
+        <img src="http://www.osaka-eco.ac.jp/cms/pamphlet.png" alt="" />
     </div>
     <div id="flex2">
         <aside>無料</aside>
